@@ -1,0 +1,1 @@
+# we-are-pure-template
