@@ -1,0 +1,239 @@
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+<style>
+.swiper {
+width: 100%;
+height: 100%;
+}
+
+.swiper-slide {
+text-align: center;
+font-size: 18px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
+}
+
+.swiper-slide img {
+display: block;
+}
+
+.swiper {
+margin-left: auto;
+margin-right: auto;
+}
+.contenedor-slider {
+display: flex;
+align-items: center;
+width: 100%;
+}
+.slider-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+width: 50%;
+}
+.slider-image {
+width: 50%;
+}
+.swiper-pagination {
+display: flex;
+gap: 130px;
+height: 90px;
+}
+/*Tabs*/
+.tabs {
+margin-top:50px;
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+justify-content:center;
+}
+
+.tab-link {
+padding: 10px 15px;
+cursor: pointer;
+background-color: #f0f0f0;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.tab-link.active {
+background-color: #ddd;
+}
+
+.tab-content {
+padding: 20px;
+border-radius: 5px;
+overflow:hidden;
+}
+
+.tab-pane {
+display: none;
+}
+
+.tab-pane.active {
+display: block;
+}  
+</style>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+<div class="tabs">
+    <button class="tab-link active" data-tab="tab1">Tab 1</button>
+    <button class="tab-link" data-tab="tab2">Tab 2</button>
+</div>
+
+<div class="tab-content">
+<div id="tab1" class="tab-pane active">
+    {% render 'slider-bolsa' %}
+</div>
+<div id="tab2" class="tab-pane">
+    {% render 'slider-lata' %}
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".tab-link").click(function() {
+    var tabID = $(this).data("tab");
+
+    // Cambiar la clase activa en el botón tab
+    $(".tab-link").removeClass("active");
+    $(this).addClass("active");
+
+    // Cambiar la clase activa en el contenido del tab
+    $(".tab-pane").removeClass("active");
+    $("#" + tabID).addClass("active");
+    });
+});
+</script>
+
+{% schema %}
+{
+"name": "tab-carousel",
+"settings": [
+{
+    "type": "text",
+    "id": "title",
+    "label": "Title"
+}
+],
+"blocks": [
+{
+    "type": "Bolsa",
+    "name": "Bolsa",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+    },
+    {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description"
+    },
+    {
+        "type": "richtext",
+        "id": "info_1",
+        "label": "info 1"
+    },
+    {
+        "type": "richtext",
+        "id": "info_2",
+        "label": "info 2"
+    },
+    {
+        "type": "richtext",
+        "id": "info_3",
+        "label": "info 3"
+    },
+    {
+        "type": "text",
+        "id": "text_button",
+        "label": "Text button"
+    },
+    {
+        "type": "url",
+        "id": "url",
+        "label": "url"
+    },
+    {
+        "type": "image_picker",
+        "id": "principal_image",
+        "label": "principal image"
+    },
+    {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "Second image"
+    }
+    ]
+},
+{
+    "type": "Lata",
+    "name": "Lata",
+    "settings": [
+    {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+    },
+    {
+        "type": "richtext",
+        "id": "description",
+        "label": "Description"
+    },
+    {
+        "type": "richtext",
+        "id": "info_1",
+        "label": "info 1"
+    },
+    {
+        "type": "richtext",
+        "id": "info_2",
+        "label": "info 2"
+    },
+    {
+        "type": "richtext",
+        "id": "info_3",
+        "label": "info 3"
+    },
+    {
+        "type": "text",
+        "id": "text_button",
+        "label": "Text button"
+    },
+    {
+        "type": "url",
+        "id": "url",
+        "label": "url"
+    },
+    {
+        "type": "image_picker",
+        "id": "principal_image",
+        "label": "principal image"
+    },
+    {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "Second image"
+    }
+    ]
+}
+],
+"presets": [
+{
+    "name": "tab-carousel",
+    "category": "Custom"
+}
+]
+}
+{% endschema %}

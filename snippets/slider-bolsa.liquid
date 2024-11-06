@@ -1,0 +1,75 @@
+<!-- Swiper -->
+<div class="swipe bolsa">
+    <div class="swiper-wrapper">
+{% for block in section.blocks %}
+{% case block.type %}
+{% when 'Bolsa' %}
+        <div class="swiper-slide">
+        <div class="contenedor-slider">
+            <div class="slider-text">
+            <h3>{{ block.settings.title }}</h3>
+            {{ block.settings.description }}
+            <div class="container-info">
+                {% if block.settings.info_1 != blank %}
+                <div class="item-info">
+                    {{ block.settings.info_1 }}
+                </div>
+                {% endif %}
+                {% if block.settings.info_2 != blank %}
+                <div class="item-info">
+                    {{ block.settings.info_2 }}
+                </div>
+                {% endif %}
+                {% if block.settings.info_3 != blank %}
+                <div class="item-info">
+                    {{ block.settings.info_3 }}
+                </div>
+                {% endif %}
+            </div>
+            {% if block.settings.url != blank and block.settings.text_button != blank %}
+                <a class="item-button" href="{{block.settings.url }}">
+                {{ block.settings.text_button }}
+                </a>
+            {% endif %}
+            </div>
+            <div class="slider-image">
+            {% if block.settings.principal_image != blank %}
+                {{ block.settings.principal_image | image_url: height: 300 | image_tag }}
+            {% endif %}
+            </div>
+        </div>
+        </div>
+{% endcase %}
+{% endfor %}
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-pagination"></div>
+</div>
+
+<script>
+var swiper = new Swiper('.bolsa', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+        // Asegúrate de tener un array de URLs o nombres de las imágenes que quieres usar
+        const images = [
+            {% for block in section.blocks %}
+                {% if block.type == "Bolsa" %}
+                    '{{ block.settings.second_image | image_url: width: 90}}',
+                {%  endif  %}
+            {% endfor %}
+        ];
+        return `<span class="${className}"><img src="${images[index]}" alt="Slide ${index + 1}"></span>`;
+    },
+    },
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+});
+</script>
