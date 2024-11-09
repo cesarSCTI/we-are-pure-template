@@ -4,7 +4,9 @@
 {% for block in section.blocks %}
 {% case block.type %}
 {% when 'Lata' %}
-        <div class="swiper-slide">
+    <div class="swiper-slide" style="
+        background-image:url({{ block.settings.bg_image | image_url: height: 800 }}); 
+        background-size:cover;">
         <div class="contenedor-slider">
             <div class="slider-text">
             <h3>{{ block.settings.title }}</h3>
@@ -52,6 +54,7 @@ var swiper = new Swiper('.lata', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
+    effect:"fade",
     pagination: {
     el: '.swiper-pagination',
     clickable: true,

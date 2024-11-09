@@ -19,6 +19,8 @@ min-height: 80vh;
 
 .swiper-slide img {
 display: block;
+height: 70vh;
+    width: auto;
 }
 
 .swiper {
@@ -29,6 +31,7 @@ margin-right: auto;
 display: flex;
 align-items: center;
 width: 100%;
+margin-bottom: 150px;
 }
 .slider-text {
 display: flex;
@@ -37,14 +40,50 @@ align-items: center;
 justify-content: center;
 gap: 15px;
 width: 50%;
+padding:7%;
+}
+.slider-text h3{
+    font-weight:800;
 }
 .slider-image {
-width: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+.container-info{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:30px;
+}
+a.item-button {
+    background: #E94760;
+    color: #fff;
+    width: 50%;
+    padding: 2% 5%;
+    border-radius: 5px;
+    transition:.8s;
+    cursor:pointer;
+}
+a.item-button:hover{
+    opacity:0.8;
+}
+.item-info p{
+    margin:0px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background: transparent !important;
 }
 .swiper-pagination {
 display: flex;
-gap: 130px;
+justify-content:center;
+gap: 100px;
 height: 90px;
+margin-bottom: 50px;
 }
 /*Tabs*/
 .tabs {
@@ -68,7 +107,7 @@ background-color: #ddd;
 }
 
 .tab-content {
-padding: 20px;
+padding: 0px;
 border-radius: 5px;
 overflow:hidden;
 }
@@ -79,14 +118,48 @@ display: none;
 
 .tab-pane.active {
 display: block;
-}  
+} 
+.contenedor-slider {
+display: flex;
+align-items: center;
+width: 100%;
+margin-bottom: 150px;
+}
+@media only screen and (max-width:768px){
+.contenedor-slider {
+    flex-direction:column;
+}
+.slider-image {
+    width: 100%;
+    order:1;
+}
+.slider-text{
+    width:100%;
+    order:2;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    overflow-x: scroll;
+}
+}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 <div class="tabs">
-    <button class="tab-link active" data-tab="tab1">Tab 1</button>
-    <button class="tab-link" data-tab="tab2">Tab 2</button>
+    <button class="tab-link active" data-tab="tab1">
+        {% if section.settings.tab1 != blank %}
+            {{ section.settings.tab1 | image_url: height: 100 | image_tag }}
+        {% else %}
+            Tab 1
+        {% endif %}
+    </button>
+    <button class="tab-link" data-tab="tab2">
+        {% if section.settings.tab2 != blank %}
+            {{ section.settings.tab2 | image_url: height: 100 | image_tag }}
+        {% else %}
+            Tab 1
+        {% endif %}
+    </button>
 </div>
 
 <div class="tab-content">
@@ -103,11 +176,9 @@ display: block;
 $(document).ready(function() {
     $(".tab-link").click(function() {
     var tabID = $(this).data("tab");
-
     // Cambiar la clase activa en el botón tab
     $(".tab-link").removeClass("active");
     $(this).addClass("active");
-
     // Cambiar la clase activa en el contenido del tab
     $(".tab-pane").removeClass("active");
     $("#" + tabID).addClass("active");
@@ -123,7 +194,18 @@ $(document).ready(function() {
     "type": "text",
     "id": "title",
     "label": "Title"
+},
+{
+    "type": "image_picker",
+    "id": "tab1",
+    "label": "Tab 1",
+},
+{
+    "type": "image_picker",
+    "id": "tab2",
+    "label": "Tab 2",
 }
+
 ],
 "blocks": [
 {
@@ -174,6 +256,11 @@ $(document).ready(function() {
         "type": "image_picker",
         "id": "second_image",
         "label": "Second image"
+    },
+    {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "bg image"
     }
     ]
 },
@@ -225,6 +312,11 @@ $(document).ready(function() {
         "type": "image_picker",
         "id": "second_image",
         "label": "Second image"
+    },
+    {
+        "type": "image_picker",
+        "id": "bg_image",
+        "label": "bg image"
     }
     ]
 }
