@@ -77,8 +77,8 @@
         "meta_object_info_aKaFbC": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "text": "Country or Origin:",
+            "MetaObject": "{{ product.metafields.custom.contry_or_origin.value }}",
             "MetaObject_color": "#FF5060"
           }
         },
