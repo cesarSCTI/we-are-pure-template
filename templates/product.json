@@ -69,8 +69,8 @@
         "meta_object_info_DEq7rn": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "text": "Net weight:",
+            "MetaObject": "{{ product.metafields.custom.net_weight.value }}",
             "MetaObject_color": "#FF5060"
           }
         },
