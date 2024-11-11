@@ -177,6 +177,17 @@
             "icon_6_label": "",
             "hide_block_if": false
           }
+        },
+        "nutrition_LdXmDm": {
+          "type": "nutrition",
+          "settings": {
+            "heading": "Nutritional information",
+            "label_left": "Typical values",
+            "label_right": "Per 100g",
+            "content": "<p>Energy, 205 kJ / 49 kcal<br/>Fat, 0g<br/>- of which: Saturates, 0g<br/>Carbohydrate, 10g<br/>- of which: Sugars, 7g<br/></p>",
+            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
+            "hide_block_if": false
+          }
         }
       },
       "block_order": [
@@ -202,7 +213,8 @@
         "description",
         "empty_space_3",
         "share",
-        "icons_NpHq4Q"
+        "icons_NpHq4Q",
+        "nutrition_LdXmDm"
       ],
       "settings": {
         "gallery_style": "slider",
