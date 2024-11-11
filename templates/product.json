@@ -61,8 +61,8 @@
         "meta_object_info_U7AUqM": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "text": "Allergens:",
+            "MetaObject": "{{ product.metafields.custom.allergens.value }}",
             "MetaObject_color": "#FF5060"
           }
         },
