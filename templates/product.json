@@ -85,8 +85,16 @@
         "meta_object_info_ncDbYx": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "text": "Packaging:",
+            "MetaObject": "{{ product.metafields.custom.packaging.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_gAFrTH": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Brix:",
+            "MetaObject": "{{ product.metafields.custom.brix.value }}",
             "MetaObject_color": "#FF5060"
           }
         },
@@ -143,6 +151,7 @@
         "meta_object_info_DEq7rn",
         "meta_object_info_aKaFbC",
         "meta_object_info_ncDbYx",
+        "meta_object_info_gAFrTH",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
