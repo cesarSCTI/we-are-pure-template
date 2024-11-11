@@ -991,3 +991,6 @@ html[dir=ltr] .sticky-add-to-cart--floating.visible {
 .sticky-add-to-cart .button--solid .button__preloader circle {
   stroke: var(--color-background-main) !important;
 }
+.metaObject_info {
+  margin: 0px !important;
+}
