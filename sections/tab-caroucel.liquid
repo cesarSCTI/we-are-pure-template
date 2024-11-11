@@ -19,7 +19,7 @@ min-height: 80vh;
 
 .swiper-slide img {
 display: block;
-height: 70vh;
+height: 60vh;
     width: auto;
 }
 
@@ -85,6 +85,9 @@ gap: 100px;
 height: 90px;
 margin-bottom: 50px;
 }
+.swiper-button-next:after, .swiper-button-prev:after {
+    color:#fff !important;
+}
 /*Tabs*/
 .tabs {
 margin-top:50px;
@@ -97,13 +100,13 @@ justify-content:center;
 .tab-link {
 padding: 10px 15px;
 cursor: pointer;
-background-color: #f0f0f0;
-border: 1px solid #ddd;
+background-color: transparent;
+border: 1px solid transparent;
 border-radius: 5px;
 }
 
 .tab-link.active {
-background-color: #ddd;
+background-color: {{ section.settings.colo_tab }};
 }
 
 .tab-content {
@@ -125,6 +128,23 @@ align-items: center;
 width: 100%;
 margin-bottom: 150px;
 }
+.section-tab-caroucel{
+    min-height:40vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background:url({{ section.settings.bg_image | image_url: height: 800 }});
+    background-size:cover;
+    padding-top:50px;
+}
+.title_green{
+    background: {{section.settings.color_title_bg}};
+    color:{{ section.settings.color_title }};
+    padding: 5px 25px;
+    border-radius: 25px 0px 25px 0px;
+}
+
 @media only screen and (max-width:768px){
 .contenedor-slider {
     flex-direction:column;
@@ -144,31 +164,39 @@ margin-bottom: 150px;
 </style>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
-<div class="tabs">
-    <button class="tab-link active" data-tab="tab1">
-        {% if section.settings.tab1 != blank %}
-            {{ section.settings.tab1 | image_url: height: 100 | image_tag }}
-        {% else %}
-            Tab 1
-        {% endif %}
-    </button>
-    <button class="tab-link" data-tab="tab2">
-        {% if section.settings.tab2 != blank %}
-            {{ section.settings.tab2 | image_url: height: 100 | image_tag }}
-        {% else %}
-            Tab 1
-        {% endif %}
-    </button>
+<div class="section-tab-caroucel">
+    <h3 class="title_green">{{ section.settings.title }}</h3>
+    <div class="tabs">
+        <button class="tab-link active" data-tab="tab1">
+            {% if section.settings.tab1 != blank %}
+                {{ section.settings.tab1 | image_url: height: 120 | image_tag }}
+            {% else %}
+                Tab 1
+            {% endif %}
+        </button>
+        <button class="tab-link" data-tab="tab2">
+            {% if section.settings.tab2 != blank %}
+                {{ section.settings.tab2 | image_url: height: 120 | image_tag }}
+            {% else %}
+                Tab 1
+            {% endif %}
+        </button>
+    </div>
 </div>
-
 <div class="tab-content">
-<div id="tab1" class="tab-pane active">
-    {% render 'slider-bolsa' %}
-</div>
-<div id="tab2" class="tab-pane">
-    {% render 'slider-lata' %}
-</div>
+    {% if section.blocks != empty  %}
+        <div id="tab1" class="tab-pane active">
+            {% render 'slider-bolsa' %}
+        </div>
+        <div id="tab2" class="tab-pane">
+            {% render 'slider-lata' %}
+        </div>
+    {%  else %}
+        <div id="tab1" class="tab-pane active">
+            {% render 'slider-blank' %}
+        </div>
+    {% endif %}
+
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -188,12 +216,24 @@ $(document).ready(function() {
 
 {% schema %}
 {
-"name": "tab-carousel",
+"name": "tab carousel",
 "settings": [
 {
     "type": "text",
     "id": "title",
     "label": "Title"
+},
+{
+    "type":"color",
+    "id": "color_title",
+    "label":"color Title",
+    "default":"#fff"
+},
+{
+    "type":"color",
+    "id": "color_title_bg",
+    "label":"color Title BG",
+    "default":"#fff"
 },
 {
     "type": "image_picker",
@@ -204,6 +244,16 @@ $(document).ready(function() {
     "type": "image_picker",
     "id": "tab2",
     "label": "Tab 2",
+},
+{
+    "type":"color",
+    "id": "colo_tab",
+    "label":"color tab"
+},
+{
+    "type":"image_picker",
+    "id": "bg_image",
+    "label":"BG Image"
 }
 
 ],
@@ -323,7 +373,7 @@ $(document).ready(function() {
 ],
 "presets": [
 {
-    "name": "tab-carousel",
+    "name": "tab carousel",
     "category": "Custom"
 }
 ]
