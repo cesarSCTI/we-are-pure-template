@@ -114,6 +114,14 @@
             "MetaObject_color": "#FF5060"
           }
         },
+        "meta_object_info_E93r8B": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Mesh:",
+            "MetaObject": "{{ product.metafields.custom.mesh.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -170,6 +178,7 @@
         "meta_object_info_gAFrTH",
         "meta_object_info_qNfgXU",
         "meta_object_info_mnwmiN",
+        "meta_object_info_E93r8B",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
