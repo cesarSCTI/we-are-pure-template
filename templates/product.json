@@ -15,61 +15,134 @@
         "vendor": {
           "type": "vendor",
           "settings": {
-          }
-        },
-        "empty_space_1": {
-          "type": "space",
-          "settings": {
-          }
-        },
-        "empty_space_2": {
-          "type": "space",
-          "settings": {
-          }
-        },
-        "empty_space_3": {
-          "type": "space",
-          "settings": {
+            "text_size": "text-size--regular"
           }
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
+          "settings": {}
+        },
+        "meta_object_info_e4CxB3": {
+          "type": "MetaObject_info",
           "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_t8rPGh": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Shelf life::",
+            "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_bACpWE": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_rLNgcD": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_U7AUqM": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_DEq7rn": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_aKaFbC": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_ncDbYx": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#FF5060"
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "variants_style": "radio",
             "show_quantities": "no"
           }
+        },
+        "empty_space_1": {
+          "type": "space",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_price": true,
             "show_quantity_selector": true,
-            "show_dynamic_checkout": true
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
           }
+        },
+        "empty_space_2": {
+          "type": "space",
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
+        },
+        "empty_space_3": {
+          "type": "space",
+          "settings": {}
         },
         "share": {
           "type": "share",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "vendor",
         "title",
         "price",
+        "meta_object_info_e4CxB3",
+        "meta_object_info_t8rPGh",
+        "meta_object_info_bACpWE",
+        "meta_object_info_rLNgcD",
+        "meta_object_info_U7AUqM",
+        "meta_object_info_DEq7rn",
+        "meta_object_info_aKaFbC",
+        "meta_object_info_ncDbYx",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
@@ -80,9 +153,19 @@
       ],
       "settings": {
         "gallery_style": "slider",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
         "gallery_pagination": "dots",
         "enable_zoom": true,
-        "enable_video_looping": false
+        "enable_video_looping": false,
+        "default_to_first_variant": true,
+        "sticky_add_to_cart": false,
+        "sticky_atc_style": "wide",
+        "sticky_bar_bgcolor": "#fff",
+        "sticky_bar_txtcolor": "#111"
       }
     },
     "product-recommendations": {
@@ -90,18 +173,15 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -110,7 +190,15 @@
         "quick_buy"
       ],
       "settings": {
-        "heading": "You may also like"
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
       }
     }
   },
