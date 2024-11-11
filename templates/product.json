@@ -31,7 +31,7 @@
           "settings": {
             "text": "Ingredients:",
             "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_t8rPGh": {
@@ -39,7 +39,7 @@
           "settings": {
             "text": "Shelf life::",
             "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_bACpWE": {
@@ -47,7 +47,7 @@
           "settings": {
             "text": "Pasteurization:",
             "MetaObject": "{{ product.metafields.custom.pasteurization.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_rLNgcD": {
@@ -55,7 +55,7 @@
           "settings": {
             "text": "Additives:",
             "MetaObject": "{{ product.metafields.custom.additives.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_U7AUqM": {
@@ -63,7 +63,7 @@
           "settings": {
             "text": "Allergens:",
             "MetaObject": "{{ product.metafields.custom.allergens.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_DEq7rn": {
@@ -71,7 +71,7 @@
           "settings": {
             "text": "Net weight:",
             "MetaObject": "{{ product.metafields.custom.net_weight.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_aKaFbC": {
@@ -79,7 +79,7 @@
           "settings": {
             "text": "Country or Origin:",
             "MetaObject": "{{ product.metafields.custom.contry_or_origin.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_ncDbYx": {
@@ -87,7 +87,7 @@
           "settings": {
             "text": "Packaging:",
             "MetaObject": "{{ product.metafields.custom.packaging.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_gAFrTH": {
@@ -95,7 +95,7 @@
           "settings": {
             "text": "Brix:",
             "MetaObject": "{{ product.metafields.custom.brix.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_qNfgXU": {
@@ -103,7 +103,7 @@
           "settings": {
             "text": "PH:",
             "MetaObject": "{{ product.metafields.custom.ph_level.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_mnwmiN": {
@@ -111,7 +111,7 @@
           "settings": {
             "text": "Acidity:",
             "MetaObject": "{{ product.metafields.custom.acidity.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "meta_object_info_E93r8B": {
@@ -119,7 +119,7 @@
           "settings": {
             "text": "Mesh:",
             "MetaObject": "{{ product.metafields.custom.mesh.value }}",
-            "MetaObject_color": "#FF5060"
+            "MetaObject_color": "#ff5060"
           }
         },
         "variant_picker": {
@@ -161,6 +161,22 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "icons_NpHq4Q": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/icono-store_protected.png",
+            "icon_1_label": "",
+            "icon_2_image": "shopify://shop_images/icono-shipments.png",
+            "icon_2_label": "",
+            "icon_3_image": "shopify://shop_images/icono-payments_security.png",
+            "icon_3_label": "",
+            "icon_4_label": "",
+            "icon_5_label": "",
+            "icon_6_label": "",
+            "hide_block_if": false
+          }
         }
       },
       "block_order": [
@@ -185,7 +201,8 @@
         "empty_space_2",
         "description",
         "empty_space_3",
-        "share"
+        "share",
+        "icons_NpHq4Q"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -200,8 +217,8 @@
         "default_to_first_variant": true,
         "sticky_add_to_cart": false,
         "sticky_atc_style": "wide",
-        "sticky_bar_bgcolor": "#fff",
-        "sticky_bar_txtcolor": "#111"
+        "sticky_bar_bgcolor": "#ffffff",
+        "sticky_bar_txtcolor": "#111111"
       }
     },
     "product-recommendations": {
