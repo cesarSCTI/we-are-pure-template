@@ -98,6 +98,22 @@
             "MetaObject_color": "#FF5060"
           }
         },
+        "meta_object_info_qNfgXU": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "PH:",
+            "MetaObject": "{{ product.metafields.custom.ph_level.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
+        "meta_object_info_mnwmiN": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Acidity:",
+            "MetaObject": "{{ product.metafields.custom.acidity.value }}",
+            "MetaObject_color": "#FF5060"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -152,6 +168,8 @@
         "meta_object_info_aKaFbC",
         "meta_object_info_ncDbYx",
         "meta_object_info_gAFrTH",
+        "meta_object_info_qNfgXU",
+        "meta_object_info_mnwmiN",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
