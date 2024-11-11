@@ -995,3 +995,7 @@ html[dir=ltr] .sticky-add-to-cart--floating.visible {
 .metaObject_info {
   margin: 0px !important;
 }
+.text-with-icon__icon img{
+  max-width: 32px;
+  object-fit: contain;
+}

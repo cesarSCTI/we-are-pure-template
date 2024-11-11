@@ -25,13 +25,13 @@
 
     {%- if icon != blank -%}
       <span class="text-with-icon__icon" aria-hidden="true">
-        <img src="{{ icon | image_url: width: 32, height: 32, crop: 'center' }}"
+        <img src="{{ icon | image_url: height: 32 }}"
           srcset="
-            {{ icon | image_url: width: 32, height: 32, crop: 'center' }} 32w,
-            {{ icon | image_url: width: 64, height: 64, crop: 'center' }} 64w,
-            {{ icon | image_url: width: 96, height: 96, crop: 'center' }} 96w
+            {{ icon | image_url: height: 32 }} 32w,
+            {{ icon | image_url: height: 64 }} 64w,
+            {{ icon | image_url: height: 96 }} 96w
           "
-          sizes="32px" width="32" height="32"
+          sizes="32px" width="auto" height="auto"
           loading="lazy"
           alt="{{ icon.alt | escape }}"
         />
