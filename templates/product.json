@@ -45,8 +45,8 @@
         "meta_object_info_bACpWE": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "text": "Pasteurization:",
+            "MetaObject": "{{ product.metafields.custom.pasteurization.value }}",
             "MetaObject_color": "#FF5060"
           }
         },
