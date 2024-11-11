@@ -801,8 +801,17 @@
 
             </div>
           </div>
-
-      {%- endcase -%}
+        {% when "MetaObject_info" %}
+          {% if block.settings.MetaObject != blank %}
+            <div class="metaObject_info">
+              <span class="metaObject_title" 
+                style="color:{{ block.settings.MetaObject_color }};
+                        font-weight:500;">
+                {{ block.settings.text }}</span>
+              <span>{{ block.settings.MetaObject }}</span>
+            </div>
+          {% endif %}
+        {%- endcase -%}
 
     {%- endfor -%}
 
@@ -899,6 +908,29 @@
     "blocks": [
       {
         "type": "@app"
+      },
+      {
+        "type": "MetaObject_info",
+        "name": "MetaObject info",
+        "settings": [
+          {
+            "type":"text",
+            "label": "Text",
+            "id":"text",
+            "default":"MetaObject Title"
+          },
+          {
+            "type":"text",
+            "label": "metaObject",
+            "id":"MetaObject"
+          },
+          {
+            "type":"color",
+            "label": "color Text title",
+            "id":"MetaObject_color",
+            "default":"#FF5060"
+          }
+        ]
       },
       {
         "type": "text",
