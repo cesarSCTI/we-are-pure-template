@@ -182,6 +182,62 @@
         "open_in_new_window": false,
         "image_size": "medium"
       }
+    },
+    "rich_text_Lap4mp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_k6WyaC": {
+          "type": "title",
+          "settings": {
+            "title": "Request Your Free Sample",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_z67iNU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_RpnMCC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request now",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_k6WyaC",
+        "text_z67iNU",
+        "button_RpnMCC"
+      ],
+      "custom_css": [
+        ".rich-text__container--image-top {padding: 0px 0 50px 0 !important; margin: 0px 0 !important; max-width: 1920px !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-request_a_sample.png",
+        "image_position": "top",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
     }
   },
   "order": [
@@ -192,6 +248,7 @@
     "rich_text_Q4aTYH",
     "shop_the_look_Ag4gBf",
     "text_columns_UUQ8xx",
-    "image_3eBPj7"
+    "image_3eBPj7",
+    "rich_text_Lap4mp"
   ]
 }
