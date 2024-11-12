@@ -269,6 +269,8 @@
     "content_for_index": []
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".main-content--align-product-items .product-item {border: solid #B5D242 2px !important;}"
+    ]
   }
 }
