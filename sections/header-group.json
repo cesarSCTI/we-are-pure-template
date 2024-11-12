@@ -61,7 +61,8 @@
         "info"
       ],
       "custom_css": [
-        ".header-container .button--solid {background-color: #ACD400 !important; border-color: #ACD400 !important; color: #fff !important;}"
+        ".header-container .button--solid {background-color: #acd400 !important; border-color: #acd400 !important; color: #fff !important;}",
+        ".header__top {padding-top: 15px !important; padding-bottom: 15px !important;}"
       ],
       "settings": {
         "logo_src": "shopify://shop_images/logo-we_are_puree-header_42347171-4581-4c11-8be5-dd4f5766013f.png",
