@@ -30,7 +30,7 @@
           "type": "image",
           "settings": {
             "title": "",
-            "image": "shopify://shop_images/logo-we_are_pure-footer.png",
+            "image": "shopify://shop_images/logo-we_are_pure-footer_65a5cb63-753f-4d8f-bef3-485941ac62ad.png",
             "link": "",
             "open_in_new_window": false
           }
@@ -69,7 +69,7 @@
         "text-2"
       ],
       "custom_css": [
-        ".lazy-image[data-ratio] img {height: 60%; width: 60%; object-fit: cover;}"
+        ".lazy-image[data-ratio] img {height: 80%; width: 80%; object-fit: cover;}"
       ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
