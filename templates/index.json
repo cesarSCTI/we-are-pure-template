@@ -293,20 +293,20 @@
         "16540673826052f668-0": {
           "type": "card",
           "settings": {
-            "image": "shopify://shop_images/industry_uses-we_are_puree-baby_food.png",
+            "image": "shopify://shop_images/industry_uses-we_are_puree-baby_food_bf39ee9f-b543-4879-84f0-cf3d3d0cf82b.png",
             "caption": "",
-            "title": "Emphasize a collection",
+            "title": "Baby food",
             "subtitle": "",
             "link": "",
             "open_in_new_window": false,
-            "button_label": "Show more",
-            "color_background_main": "#f4ede1",
-            "color_text_main": "rgba(0,0,0,0)",
+            "button_label": "Learn more",
+            "color_background_main": "#fed122",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#e1e1e1",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
-            "color_hide_shadow": false,
+            "color_hide_shadow": true,
             "seo_h_tag": "h3"
           }
         },
