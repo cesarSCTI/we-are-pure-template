@@ -205,25 +205,15 @@
           "type": "title",
           "settings": {}
         },
-        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0": {
-          "type": "rating",
-          "settings": {}
-        },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {}
-        },
-        "0732fb3a-f464-4724-9427-62214bde5409": {
-          "type": "local_availability",
           "settings": {}
         }
       },
       "block_order": [
         "price",
         "title",
-        "2fe5312e-e69f-45d1-bac2-bcdf636d2cf0",
-        "quick_buy",
-        "0732fb3a-f464-4724-9427-62214bde5409"
+        "quick_buy"
       ],
       "settings": {
         "heading": "Favorite Purees",

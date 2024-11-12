@@ -270,7 +270,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".main-content--align-product-items .product-item {border: solid #B5D242 2px !important;}"
+      ".main-content--align-product-items .product-item {border: solid #b5d242 2px !important;}",
+      ".product-item__price span {color: #00AE8D !important; font-weight: bold !important;}"
     ]
   }
 }
