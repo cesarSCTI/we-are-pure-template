@@ -37,7 +37,7 @@
         "title_BWcYKy": {
           "type": "title",
           "settings": {
-            "title": "Smoothies",
+            "title": "Baby food",
             "title_size": "h2",
             "seo_h_tag": "h2"
           }
@@ -45,7 +45,7 @@
         "text_BLdyjA": {
           "type": "text",
           "settings": {
-            "text": "<p>We Are Puree offers a wide range of fruit purees that are perfect for creating vibrant, flavorful smoothies in commercial settings. Our products are made from 100% real fruit, free from added sugars and preservatives, and are non-GMO, vegan, gluten-free, and dairy-free. This makes them ideal for crafting smoothies that cater to a health-conscious audience without compromising on taste or quality. From berries like strawberries and raspberries to exotic options like passion fruit and guava, we provide endless possibilities for unique smoothie blends.<br/><br/>One of the key advantages of our purees is their aseptic, shelf-stable packaging. This eliminates the need for freezing or refrigeration, allowing you to store and use the purees conveniently at any time of the year. Our purees maintain their natural taste and nutritional value over an extended shelf life, ensuring you can serve fresh, delicious smoothies no matter the season. This makes We Are Puree the perfect partner for juice bars, cafes, or large-scale smoothie production.</p>",
+            "text": "<p>We Are Puree’s aseptic fruit purees are the ultimate solution for baby food manufacturers looking to deliver safe, nutritious, and delicious options. Made from 100% real fruit, our purees are free from added sugars, preservatives, or artificial ingredients, ensuring the highest quality for growing infants. With a range of natural fruit flavors, including classic apples, pears, and tropical mango, you can create diverse, nutrient-rich meals that meet parents’ demands for wholesome, clean-label products.<br/><br/>Our aseptic packaging ensures the purees are shelf-stable, meaning they do not require refrigeration or freezing, offering significant cost savings and convenience for production. This allows manufacturers to scale production without worrying about seasonal availability or the added burden of storage constraints. Our ready-to-use purees are also non-GMO, gluten-free, and allergen-free, ensuring your products meet the strictest safety standards.</p>",
             "text_size": "regular"
           }
         }
@@ -81,7 +81,7 @@
         ".container--large {margin: 30px 0 !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-baby_food.png",
         "link": "",
         "open_in_new_window": false,
         "image_size": "large"
@@ -93,7 +93,7 @@
         "text_dGKTAc": {
           "type": "text",
           "settings": {
-            "text": "<p>Furthermore, by using our fruit purees, businesses can reduce preparation time and eliminate the hassle of sourcing fresh fruit. Our purees provide consistent flavor and texture, enabling you to craft high-quality smoothies that keep customers coming back for more. Whether you’re aiming for a classic flavor or a creative new blend, We Are Puree ensures your smoothie creations are always a hit.</p>",
+            "text": "<p>Additionally, We Are Puree works closely with growers to ensure our fruits are sun-ripened and harvested at peak freshness, resulting in vibrant flavors and rich nutritional content. Whether you’re producing single-fruit meals or complex flavor combinations, our purees provide the consistency and quality that both manufacturers and parents can trust, making them the perfect foundation for premium baby food products.</p>",
             "text_size": "regular"
           }
         }
@@ -147,11 +147,11 @@
         "heading": "Buy our fruit purees today",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-baby_food2.png",
         "product_list": [
           "producto-prueba"
         ],
-        "color_background_main": "#dedede",
+        "color_background_main": "#eae8ed",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true,
         "color_hide_shadow": true,
