@@ -184,6 +184,10 @@
           "type": "price",
           "settings": {}
         },
+        "description_7Q8nh4": {
+          "type": "description",
+          "settings": {}
+        },
         "variant_picker_idFiHE": {
           "type": "variant_picker",
           "settings": {
@@ -212,19 +216,40 @@
           "type": "space",
           "settings": {}
         },
-        "description_7Q8nh4": {
-          "type": "description",
-          "settings": {}
+        "icons_Mdjj8a": {
+          "type": "icons",
+          "settings": {
+            "title": "Icons list",
+            "icon_1_image": "shopify://shop_images/icono-shipments.png",
+            "icon_1_label": "Shipments to all United States",
+            "icon_2_image": "shopify://shop_images/icono-payments_security.png",
+            "icon_2_label": "We guarantee the security of transactions and payments with our customers.",
+            "icon_3_label": "",
+            "icon_4_label": "",
+            "icon_5_label": "",
+            "icon_6_label": ""
+          }
+        },
+        "image_7wWM7p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/secure_payments-products.png",
+            "image_border_radius": 0,
+            "link": "",
+            "open_in_new_window": false
+          }
         }
       },
       "block_order": [
         "title_kpMp49",
         "price_nqGHdY",
+        "description_7Q8nh4",
         "variant_picker_idFiHE",
         "space_7LXj6T",
         "buy_buttons_T4EBHp",
         "space_gzyNQE",
-        "description_7Q8nh4"
+        "icons_Mdjj8a",
+        "image_7wWM7p"
       ],
       "settings": {
         "product": "producto-prueba",
