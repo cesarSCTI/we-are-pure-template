@@ -14,6 +14,7 @@
       {%- unless section.settings.title == blank -%}
 			  <div class="increased-spacing">
           <{{ section.settings.seo_h_tag }} class="h3" style="display:block">{{ section.settings.title | escape }}</{{ section.settings.seo_h_tag }}>
+         <p class="text-size--large">{{ 'general.newsletter.confirmation' | t }}</p>
         </div>
       {%- endunless -%}
 
@@ -24,7 +25,7 @@
 
         {%- if form.posted_successfully? -%}
           
-          <p class="text-size--large">{{ 'general.newsletter.confirmation' | t }}</p>
+         
 
         {%- else -%}
           
