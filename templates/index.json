@@ -163,6 +163,21 @@
             "bg_image": "shopify://shop_images/bg-pinapple_3fdbc6a5-37ea-4db7-9893-79b720152080.png"
           }
         },
+        "bolsa_xKRa7T": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Raspberry Puree Bag",
+            "description": "<p>100% Natural raspberry puree with no added sugar or artificial ingredients. Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>raspberries</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Raspberry_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/Raspberry.png",
+            "bg_image": "shopify://shop_images/bg-raspberry.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -202,6 +217,7 @@
         "bolsa_8VDBVH",
         "bolsa_jqBPKg",
         "bolsa_8XNYEU",
+        "bolsa_xKRa7T",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
