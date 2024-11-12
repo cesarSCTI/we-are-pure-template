@@ -191,6 +191,8 @@
     "favicon": "shopify://shop_images/fav-we_are_puree.png",
     "cart_additional_buttons": false,
     "cart_free_shipping": false,
+    "show_breadcrumb": true,
+    "show_gotop": true,
     "show_currency_codes": true,
     "social_facebook": "#",
     "social_instagram": "#",
@@ -272,7 +274,7 @@
     "custom_css": [
       ".main-content--align-product-items .product-item {border: solid #b5d242 2px !important;}",
       ".product-item__price span {color: #00ae8d !important; font-weight: bold !important;}",
-      ".card .button--solid {background-color: #E94760 !important; border-color: #E94760 !important;}"
+      ".card .button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}"
     ]
   }
 }

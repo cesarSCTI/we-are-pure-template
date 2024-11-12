@@ -438,116 +438,21 @@
         "seo_h_tag": "h2"
       }
     },
-    "1654161920efe5f084": {
-      "type": "text-columns-icons",
-      "blocks": {
-        "1654161920f21316cf-0": {
-          "type": "image",
-          "settings": {
-            "icon": "delivery",
-            "title": "Shipping",
-            "caption": "Useful information about your shipping details",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1654161920f21316cf-1": {
-          "type": "image",
-          "settings": {
-            "icon": "time-limit",
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1654161920f21316cf-2": {
-          "type": "image",
-          "settings": {
-            "icon": "store",
-            "title": "Pickup",
-            "caption": "Let your customers know about local pickup",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1654161920f21316cf-3": {
-          "type": "image",
-          "settings": {
-            "icon": "tree",
-            "title": "Brand",
-            "caption": "Write your brand story and journey",
-            "link": "",
-            "open_in_new_window": false,
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_icons_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "1654161920f21316cf-0",
-        "1654161920f21316cf-1",
-        "1654161920f21316cf-2",
-        "1654161920f21316cf-3"
+    "1655112847aaa4cc50": {
+      "type": "newsletter",
+      "custom_css": [
+        ".container--has-background {padding-top: 0px !important; background-image: }"
       ],
       "settings": {
-        "heading": "Text columns with icons",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2",
-        "border_radius": 200,
-        "section_background_color": "rgba(0,0,0,0)",
+        "show_icon": true,
+        "title": "Sign up for our newsletter",
+        "text": "<p>Sign up for our newsletter to get the latest info on the newest additions to our fruit puree lineup, special promotions, and fruit-forward features!</p>",
+        "color_background_main": "#00ae8d",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "#00ae8d",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "section_background_color": "#00ae8d",
         "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "16551212489c663a1e": {
-      "type": "featured-collection",
-      "blocks": {
-        "1655121248aee0f086-0": {
-          "type": "price",
-          "settings": {}
-        },
-        "1655121248aee0f086-1": {
-          "type": "title",
-          "settings": {}
-        },
-        "1655121248aee0f086-2": {
-          "type": "quick_buy",
-          "disabled": true,
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "1655121248aee0f086-0",
-        "1655121248aee0f086-1",
-        "1655121248aee0f086-2"
-      ],
-      "settings": {
-        "heading": "Featured collection",
-        "subheading": "",
-        "show_view_all": true,
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
-        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
-        "products_number": 8,
-        "collection": "",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
@@ -648,50 +553,6 @@
         "seo_h_tag": "h2"
       }
     },
-    "16551127939786a43a": {
-      "type": "blog-posts",
-      "blocks": {
-        "165511279388d6ad87-0": {
-          "type": "info",
-          "settings": {
-            "show_date": true,
-            "show_author": false,
-            "show_comments_number": false
-          }
-        },
-        "165511279388d6ad87-1": {
-          "type": "title",
-          "settings": {}
-        },
-        "6d7d92cc-64fe-4f89-9974-bb98f18308a0": {
-          "type": "summary",
-          "disabled": true,
-          "settings": {
-            "excerpt_limit": 20
-          }
-        }
-      },
-      "block_order": [
-        "165511279388d6ad87-0",
-        "165511279388d6ad87-1",
-        "6d7d92cc-64fe-4f89-9974-bb98f18308a0"
-      ],
-      "settings": {
-        "title": "Blog posts",
-        "subheading": "",
-        "show_view_all": true,
-        "section_heading_layout": "section-heading--left",
-        "blog": "news",
-        "emphasize_first": true,
-        "blog_show_image": true,
-        "image_aspect_ratio": "1.33333",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "16553621956de397b6": {
       "type": "testimonials",
       "blocks": {
@@ -736,53 +597,6 @@
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
-    },
-    "1657094048f07fb2a2": {
-      "type": "marquee",
-      "blocks": {
-        "16570940482780d791-0": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "Write a big bold statement about your brand!"
-          }
-        },
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f": {
-          "type": "text",
-          "settings": {
-            "marquee_text": "Introduce your latest promotions."
-          }
-        }
-      },
-      "block_order": [
-        "16570940482780d791-0",
-        "17541091-3633-48b6-97e0-ca55f3bf4a9f"
-      ],
-      "settings": {
-        "scroll_direction": "left",
-        "speed": 150,
-        "pause_on_hover": true,
-        "remove_top_margin": false,
-        "remove_bottom_margin": false,
-        "color_background_main": "#f4ecf4",
-        "section_background_gradient": "",
-        "color_text_main": "#000000"
-      }
-    },
-    "1655112847aaa4cc50": {
-      "type": "newsletter",
-      "settings": {
-        "show_icon": true,
-        "title": "Sign up for our newsletter",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "color_background_main": "#000000",
-        "color_text_main": "#ffffff",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
     }
   },
   "order": [
@@ -792,13 +606,9 @@
     "featured-collection",
     "16551304148266b5a5",
     "165406738229739f4d",
-    "1654161920efe5f084",
-    "16551212489c663a1e",
+    "1655112847aaa4cc50",
     "165597098555c514a4",
     "165650871288cb3c80",
-    "16551127939786a43a",
-    "16553621956de397b6",
-    "1657094048f07fb2a2",
-    "1655112847aaa4cc50"
+    "16553621956de397b6"
   ]
 }
