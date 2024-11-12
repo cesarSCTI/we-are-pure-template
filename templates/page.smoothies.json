@@ -169,6 +169,19 @@
         "block_text_alignment": "text-align--center",
         "seo_h_tag": "h1"
       }
+    },
+    "image_3eBPj7": {
+      "type": "image",
+      "custom_css": [
+        ".container--vertical-space {margin-top: 0px !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/certifications-we_are_puree_a8d86a80-4fc8-414c-8a1c-8fe432cf6725.png",
+        "mobile_image": "shopify://shop_images/certifications-we_are_puree-movil.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "medium"
+      }
     }
   },
   "order": [
@@ -178,6 +191,7 @@
     "image_QBTRmd",
     "rich_text_Q4aTYH",
     "shop_the_look_Ag4gBf",
-    "text_columns_UUQ8xx"
+    "text_columns_UUQ8xx",
+    "image_3eBPj7"
   ]
 }
