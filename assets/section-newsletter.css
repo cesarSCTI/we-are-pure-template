@@ -68,8 +68,8 @@
 }
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter .button {
-    border-top-right-radius: 20;
-    border-bottom-right-radius: 20;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
   html[dir=ltr] .newsletter .button {
     border-top-left-radius: 0;
