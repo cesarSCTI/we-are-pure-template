@@ -510,94 +510,6 @@
         "remove_margin": false,
         "seo_h_tag": "h2"
       }
-    },
-    "165650871288cb3c80": {
-      "type": "media-with-text-overlay",
-      "blocks": {
-        "1656508712d3848f85-0": {
-          "type": "image",
-          "settings": {
-            "caption": "Introducing",
-            "title": "Your best promotion yet",
-            "subtitle": "",
-            "link": "",
-            "open_in_new_window": false,
-            "button_label": "Show more",
-            "color_background_main": "#000000",
-            "color_text_main": "#ffffff",
-            "color_hide_borders": true,
-            "color_hide_shadow": false,
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "1656508712d3848f85-0"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "layout": "grid-1",
-        "height": "large",
-        "alignment": "horizontal-center align-content--vertical-middle",
-        "width": "60%",
-        "caption_size": "regular",
-        "title_size": "h1",
-        "subtitle_size": "regular",
-        "button_size": "large",
-        "button_style": "outline",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
-    "16553621956de397b6": {
-      "type": "testimonials",
-      "blocks": {
-        "16553621951e01132c-0": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "author_title": "Customer",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>"
-          }
-        },
-        "16553621951e01132c-1": {
-          "type": "testimonial",
-          "settings": {
-            "author_name": "Author",
-            "author_title": "Customer",
-            "quote": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "16553621951e01132c-0",
-        "16553621951e01132c-1"
-      ],
-      "settings": {
-        "heading": "Testimonials",
-        "subheading": "What our clients say",
-        "section_heading_layout": "section-heading--left",
-        "quote_font": "crimson_text_i4",
-        "quote_font_size": 34,
-        "quote_line_height": 1.1,
-        "content_alignment": "center",
-        "color_background_main": "#ebebe5",
-        "color_text_main": "#000000",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": false,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
     }
   },
   "order": [
@@ -608,8 +520,6 @@
     "16551304148266b5a5",
     "165406738229739f4d",
     "1655112847aaa4cc50",
-    "165597098555c514a4",
-    "165650871288cb3c80",
-    "16553621956de397b6"
+    "165597098555c514a4"
   ]
 }
