@@ -241,7 +241,7 @@
         "enable_zoom": true,
         "enable_video_looping": false,
         "default_to_first_variant": true,
-        "sticky_add_to_cart": true,
+        "sticky_add_to_cart": false,
         "sticky_atc_style": "floating",
         "sticky_bar_bgcolor": "#ffffff",
         "sticky_bar_txtcolor": "#111111"
