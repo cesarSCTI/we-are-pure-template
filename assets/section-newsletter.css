@@ -42,9 +42,7 @@
   background-color: #FFFFFF;
   color: #1D1D1D;
 }
-.newsletter .input::placeholder {
-  color: #1D1D1D;
-}
+
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter input[type=email] {
     border-top-left-radius: 0;
@@ -58,7 +56,7 @@
   }
 }
 .newsletter input[type=email]::placeholder {
-  color: var(--color-secondary-text-cards);
+  color: #1D1D1D;
   opacity: 1;
 }
 .newsletter .button {
