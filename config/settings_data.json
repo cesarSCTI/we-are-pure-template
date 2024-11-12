@@ -156,7 +156,7 @@
     "headings_size": 70,
     "headings_line": 1.2,
     "body_font": "dm_sans_n4",
-    "body_size": 17,
+    "body_size": 16,
     "body_line": 1.5,
     "buttons_weight": "bolder",
     "menu_size": 16,
@@ -258,5 +258,8 @@
       }
     },
     "content_for_index": []
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }
