@@ -237,27 +237,26 @@
         "1655130414988486bd-0": {
           "type": "title",
           "settings": {
-            "title": "About us",
+            "title": "Request Your Free Sample",
             "title_size": "h2",
-            "seo_h_tag": "h2"
+            "seo_h_tag": "span"
           }
         },
         "1655130414988486bd-1": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.</p>",
+            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
             "text_size": "regular"
           }
         },
         "1655130414988486bd-2": {
           "type": "button",
           "settings": {
-            "button_label": "Learn more",
+            "button_label": "Request now",
             "link": "",
             "open_in_new_window": false,
             "button_size": "large",
-            "button_style": "outline"
+            "button_style": "solid"
           }
         }
       },
@@ -267,7 +266,7 @@
         "1655130414988486bd-2"
       ],
       "custom_css": [
-        ".card {width: 1920px !important;}"
+        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/img-request_a_sample.png",
