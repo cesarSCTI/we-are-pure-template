@@ -461,11 +461,23 @@
     "165597098555c514a4": {
       "type": "text-columns-images",
       "blocks": {
+        "image_YUkzeH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shipping_method.png",
+            "title": "Select Your Shipping Method",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
         "1655970985e1e8c596-0": {
           "type": "image",
           "settings": {
-            "title": "Shipping",
-            "caption": "Useful information about your shipping details",
+            "image": "shopify://shop_images/free_shipping_texas.png",
+            "title": "Free shipping in Texas and North Carolina",
+            "caption": "",
             "link": "",
             "open_in_new_window": false,
             "seo_h_tag": "h3"
@@ -474,18 +486,9 @@
         "1655970985e1e8c596-1": {
           "type": "image",
           "settings": {
-            "title": "Returns",
-            "caption": "Show how much time customers have for testing your products",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "1655970985e1e8c596-2": {
-          "type": "image",
-          "settings": {
-            "title": "Pickup",
-            "caption": "Let your customers know about local pickup",
+            "image": "shopify://shop_images/secure_payments.png",
+            "title": "100% Secure Payment",
+            "caption": "",
             "link": "",
             "open_in_new_window": false,
             "seo_h_tag": "h3"
@@ -493,17 +496,20 @@
         }
       },
       "block_order": [
+        "image_YUkzeH",
         "1655970985e1e8c596-0",
-        "1655970985e1e8c596-1",
-        "1655970985e1e8c596-2"
+        "1655970985e1e8c596-1"
+      ],
+      "custom_css": [
+        ".container--vertical-space {margin-top: 30px !important;}"
       ],
       "settings": {
         "heading": "",
         "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "style": "slider",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
         "layout": "grid-3 grid-lap-2",
-        "border_radius": 200,
+        "border_radius": 0,
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
