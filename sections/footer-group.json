@@ -14,7 +14,7 @@
     "image_xUcNnb": {
       "type": "image",
       "custom_css": [
-        ".container--vertical-space {margin-top: 30px !important;}"
+        ".container--vertical-space {margin-top: 50px !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/footer-colors.png",
