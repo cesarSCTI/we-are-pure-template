@@ -42,15 +42,8 @@
   background-color: #FFFFFF;
   color: #1D1D1D;
 }
-.input,
-textarea,
-select {
+.newsletter .input::placeholder {
   color: #1D1D1D;
-}
-.input::placeholder,
-textarea::placeholder,
-select::placeholder {
-color: #1D1D1D;
 }
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter input[type=email] {
