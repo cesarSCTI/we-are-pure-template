@@ -68,6 +68,9 @@
         "menu-2",
         "text-2"
       ],
+      "custom_css": [
+        ".lazy-image[data-ratio] img {height: 60%; width: 60%; object-fit: cover;}"
+      ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
         "show_locale_selector": true,
