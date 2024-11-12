@@ -275,7 +275,8 @@
       ".main-content--align-product-items .product-item {border: solid #b5d242 2px !important;}",
       ".product-item__price span {color: #00ae8d !important; font-weight: bold !important;}",
       ".card .button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}",
-      ".main-footer {margin-top: 0px !important;}"
+      ".main-footer {margin-top: 0px !important;}",
+      ".button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}"
     ]
   }
 }
