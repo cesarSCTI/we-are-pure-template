@@ -193,6 +193,21 @@
             "bg_image": "shopify://shop_images/bg-strawberry.png"
           }
         },
+        "lata_M3L6i6": {
+          "type": "Lata",
+          "settings": {
+            "title": "496 lb Apple Puree Drum",
+            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, obtained from the disintegration and sieving of the edible fraction of the ripe, healthy and clean apples.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>496 lb (226 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe apples</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Apple_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/AppleGolden.png",
+            "bg_image": "shopify://shop_images/bg-apple.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -234,6 +249,7 @@
         "bolsa_8XNYEU",
         "bolsa_xKRa7T",
         "bolsa_6mjF6A",
+        "lata_M3L6i6",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
