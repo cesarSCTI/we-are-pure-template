@@ -175,14 +175,14 @@ height: 55vh;
     <div class="tabs">
         <button class="tab-link active" data-tab="tab1">
             {% if section.settings.tab1 != blank %}
-                {{ section.settings.tab1 | image_url: height: 120 | image_tag }}
+                <img src="{{ section.settings.tab1 | img_url: 'master' }}" height="120">
             {% else %}
                 Tab 1
             {% endif %}
         </button>
         <button class="tab-link" data-tab="tab2">
             {% if section.settings.tab2 != blank %}
-                {{ section.settings.tab2 | image_url: height: 120 | image_tag }}
+                <img src="{{ section.settings.tab2 | img_url: 'master' }}" height="120">
             {% else %}
                 Tab 1
             {% endif %}
