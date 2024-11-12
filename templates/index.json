@@ -33,7 +33,7 @@
       ],
       "custom_css": [
         ".gutter-bottom--xlarge {padding-bottom: 30px !important;}",
-        ".card .button--solid {background-color: #E94760 !important; border-color: #E94760 !important; color: var(--color-foreground-cards);}"
+        ".card .button--solid {background-color: #e94760 !important; border-color: #e94760 !important; color: var(--color-foreground-cards);}"
       ],
       "settings": {
         "desktop_height": "80vh",
@@ -133,6 +133,65 @@
         "tab2": "shopify://shop_images/Drums-brand.png",
         "colo_tab": "#ff5060",
         "bg_image": "shopify://shop_images/bg-purees_presentations.png"
+      }
+    },
+    "rich_text_mptCkd": {
+      "type": "rich-text",
+      "blocks": {
+        "custom_liquid_iTAMfN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/logo-we_are_puree.png?v=1731124953\" width=\"120\" height=\"\">"
+          }
+        },
+        "text_iaeVXh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At We are Puree, we blend the finest fruits with craft brewing expertise to create exceptional purees designed for innovative beer producers and more. Our mission is to elevate your brews with vibrant, natural flavors that capture the essence of premium fruit. From crisp apples to luscious berries, each puree is crafted with care to ensure the highest quality and consistency.</p>",
+            "text_size": "regular"
+          }
+        },
+        "title_rnaNHc": {
+          "type": "title",
+          "settings": {
+            "title": "Certifications",
+            "title_size": "h3",
+            "seo_h_tag": "h4"
+          }
+        },
+        "custom_liquid_kzQnML": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" width=\"500\" height=\"\">"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_iTAMfN",
+        "text_iaeVXh",
+        "title_rnaNHc",
+        "custom_liquid_kzQnML"
+      ],
+      "custom_css": [
+        ".container--fullwidth .rich-text__container--image-right .rich-text__text {padding: 80px !important; background-position: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-who_is-we_are_puree.png?v=1731124955); background-size: contain; background-repeat: no-repeat;"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-we_are_puree_office.png",
+        "image_position": "right",
+        "height": "large",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "#00ae8d",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "#00ae8d",
+        "color_text_main": "#1d1d1d",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "#00ae8d",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
       }
     },
     "featured-collection": {
@@ -966,6 +1025,7 @@
   "order": [
     "1653646142d6a7c886",
     "tab_caroucel_qCxFiq",
+    "rich_text_mptCkd",
     "featured-collection",
     "1655121489db318f96",
     "165406738229739f4d",
