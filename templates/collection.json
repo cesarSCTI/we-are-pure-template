@@ -12,6 +12,11 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "alignment": "horizontal-left align-content--vertical-bottom",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)"
       }
     },
     "product-grid": {
@@ -19,18 +24,15 @@
       "blocks": {
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "quick_buy": {
           "type": "quick_buy",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -39,6 +41,11 @@
         "quick_buy"
       ],
       "settings": {
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 12,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "image_filter_layout": "onecolumn"
       }
     }
   },
