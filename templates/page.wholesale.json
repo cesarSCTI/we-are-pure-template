@@ -75,10 +75,53 @@
         "remove_margin": false,
         "seo_h_tag": "h1"
       }
+    },
+    "rich_text_8gbcD9": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JmtCAe": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to give your products a juicy upgrade?",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_47bihY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think of us as your flavor fairy godparents, here to turn your brews and treats into something truly magical!<br/><br/>Fill out the form below to join our wholesale program and start working with the fruit purees that even your taste buds will thank you for.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_JmtCAe",
+        "text_47bihY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-wholesale-we_are_puree.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": false,
+        "color_background_main": "#4b9ad4",
+        "color_text_main": "#ffffff",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
     }
   },
   "order": [
     "main",
-    "text_columns_images_mdpXne"
+    "text_columns_images_mdpXne",
+    "rich_text_8gbcD9"
   ]
 }
