@@ -148,6 +148,21 @@
             "bg_image": "shopify://shop_images/bg-peach.png"
           }
         },
+        "bolsa_8XNYEU": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Pineapple Puree Bag",
+            "description": "<p>Natural pineapple puree with no added sugar or artificial ingredients. Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>pineapples and</p><p>ascorbic acid.</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Pineapple_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/Pineapple.png",
+            "bg_image": "shopify://shop_images/bg-pinapple_3fdbc6a5-37ea-4db7-9893-79b720152080.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -186,6 +201,7 @@
         "bolsa_XqtTHN",
         "bolsa_8VDBVH",
         "bolsa_jqBPKg",
+        "bolsa_8XNYEU",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
