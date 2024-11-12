@@ -73,8 +73,8 @@
       ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
-        "show_locale_selector": true,
-        "show_country_selector": true,
+        "show_locale_selector": false,
+        "show_country_selector": false,
         "remove_margin": true,
         "seo_h_tag": "h4"
       }
