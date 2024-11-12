@@ -226,14 +226,14 @@
         "0732fb3a-f464-4724-9427-62214bde5409"
       ],
       "settings": {
-        "heading": "Featured collection",
+        "heading": "Favorite Purees",
         "subheading": "",
-        "show_view_all": true,
+        "show_view_all": false,
         "section_heading_layout": "section-heading--left",
         "style": "slider",
         "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
         "products_number": 8,
-        "collection": "",
+        "collection": "frontpage",
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
