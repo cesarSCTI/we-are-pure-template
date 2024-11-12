@@ -15,24 +15,13 @@
         "1653646142fd3f3126-0": {
           "type": "image",
           "settings": {
-            "caption": "Showcase your best products",
-            "title": "Welcome to our store",
-            "link": "",
+            "image": "shopify://shop_images/banner-we_are_puree-fruit_purees.png",
+            "mobile_image": "shopify://shop_images/banner-we_are_puree-fruit_purees-movil.png",
+            "caption": "",
+            "title": "",
+            "link": "shopify://collections",
             "open_in_new_window": false,
-            "button_label": "Learn more",
-            "color_background_main": "rgba(0,0,0,0)",
-            "color_text_main": "rgba(0,0,0,0)",
-            "seo_h_tag": "h3"
-          }
-        },
-        "1653646142fd3f3126-1": {
-          "type": "image",
-          "settings": {
-            "caption": "Include some awesome images",
-            "title": "Write about yourself",
-            "link": "",
-            "open_in_new_window": false,
-            "button_label": "Learn more",
+            "button_label": "Shop now",
             "color_background_main": "rgba(0,0,0,0)",
             "color_text_main": "rgba(0,0,0,0)",
             "seo_h_tag": "h3"
@@ -40,19 +29,18 @@
         }
       },
       "block_order": [
-        "1653646142fd3f3126-0",
-        "1653646142fd3f3126-1"
+        "1653646142fd3f3126-0"
       ],
       "settings": {
         "desktop_height": "80vh",
         "mobile_height": "60vh",
         "is_auto_height": false,
-        "autorotate_enable": false,
+        "autorotate_enable": true,
         "autorotate_interval": 5,
-        "alignment": "horizontal-center align-content--vertical-middle",
+        "alignment": "horizontal-center align-content--vertical-bottom",
         "text_size": "regular",
         "title_size": "h1",
-        "button_size": "large",
+        "button_size": "regular",
         "button_style": "solid",
         "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
@@ -135,7 +123,7 @@
       ],
       "settings": {
         "title": "Our Fruit Purées Presentations",
-        "color_title": "#fff",
+        "color_title": "#ffffff",
         "color_title_bg": "#00ae8d",
         "tab1": "shopify://shop_images/PlainBag-Brand.png",
         "tab2": "shopify://shop_images/Drums-brand.png",
