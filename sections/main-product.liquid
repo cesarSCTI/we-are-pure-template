@@ -1,5 +1,12 @@
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
-
+<style>
+  a.technical {
+    background: #4B9AD4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+</style>
 {%- liquid
   unless product.has_only_default_variant
     assign default_to_first_variant = section.settings.default_to_first_variant
@@ -136,7 +143,15 @@
 
     {%- for block in section.blocks -%}
       {%- case block.type -%}
-
+        {%  when 'special_button' %}
+          
+          {% if product.metafields.custom.technicaldata != blank %}
+            <a href="{{product.metafields.custom.technicaldata}}" download="Technical_data_sheet.pdf" class="technical">
+              <button> 
+                {{block.settings.button_text}}
+              </button>
+            </a>      
+          {% endif %}    
         {%- when '@app' -%}
           {%- render block -%}
 
@@ -1072,6 +1087,18 @@
               }
             ],
             "default": "no"
+          }
+        ]
+      },
+      {
+        "type": "special_button",
+        "name": "special Button",
+        "limit": 1,
+        "settings": [
+          {
+            "type":"text",
+            "label":"button text",
+            "id": "button_text"
           }
         ]
       },
