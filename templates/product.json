@@ -188,6 +188,12 @@
             "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
             "hide_block_if": false
           }
+        },
+        "special_button_dDfra8": {
+          "type": "special_button",
+          "settings": {
+            "button_text": "Download Technical Data Sheet"
+          }
         }
       },
       "block_order": [
@@ -214,7 +220,8 @@
         "empty_space_3",
         "share",
         "icons_NpHq4Q",
-        "nutrition_LdXmDm"
+        "nutrition_LdXmDm",
+        "special_button_dDfra8"
       ],
       "settings": {
         "gallery_style": "slider",
