@@ -118,6 +118,21 @@
             "bg_image": "shopify://shop_images/bg-mango.png"
           }
         },
+        "bolsa_8VDBVH": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Orange Puree Bag",
+            "description": "<p>Aseptic orange puree is made from concentrate, orange concentrate shall be made from tree ripened, sound, whole orange (Citrus sinensis), obtained by mechanical process from which seeds and excess pulp are removed. Oranges shall be reduced, pressed, essence stripped, treated, condensed to proper concentration, and cooled.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh oranges and</p><p>ascorbic acid</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Orange_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/Orange.png",
+            "bg_image": "shopify://shop_images/bg-orange.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -154,6 +169,7 @@
         "bolsa_FJKQXP",
         "bolsa_EydKJ4",
         "bolsa_XqtTHN",
+        "bolsa_8VDBVH",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
