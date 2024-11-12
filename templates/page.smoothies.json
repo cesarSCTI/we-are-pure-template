@@ -19,7 +19,7 @@
     "text_columns_RhzYRg": {
       "type": "text-columns",
       "custom_css": [
-        "h1 {color: #FB4A5D !important; font-weight: bold !important;}"
+        "h1 {color: #fb4a5d !important; font-weight: bold !important;}"
       ],
       "settings": {
         "heading": "What Can You Create with We Are Puree?",
@@ -30,10 +30,68 @@
         "block_text_alignment": "text-align--left",
         "seo_h_tag": "h1"
       }
+    },
+    "rich_text_Gt7R3p": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BWcYKy": {
+          "type": "title",
+          "settings": {
+            "title": "Smoothies",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_BLdyjA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We Are Puree offers a wide range of fruit purees that are perfect for creating vibrant, flavorful smoothies in commercial settings. Our products are made from 100% real fruit, free from added sugars and preservatives, and are non-GMO, vegan, gluten-free, and dairy-free. This makes them ideal for crafting smoothies that cater to a health-conscious audience without compromising on taste or quality. From berries like strawberries and raspberries to exotic options like passion fruit and guava, we provide endless possibilities for unique smoothie blends.<br/><br/>One of the key advantages of our purees is their aseptic, shelf-stable packaging. This eliminates the need for freezing or refrigeration, allowing you to store and use the purees conveniently at any time of the year. Our purees maintain their natural taste and nutritional value over an extended shelf life, ensuring you can serve fresh, delicious smoothies no matter the season. This makes We Are Puree the perfect partner for juice bars, cafes, or large-scale smoothie production.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_BWcYKy",
+        "text_BLdyjA"
+      ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "image_QBTRmd": {
+      "type": "image",
+      "custom_css": [
+        ".container--large {margin: 30px 0 !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large"
+      }
     }
   },
   "order": [
     "main",
-    "text_columns_RhzYRg"
+    "text_columns_RhzYRg",
+    "rich_text_Gt7R3p",
+    "image_QBTRmd"
   ]
 }
