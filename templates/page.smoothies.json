@@ -86,12 +86,48 @@
         "open_in_new_window": false,
         "image_size": "large"
       }
+    },
+    "rich_text_Q4aTYH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dGKTAc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Furthermore, by using our fruit purees, businesses can reduce preparation time and eliminate the hassle of sourcing fresh fruit. Our purees provide consistent flavor and texture, enabling you to craft high-quality smoothies that keep customers coming back for more. Whether you’re aiming for a classic flavor or a creative new blend, We Are Puree ensures your smoothie creations are always a hit.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_dGKTAc"
+      ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
     }
   },
   "order": [
     "main",
     "text_columns_RhzYRg",
     "rich_text_Gt7R3p",
-    "image_QBTRmd"
+    "image_QBTRmd",
+    "rich_text_Q4aTYH"
   ]
 }
