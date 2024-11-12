@@ -39,8 +39,8 @@
 .newsletter input[type=email] {
   border-width: var(--border-width-buttons);
   border-color: var(--color-secondary-text-cards);
-  background-color: transparent;
-  color: var(--color-secondary-text-cards);
+  background-color: #FFFFFF;
+  color: #1D1D1D;
 }
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter input[type=email] {
