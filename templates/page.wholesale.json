@@ -170,6 +170,74 @@
         "color_hide_borders": true,
         "color_hide_shadow": true
       }
+    },
+    "featured_product_tgBRNE": {
+      "type": "featured-product",
+      "blocks": {
+        "title_kpMp49": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h3"
+          }
+        },
+        "price_nqGHdY": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_idFiHE": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
+        },
+        "space_7LXj6T": {
+          "type": "space",
+          "settings": {}
+        },
+        "buy_buttons_T4EBHp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
+          }
+        },
+        "space_gzyNQE": {
+          "type": "space",
+          "settings": {}
+        },
+        "description_7Q8nh4": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_kpMp49",
+        "price_nqGHdY",
+        "variant_picker_idFiHE",
+        "space_7LXj6T",
+        "buy_buttons_T4EBHp",
+        "space_gzyNQE",
+        "description_7Q8nh4"
+      ],
+      "settings": {
+        "product": "producto-prueba",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "dots",
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "default_to_first_variant": true
+      }
     }
   },
   "order": [
@@ -177,6 +245,7 @@
     "text_columns_images_mdpXne",
     "rich_text_8gbcD9",
     "custom_liquid_GknU8R",
-    "rich_text_exfpQY"
+    "rich_text_exfpQY",
+    "featured_product_tgBRNE"
   ]
 }
