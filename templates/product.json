@@ -122,6 +122,10 @@
             "MetaObject_color": "#ff5060"
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -148,10 +152,6 @@
         },
         "empty_space_2": {
           "type": "space",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
           "settings": {}
         },
         "empty_space_3": {
@@ -221,11 +221,11 @@
         "meta_object_info_qNfgXU",
         "meta_object_info_mnwmiN",
         "meta_object_info_E93r8B",
+        "description",
         "variant_picker",
         "empty_space_1",
         "buy_buttons",
         "empty_space_2",
-        "description",
         "empty_space_3",
         "share",
         "icons_NpHq4Q",
