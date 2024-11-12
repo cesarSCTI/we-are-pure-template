@@ -88,6 +88,21 @@
             "bg_image": "shopify://shop_images/bg-blackberry.png"
           }
         },
+        "bolsa_EydKJ4": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Strawberry Puree Bag",
+            "description": "<p>100% Natural blueberry puree with no added sugar or artificial ingredients. Our blueberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blueberries.</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Blackberry_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/flavor-Blackberry_399f7c76-a720-408f-9d6f-a852d2fb8d2a.png",
+            "bg_image": "shopify://shop_images/bg-blackberry.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -122,6 +137,7 @@
       "block_order": [
         "bolsa_XK7RDJ",
         "bolsa_FJKQXP",
+        "bolsa_EydKJ4",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
