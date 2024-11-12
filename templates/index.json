@@ -283,6 +283,21 @@
             "bg_image": "shopify://shop_images/bg-pinapple.png"
           }
         },
+        "lata_dPDnNG": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Raspberry Puree Drum",
+            "description": "<p>100% Natural raspberry puree with no added sugar or artificial ingredients. Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>raspberries</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Raspberry_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/Raspberry.png",
+            "bg_image": "shopify://shop_images/bg-raspberry.png"
+          }
+        },
         "lata_fGPUK7": {
           "type": "Lata",
           "settings": {
@@ -315,6 +330,7 @@
         "lata_ckLgUJ",
         "lata_fKBc4B",
         "lata_HJkfnh",
+        "lata_dPDnNG",
         "lata_fGPUK7"
       ],
       "custom_css": [
