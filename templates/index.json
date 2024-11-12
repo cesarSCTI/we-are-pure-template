@@ -231,6 +231,61 @@
         "seo_h_tag": "h2"
       }
     },
+    "16551304148266b5a5": {
+      "type": "rich-text",
+      "blocks": {
+        "1655130414988486bd-0": {
+          "type": "title",
+          "settings": {
+            "title": "About us",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "1655130414988486bd-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.</p>",
+            "text_size": "regular"
+          }
+        },
+        "1655130414988486bd-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "1655130414988486bd-0",
+        "1655130414988486bd-1",
+        "1655130414988486bd-2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/img-request_a_sample.png",
+        "image_position": "top",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
     "1655121489db318f96": {
       "type": "shop-the-look",
       "blocks": {
@@ -432,59 +487,6 @@
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
         "seo_h_tag": "h2"
-      }
-    },
-    "16551304148266b5a5": {
-      "type": "rich-text",
-      "blocks": {
-        "1655130414988486bd-0": {
-          "type": "title",
-          "settings": {
-            "title": "About us",
-            "title_size": "h2",
-            "seo_h_tag": "h2"
-          }
-        },
-        "1655130414988486bd-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Write a big, bold statement about your brand. Catch your visitors attention by using some additional images with your products or store.</p>",
-            "text_size": "regular"
-          }
-        },
-        "1655130414988486bd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn more",
-            "link": "",
-            "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "1655130414988486bd-0",
-        "1655130414988486bd-1",
-        "1655130414988486bd-2"
-      ],
-      "settings": {
-        "image_position": "top",
-        "height": "regular",
-        "image_crop": false,
-        "text_alignment": "horizontal-center",
-        "is_fullwidth": true,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "remove_margin": false,
-        "color_background_main": "#e1e0d7",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": false,
-        "color_hide_shadow": false
       }
     },
     "1654161920efe5f084": {
@@ -1017,10 +1019,10 @@
     "tab_caroucel_qCxFiq",
     "rich_text_mptCkd",
     "featured-collection",
+    "16551304148266b5a5",
     "1655121489db318f96",
     "165406738229739f4d",
     "16541619272fee0e4e",
-    "16551304148266b5a5",
     "1654161920efe5f084",
     "16551074833cdf378e",
     "16546982542e923b5a",
