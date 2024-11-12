@@ -266,7 +266,9 @@
         "1655130414988486bd-1",
         "1655130414988486bd-2"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".card {width: 1920px !important;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/img-request_a_sample.png",
         "image_position": "top",
