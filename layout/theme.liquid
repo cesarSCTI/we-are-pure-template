@@ -91,7 +91,43 @@
   <noscript>
     <link rel="stylesheet" href="{{ 'theme-noscript.css' | asset_url }}">
   </noscript>
-
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+    @font-face {
+      font-family: 'OpenSauceOne';
+      src: url('{{ 'OpenSauceOne-Regular.ttf' | asset_url }}') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'OpenSauceOne';
+      src: url('{{ 'OpenSauceOne-Bold.ttf' | asset_url }}') format('truetype');
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'OpenSauceOne';
+      src: url('{{ 'OpenSauceOne-Semibold.ttf' | asset_url }}') format('truetype');
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'OpenSauceOne';
+      src: url('{{ 'OpenSauceOne-Medium.ttf' | asset_url }}') format('truetype');
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'OpenSauceOne';
+      src: url('{{ 'OpenSauceOne-ExtraBold.ttf' | asset_url }}') format('truetype');
+      font-weight: 800;
+      font-style: normal;
+    }    
+  </style>
 </head>
 
 <body id="{{ page_title | handle }}" class="no-touchevents 
