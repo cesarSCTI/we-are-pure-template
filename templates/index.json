@@ -208,6 +208,21 @@
             "bg_image": "shopify://shop_images/bg-apple.png"
           }
         },
+        "lata_C4yAVk": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Blackberry Puree Drum",
+            "description": "<p>100% Natural blackberry puree with no added sugar or artificial ingredients. Our blackberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blackberries.</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Blackberry_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/Blackberry.png",
+            "bg_image": "shopify://shop_images/bg-blackberry.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -250,6 +265,7 @@
         "bolsa_xKRa7T",
         "bolsa_6mjF6A",
         "lata_M3L6i6",
+        "lata_C4yAVk",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
