@@ -1,0 +1,254 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "text_columns_RhzYRg": {
+      "type": "text-columns",
+      "custom_css": [
+        "h1 {color: #fb4a5d !important; font-weight: bold !important;}"
+      ],
+      "settings": {
+        "heading": "What Can You Create with We Are Puree?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--left",
+        "seo_h_tag": "h1"
+      }
+    },
+    "rich_text_Gt7R3p": {
+      "type": "rich-text",
+      "blocks": {
+        "title_BWcYKy": {
+          "type": "title",
+          "settings": {
+            "title": "Smoothies",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_BLdyjA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We Are Puree offers a wide range of fruit purees that are perfect for creating vibrant, flavorful smoothies in commercial settings. Our products are made from 100% real fruit, free from added sugars and preservatives, and are non-GMO, vegan, gluten-free, and dairy-free. This makes them ideal for crafting smoothies that cater to a health-conscious audience without compromising on taste or quality. From berries like strawberries and raspberries to exotic options like passion fruit and guava, we provide endless possibilities for unique smoothie blends.<br/><br/>One of the key advantages of our purees is their aseptic, shelf-stable packaging. This eliminates the need for freezing or refrigeration, allowing you to store and use the purees conveniently at any time of the year. Our purees maintain their natural taste and nutritional value over an extended shelf life, ensuring you can serve fresh, delicious smoothies no matter the season. This makes We Are Puree the perfect partner for juice bars, cafes, or large-scale smoothie production.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_BWcYKy",
+        "text_BLdyjA"
+      ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "image_QBTRmd": {
+      "type": "image",
+      "custom_css": [
+        ".container--large {margin: 30px 0 !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "large"
+      }
+    },
+    "rich_text_Q4aTYH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dGKTAc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Furthermore, by using our fruit purees, businesses can reduce preparation time and eliminate the hassle of sourcing fresh fruit. Our purees provide consistent flavor and texture, enabling you to craft high-quality smoothies that keep customers coming back for more. Whether you’re aiming for a classic flavor or a creative new blend, We Are Puree ensures your smoothie creations are always a hit.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_dGKTAc"
+      ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "shop_the_look_Ag4gBf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "price_jrLi8B": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_rUNC8k": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_7yVp3U": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jrLi8B",
+        "title_rUNC8k",
+        "quick_buy_7yVp3U"
+      ],
+      "settings": {
+        "heading": "Buy our fruit purees today",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
+        "product_list": [
+          "producto-prueba"
+        ],
+        "color_background_main": "#dedede",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true,
+        "seo_h_tag": "h1"
+      }
+    },
+    "text_columns_UUQ8xx": {
+      "type": "text-columns",
+      "settings": {
+        "heading": "Certifications",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--center",
+        "seo_h_tag": "h1"
+      }
+    },
+    "image_3eBPj7": {
+      "type": "image",
+      "custom_css": [
+        ".container--vertical-space {margin-top: 0px !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/certifications-we_are_puree_a8d86a80-4fc8-414c-8a1c-8fe432cf6725.png",
+        "mobile_image": "shopify://shop_images/certifications-we_are_puree-movil.png",
+        "link": "",
+        "open_in_new_window": false,
+        "image_size": "medium"
+      }
+    },
+    "rich_text_Lap4mp": {
+      "type": "rich-text",
+      "blocks": {
+        "title_k6WyaC": {
+          "type": "title",
+          "settings": {
+            "title": "Request Your Free Sample",
+            "title_size": "h2",
+            "seo_h_tag": "h1"
+          }
+        },
+        "text_z67iNU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_RpnMCC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request now",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "title_k6WyaC",
+        "text_z67iNU",
+        "button_RpnMCC"
+      ],
+      "custom_css": [
+        ".rich-text__container--image-top {padding: 0px 0 50px 0 !important; margin: 0px 0 !important; max-width: 1920px !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img-request_a_sample.png",
+        "image_position": "top",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": false,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_columns_RhzYRg",
+    "rich_text_Gt7R3p",
+    "image_QBTRmd",
+    "rich_text_Q4aTYH",
+    "shop_the_look_Ag4gBf",
+    "text_columns_UUQ8xx",
+    "image_3eBPj7",
+    "rich_text_Lap4mp"
+  ]
+}
