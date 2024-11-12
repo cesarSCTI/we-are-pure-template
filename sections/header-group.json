@@ -60,6 +60,9 @@
         "store",
         "info"
       ],
+      "custom_css": [
+        ".header-container .button--solid {background-color: #ACD400 !important; border-color: #ACD400 !important; color: #fff !important;}"
+      ],
       "settings": {
         "logo_src": "shopify://shop_images/logo-we_are_puree-header_42347171-4581-4c11-8be5-dd4f5766013f.png",
         "logo_height": 100,
