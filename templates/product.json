@@ -141,13 +141,41 @@
           "type": "space",
           "settings": {}
         },
+        "nutrition_LdXmDm": {
+          "type": "nutrition",
+          "settings": {
+            "heading": "Nutritional information",
+            "label_left": "Typical values",
+            "label_right": "Per 100g",
+            "content": "<p>Energy, 205 kJ / 49 kcal<br/>Fat, 0g<br/>- of which: Saturates, 0g<br/>Carbohydrate, 10g<br/>- of which: Sugars, 7g<br/></p>",
+            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
+            "hide_block_if": false
+          }
+        },
+        "pickup_availability_p794UE": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
+        "collapsible_tab_hGpKqq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Other Information",
+            "content": "<p>dfdf</p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
         "empty_space_3": {
           "type": "space",
           "settings": {}
         },
-        "share": {
-          "type": "share",
-          "settings": {}
+        "special_button_dDfra8": {
+          "type": "special_button",
+          "settings": {
+            "button_text": "Download Technical Data Sheet"
+          }
         },
         "icons_NpHq4Q": {
           "type": "icons",
@@ -165,27 +193,10 @@
             "hide_block_if": false
           }
         },
-        "nutrition_LdXmDm": {
-          "type": "nutrition",
-          "settings": {
-            "heading": "Nutritional information",
-            "label_left": "Typical values",
-            "label_right": "Per 100g",
-            "content": "<p>Energy, 205 kJ / 49 kcal<br/>Fat, 0g<br/>- of which: Saturates, 0g<br/>Carbohydrate, 10g<br/>- of which: Sugars, 7g<br/></p>",
-            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
-            "hide_block_if": false
-          }
-        },
-        "special_button_dDfra8": {
-          "type": "special_button",
-          "settings": {
-            "button_text": "Download Technical Data Sheet"
-          }
-        },
         "image_XMyhHt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/products-secure_payments.png",
+            "image": "shopify://shop_images/secure_payments-products.png",
             "image_border_radius": 0,
             "link": "",
             "open_in_new_window": false
@@ -211,11 +222,12 @@
         "description",
         "buy_buttons",
         "empty_space_2",
-        "empty_space_3",
-        "share",
-        "icons_NpHq4Q",
         "nutrition_LdXmDm",
+        "pickup_availability_p794UE",
+        "collapsible_tab_hGpKqq",
+        "empty_space_3",
         "special_button_dDfra8",
+        "icons_NpHq4Q",
         "image_XMyhHt"
       ],
       "settings": {
@@ -233,6 +245,100 @@
         "sticky_atc_style": "floating",
         "sticky_bar_bgcolor": "#ffffff",
         "sticky_bar_txtcolor": "#111111"
+      }
+    },
+    "text_columns_pH4Kym": {
+      "type": "text-columns",
+      "disabled": true,
+      "settings": {
+        "heading": "Why Aseptic Technology?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--center",
+        "seo_h_tag": "h1"
+      }
+    },
+    "image_with_hotspots_whezRT": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "text_QmJapW": {
+          "type": "text",
+          "settings": {
+            "title": "Packaging",
+            "description": "<p>4 drums over a pallet grade B [48 in x 40 in] Pallets are wrapped with plastic foil.</p>",
+            "vertical_offset_desktop": 41,
+            "horizontal_offset_desktop": 76,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "text_AiVMnV": {
+          "type": "text",
+          "settings": {
+            "title": "Primary Packaging",
+            "description": "<p>Superflex 55 galloon high barrier<br/><br/>55-gallon, high barrier, aseptic bag. [1560 mm length x 890 mm width] and 1-inch spout cap.</p>",
+            "vertical_offset_desktop": 73,
+            "horizontal_offset_desktop": 11,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "text_yFiU4T": {
+          "type": "text",
+          "settings": {
+            "title": "Secondary packaging",
+            "description": "<p>Steel drum closed with security belt.</p>",
+            "vertical_offset_desktop": 13,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "bottom",
+            "tooltip_position_mobile": "bottom"
+          }
+        },
+        "text_yXjEci": {
+          "type": "text",
+          "settings": {
+            "title": "Labeling",
+            "description": "<p>Labels according to buyer’s instructions.</p><p>Regular requirements: product name, lot number, net weight, production date, best before date, brix, origin country.</p><p>Lot code EXAMPLE</p><p>Lot followed of 15 digits [3 numbers + blank space + 11 digital numbers]</p>",
+            "vertical_offset_desktop": 59,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "left",
+            "tooltip_position_mobile": "top"
+          }
+        }
+      },
+      "block_order": [
+        "text_QmJapW",
+        "text_AiVMnV",
+        "text_yFiU4T",
+        "text_yXjEci"
+      ],
+      "settings": {
+        "heading": "Why Aseptic Technology?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "image": "shopify://shop_images/aseptic_technology-we_are_puree-drums_c3bf6c25-d583-4f3f-ba93-ca2004c495b7.png",
+        "image_mobile": "shopify://shop_images/aseptic_technology-we_are_puree-drums-movil_2b4486bd-7b5e-4784-a05c-8f923e4d9769.png",
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h1"
       }
     },
     "product-recommendations": {
@@ -271,6 +377,8 @@
   },
   "order": [
     "main",
+    "text_columns_pH4Kym",
+    "image_with_hotspots_whezRT",
     "product-recommendations"
   ]
 }
