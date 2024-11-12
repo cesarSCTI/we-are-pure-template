@@ -313,38 +313,100 @@
         "16540673826052f668-1": {
           "type": "card",
           "settings": {
-            "caption": "Show a product",
-            "title": "Superfoods",
+            "image": "shopify://shop_images/industry_uses-we_are_puree-smoothies_8ebc2a10-c555-4277-afe5-b9c678ab01ba.png",
+            "caption": "",
+            "title": "Smoothies",
             "subtitle": "",
             "link": "",
             "open_in_new_window": false,
-            "button_label": "Show more",
-            "color_background_main": "#f4e5e5",
-            "color_text_main": "rgba(0,0,0,0)",
+            "button_label": "Learn more",
+            "color_background_main": "#acd400",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#e1e1e1",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
-            "color_hide_shadow": false,
+            "color_hide_shadow": true,
             "seo_h_tag": "h3"
           }
         },
         "16540673826052f668-2": {
           "type": "card",
           "settings": {
+            "image": "shopify://shop_images/industry_uses-we_are_puree-beers_c6e623e6-cb53-4b65-b92b-fe81a19ee9f1.png",
             "caption": "",
-            "title": "Write your story",
+            "title": "Beers",
             "subtitle": "",
             "link": "",
             "open_in_new_window": false,
-            "button_label": "Show more",
-            "color_background_main": "#e5edf1",
-            "color_text_main": "rgba(0,0,0,0)",
+            "button_label": "Learn more",
+            "color_background_main": "#00ae8d",
+            "color_text_main": "#ffffff",
             "color_accent_main": "rgba(0,0,0,0)",
             "color_borders_main": "#e1e1e1",
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
-            "color_hide_shadow": false,
+            "color_hide_shadow": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_TCVPMR": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/industry_uses-we_are_puree-desserts_bedc997d-23a7-4a2f-81fc-57637272cac7.png",
+            "caption": "",
+            "title": "Desserts",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Learn more",
+            "color_background_main": "#e94760",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#e1e1e1",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_bapHWi": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/industry_uses-we_are_puree-yogurt_af044aba-7320-4a1d-834a-09656d57f1b4.png",
+            "caption": "",
+            "title": "Yogurt",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Learn more",
+            "color_background_main": "#4b9ad4",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#e1e1e1",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_xAyc6n": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/industry_uses-we_are_puree-ice_cream_681d7f1f-4d0e-414c-935b-f32398017675.png",
+            "caption": "",
+            "title": "Ice cream",
+            "subtitle": "",
+            "link": "",
+            "open_in_new_window": false,
+            "button_label": "Learn more",
+            "color_background_main": "#ff8081",
+            "color_text_main": "#ffffff",
+            "color_accent_main": "rgba(0,0,0,0)",
+            "color_borders_main": "#e1e1e1",
+            "color_shadow_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "color_hide_shadow": true,
             "seo_h_tag": "h3"
           }
         }
@@ -352,7 +414,10 @@
       "block_order": [
         "16540673826052f668-0",
         "16540673826052f668-1",
-        "16540673826052f668-2"
+        "16540673826052f668-2",
+        "card_TCVPMR",
+        "card_bapHWi",
+        "card_xAyc6n"
       ],
       "settings": {
         "heading": "Industry Uses",
