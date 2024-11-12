@@ -194,6 +194,15 @@
           "settings": {
             "button_text": "Download Technical Data Sheet"
           }
+        },
+        "image_XMyhHt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/products-secure_payments.png",
+            "image_border_radius": 0,
+            "link": "",
+            "open_in_new_window": false
+          }
         }
       },
       "block_order": [
@@ -221,7 +230,8 @@
         "share",
         "icons_NpHq4Q",
         "nutrition_LdXmDm",
-        "special_button_dDfra8"
+        "special_button_dDfra8",
+        "image_XMyhHt"
       ],
       "settings": {
         "gallery_style": "slider",
