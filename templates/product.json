@@ -31,7 +31,7 @@
         "meta_object_info_t8rPGh": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Shelf life::",
+            "text": "Shelf life:",
             "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
             "MetaObject_color": "#ff5060"
           }
@@ -308,8 +308,8 @@
         "text_yXjEci": {
           "type": "text",
           "settings": {
-            "title": "Labeling",
-            "description": "<p>Labels according to buyer’s instructions.</p><p>Regular requirements: product name, lot number, net weight, production date, best before date, brix, origin country.</p><p>Lot code EXAMPLE</p><p>Lot followed of 15 digits [3 numbers + blank space + 11 digital numbers]</p>",
+            "title": "Storage Recomendtions",
+            "description": "<p>Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.</p>",
             "vertical_offset_desktop": 59,
             "horizontal_offset_desktop": 50,
             "vertical_offset_mobile": 26,
