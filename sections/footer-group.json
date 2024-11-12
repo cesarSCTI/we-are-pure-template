@@ -69,7 +69,8 @@
         "text-2"
       ],
       "custom_css": [
-        ".lazy-image[data-ratio] img {height: 75%; width: 75%; object-fit: cover;}"
+        ".lazy-image[data-ratio] img {height: 75%; width: 75%; object-fit: cover;}",
+        "h4 {color: #fed122 !important; font-weight: bold !important;}"
       ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
