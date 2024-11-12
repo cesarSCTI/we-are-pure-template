@@ -36,7 +36,10 @@
             </div>
             <div class="slider-image">
             {% if block.settings.principal_image != blank %}
-                {{ block.settings.principal_image | image_url: height: 500 | image_tag }}
+                {% comment %}
+                {{ block.settings.principal_image | img_url: 'master' | image_tag }}
+                 {% endcomment %}
+                <img src="{{ block.settings.principal_image | img_url: 'master' }}">
             {% endif %}
             </div>
         </div>
