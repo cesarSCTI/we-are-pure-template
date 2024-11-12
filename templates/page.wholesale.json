@@ -120,11 +120,57 @@
         "color_hide_borders": true,
         "color_hide_shadow": true
       }
+    },
+    "custom_liquid_GknU8R": {
+      "type": "custom-liquid",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "custom_liquid": "",
+        "full_width": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_exfpQY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_N6acp6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at wholesale@wearepuree.com or call us at 1-407-807-4545.<br/>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_N6acp6"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "#f3f3f3",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "#f3f3f3",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
     }
   },
   "order": [
     "main",
     "text_columns_images_mdpXne",
-    "rich_text_8gbcD9"
+    "rich_text_8gbcD9",
+    "custom_liquid_GknU8R",
+    "rich_text_exfpQY"
   ]
 }
