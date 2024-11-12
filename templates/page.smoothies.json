@@ -11,10 +11,26 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "text_columns_RhzYRg": {
+      "type": "text-columns",
+      "settings": {
+        "heading": "What Can You Create with We Are Puree?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--left",
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "text_columns_RhzYRg"
   ]
 }
