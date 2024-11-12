@@ -147,6 +147,9 @@
       "block_order": [
         "text_N6acp6"
       ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
       "settings": {
         "image_position": "top no-image",
         "height": "regular",
