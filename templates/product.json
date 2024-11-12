@@ -270,8 +270,8 @@
             "description": "<p>4 drums over a pallet grade B [48 in x 40 in] Pallets are wrapped with plastic foil.</p>",
             "vertical_offset_desktop": 41,
             "horizontal_offset_desktop": 76,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
+            "vertical_offset_mobile": 86,
+            "horizontal_offset_mobile": 40,
             "mobile_hide": false,
             "tooltip_position_desktop": "top",
             "tooltip_position_mobile": "top"
@@ -284,11 +284,11 @@
             "description": "<p>Superflex 55 galloon high barrier<br/><br/>55-gallon, high barrier, aseptic bag. [1560 mm length x 890 mm width] and 1-inch spout cap.</p>",
             "vertical_offset_desktop": 73,
             "horizontal_offset_desktop": 11,
-            "vertical_offset_mobile": 50,
-            "horizontal_offset_mobile": 50,
+            "vertical_offset_mobile": 60,
+            "horizontal_offset_mobile": 42,
             "mobile_hide": false,
             "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
+            "tooltip_position_mobile": "bottom"
           }
         },
         "text_yFiU4T": {
@@ -298,7 +298,7 @@
             "description": "<p>Steel drum closed with security belt.</p>",
             "vertical_offset_desktop": 13,
             "horizontal_offset_desktop": 50,
-            "vertical_offset_mobile": 50,
+            "vertical_offset_mobile": 6,
             "horizontal_offset_mobile": 50,
             "mobile_hide": false,
             "tooltip_position_desktop": "bottom",
@@ -312,11 +312,11 @@
             "description": "<p>Labels according to buyer’s instructions.</p><p>Regular requirements: product name, lot number, net weight, production date, best before date, brix, origin country.</p><p>Lot code EXAMPLE</p><p>Lot followed of 15 digits [3 numbers + blank space + 11 digital numbers]</p>",
             "vertical_offset_desktop": 59,
             "horizontal_offset_desktop": 50,
-            "vertical_offset_mobile": 50,
+            "vertical_offset_mobile": 26,
             "horizontal_offset_mobile": 50,
             "mobile_hide": false,
             "tooltip_position_desktop": "left",
-            "tooltip_position_mobile": "top"
+            "tooltip_position_mobile": "bottom"
           }
         }
       },
