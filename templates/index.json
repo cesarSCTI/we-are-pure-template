@@ -253,6 +253,21 @@
             "bg_image": "shopify://shop_images/bg-orange.png"
           }
         },
+        "lata_fKBc4B": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Peach Puree Drum",
+            "description": "<p>Our 100% natural peach puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Peach puree is made from a blend of delicious, ripening to a deep, golden yellow fruits.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe peaches</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Peach_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/Peach.png",
+            "bg_image": "shopify://shop_images/bg-peach.png"
+          }
+        },
         "lata_fGPUK7": {
           "type": "Lata",
           "settings": {
@@ -283,6 +298,7 @@
         "lata_C4yAVk",
         "lata_xqqfFf",
         "lata_ckLgUJ",
+        "lata_fKBc4B",
         "lata_fGPUK7"
       ],
       "custom_css": [
