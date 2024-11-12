@@ -68,11 +68,7 @@
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
-.newsletter .button:hover {
-    background-color: #E94760;
-    border-color: #E94760;
-    color: var(--color-foreground-accent-cards);
-}
+
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter .button {
     border-top-right-radius: 0;
