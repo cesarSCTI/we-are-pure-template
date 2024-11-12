@@ -214,13 +214,28 @@
             "title": "440 lb Blackberry Puree Drum",
             "description": "<p>100% Natural blackberry puree with no added sugar or artificial ingredients. Our blackberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blackberries.</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blackberries</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
             "principal_image": "shopify://shop_images/440_lb_Blackberry_Puree_Drum-WAP.png",
             "second_image": "shopify://shop_images/Blackberry.png",
             "bg_image": "shopify://shop_images/bg-blackberry.png"
+          }
+        },
+        "lata_xqqfFf": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Mango Puree Drum",
+            "description": "<p>Our 100% natural mango puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Mango puree is made from a blend of mangoes from tropical Mexican regions.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe mangos</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Mango_Puree_Drum-WAP_2784fd94-ee1f-43db-916a-ff1f6f11cefc.png",
+            "second_image": "shopify://shop_images/Mango.png",
+            "bg_image": "shopify://shop_images/bg-mango.png"
           }
         },
         "lata_ckLgUJ": {
@@ -266,6 +281,7 @@
         "bolsa_6mjF6A",
         "lata_M3L6i6",
         "lata_C4yAVk",
+        "lata_xqqfFf",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
