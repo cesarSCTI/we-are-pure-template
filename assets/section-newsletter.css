@@ -60,7 +60,7 @@
   opacity: 1;
 }
 .newsletter .button {
-  border-color: var(--color-secondary-text-cards);
+  border-color: #FED122;
   color: #1D1D1D;
   padding: var(--input-padding) 2.1875rem;
   line-height: var(--base-body-line);
@@ -68,8 +68,8 @@
 }
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter .button {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-right-radius: 20;
+    border-bottom-right-radius: 20;
   }
   html[dir=ltr] .newsletter .button {
     border-top-left-radius: 0;
