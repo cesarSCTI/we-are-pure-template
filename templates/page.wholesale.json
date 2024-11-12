@@ -219,7 +219,7 @@
         "icons_Mdjj8a": {
           "type": "icons",
           "settings": {
-            "title": "Icons list",
+            "title": "",
             "icon_1_image": "shopify://shop_images/icono-shipments.png",
             "icon_1_label": "Shipments to all United States",
             "icon_2_image": "shopify://shop_images/icono-payments_security.png",
