@@ -26,17 +26,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "text-1": {
-          "type": "text",
+        "image_JxVayM": {
+          "type": "image",
           "settings": {
-            "title": "LOCAL",
-            "size": "h4",
-            "content": "<p>Write your store's tagline.</p>",
-            "show_social_icons": true,
-            "enable_follow_on_shop": true
+            "title": "",
+            "image": "shopify://shop_images/logo-we_are_pure-footer.png",
+            "link": "",
+            "open_in_new_window": false
           }
         },
         "menu-1": {
+          "type": "menu",
+          "settings": {
+            "title": "Quick links",
+            "menu": "footer",
+            "open_in_new_window": false
+          }
+        },
+        "menu-2": {
           "type": "menu",
           "settings": {
             "title": "Quick links",
@@ -53,21 +60,13 @@
             "show_social_icons": false,
             "enable_follow_on_shop": true
           }
-        },
-        "menu-2": {
-          "type": "menu",
-          "settings": {
-            "title": "Quick links",
-            "menu": "footer",
-            "open_in_new_window": false
-          }
         }
       },
       "block_order": [
-        "text-1",
+        "image_JxVayM",
         "menu-1",
-        "text-2",
-        "menu-2"
+        "menu-2",
+        "text-2"
       ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
