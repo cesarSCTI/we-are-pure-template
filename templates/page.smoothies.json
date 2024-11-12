@@ -121,6 +121,42 @@
         "color_hide_borders": true,
         "color_hide_shadow": true
       }
+    },
+    "shop_the_look_Ag4gBf": {
+      "type": "shop-the-look",
+      "blocks": {
+        "price_jrLi8B": {
+          "type": "price",
+          "settings": {}
+        },
+        "title_rUNC8k": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy_7yVp3U": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price_jrLi8B",
+        "title_rUNC8k",
+        "quick_buy_7yVp3U"
+      ],
+      "settings": {
+        "heading": "Buy our fruit purees today",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
+        "product_list": [
+          "producto-prueba"
+        ],
+        "color_background_main": "#dedede",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true,
+        "seo_h_tag": "h1"
+      }
     }
   },
   "order": [
@@ -128,6 +164,7 @@
     "text_columns_RhzYRg",
     "rich_text_Gt7R3p",
     "image_QBTRmd",
-    "rich_text_Q4aTYH"
+    "rich_text_Q4aTYH",
+    "shop_the_look_Ag4gBf"
   ]
 }
