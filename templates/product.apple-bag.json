@@ -31,7 +31,7 @@
         "meta_object_info_t8rPGh": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Shelf life::",
+            "text": "Shelf life:",
             "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
             "MetaObject_color": "#ff5060"
           }
