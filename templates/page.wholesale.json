@@ -148,7 +148,10 @@
         "text_N6acp6"
       ],
       "custom_css": [
-        ".gutter--xlarge {padding: 0px !important;}"
+        ".gutter--xlarge {padding: 0px !important;}",
+        ".rich-text__container {padding: 0px !important;}",
+        ".card__text {padding: 30px 0 10px 0 !important;}",
+        "p {font-size: 13px !important;}"
       ],
       "settings": {
         "image_position": "top no-image",
