@@ -65,8 +65,8 @@
   padding: var(--input-padding) 2.1875rem;
   line-height: var(--base-body-line);
   background: #FED122;
-  border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+  border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 @media screen and (min-width: 475px) {
   html[dir=rtl] .newsletter .button {
