@@ -441,7 +441,7 @@
     "1655112847aaa4cc50": {
       "type": "newsletter",
       "custom_css": [
-        ".container--has-background {padding-top: 0px !important; padding-bottom: 0px !important;}",
+        ".container--has-background {padding: 0px !important; max-width: 1920px !important;}",
         ".card {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-newsletter.png?v=1731124965\"); background-size: contain; background-repeat: no-repeat;}"
       ],
       "settings": {
