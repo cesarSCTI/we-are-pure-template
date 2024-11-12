@@ -133,6 +133,21 @@
             "bg_image": "shopify://shop_images/bg-orange.png"
           }
         },
+        "bolsa_jqBPKg": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Peach Puree Bag",
+            "description": "<p>Our 100% natural peach puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Peach puree is prepared using fresh, sound, properly ripened Mexican peaches.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe peaches</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Peach_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/Peach.png",
+            "bg_image": "shopify://shop_images/bg-peach.png"
+          }
+        },
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
@@ -170,6 +185,7 @@
         "bolsa_EydKJ4",
         "bolsa_XqtTHN",
         "bolsa_8VDBVH",
+        "bolsa_jqBPKg",
         "lata_ckLgUJ",
         "lata_fGPUK7"
       ],
