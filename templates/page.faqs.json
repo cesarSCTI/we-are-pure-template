@@ -11,10 +11,147 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "content_toggles_KcKbLG": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_RkgRAW": {
+          "type": "text",
+          "settings": {
+            "title": "What is aseptic fruit puree?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Aseptic fruit puree is a type of fruit puree that has been thermally treated to eliminate bacteria and microorganisms, ensuring a long shelf life without the need for artificial preservatives.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_n3NQwF": {
+          "type": "text",
+          "settings": {
+            "title": "What are the ingredients in your fruit puree?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Our purees are made solely from fresh, natural fruits. We do not add sugars, colorings, or artificial preservatives, ensuring a healthy and delicious product.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_Kkcniw": {
+          "type": "text",
+          "settings": {
+            "title": "How should I store aseptic fruit puree?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Before opening, store it in a cool, dry place. Once opened, it’s recommended to refrigerate and consume within 7 to 10 days.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_64jp7q": {
+          "type": "text",
+          "settings": {
+            "title": "How long does aseptic fruit puree last?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Aseptic fruit puree has a shelf life of 12 to 24 months if stored properly and unopened. Please check the label for the specific expiration date.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_rDdaPq": {
+          "type": "text",
+          "settings": {
+            "title": "Is the aseptic fruit puree suitable for vegans and people withallergies?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes, our purees are completely vegan and do not contain common allergens such as gluten, dairy, or nuts. However, we always recommend checking the label to be sure.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_7eD3aX": {
+          "type": "text",
+          "settings": {
+            "title": "Can I use aseptic fruit puree in recipes?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Absolutely! Our puree is perfect for use in desserts, smoothies, sauces, yogurts, ice creams, and many other recipes. It’s an excellent way to add flavor and nutrients.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_qYna8R": {
+          "type": "text",
+          "settings": {
+            "title": "Can I buy in bulk?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes, we offer bulk purchasing options for businesses and wholesale customers. Please contact us for pricing and availability.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_8ykwnt": {
+          "type": "text",
+          "settings": {
+            "title": "What should I do if I have a problem with my order?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>If you have any issues with your order, please reach out to us via our contact form or the phone number provided on our website. We’re here to help.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_CF8JhH": {
+          "type": "text",
+          "settings": {
+            "title": "Are there recipes you recommend for using the fruit puree?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>Yes, in our recipes section, you’ll find creative ideas for using our purees in various dishes and desserts.</p>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_RkgRAW",
+        "text_n3NQwF",
+        "text_Kkcniw",
+        "text_64jp7q",
+        "text_rDdaPq",
+        "text_7eD3aX",
+        "text_qYna8R",
+        "text_8ykwnt",
+        "text_CF8JhH"
+      ],
+      "settings": {
+        "heading": "Frequently Asked Question",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "open_first": false,
+        "form_enable": true,
+        "form_title": "Don’t find the answer? Ask us!",
+        "seo_h_tag": "h1"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "content_toggles_KcKbLG"
   ]
 }
