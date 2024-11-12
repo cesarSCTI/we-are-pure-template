@@ -62,13 +62,13 @@
           "type": "Bolsa",
           "settings": {
             "title": "44 lb Apple Puree Bag",
-            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples.<br/>Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, obtained from the disintegration and sieving of the edible fraction of the ripe, healthy and clean apples.</p>",
-            "info_1": "<p>medkemkdekd</p><p>jedjejde</p>",
-            "info_2": "<p>ejdnejndjendjenjdnejndjen</p><p>jendjenjdne</p>",
-            "info_3": "<p>jnedjenjdnej</p><p>jendnjenjde</p>",
+            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, obtained from the disintegration and sieving of the edible fraction of the ripe, healthy and clean apples.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe apples</p>",
+            "info_3": "<p><strong>Country</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
-            "principal_image": "shopify://shop_images/44_lb_Apple_Puree_Bag-WAP.png",
+            "principal_image": "shopify://shop_images/44_lb_Apple_Puree_Bag-WAP_8bf1f146-c4ef-4fbc-9897-ce65c74a5c03.png",
             "second_image": "shopify://shop_images/AppleGolden2.png",
             "bg_image": "shopify://shop_images/bg-apple_aa684db4-6499-4222-808d-61cc367abf1c.png"
           }
@@ -124,6 +124,9 @@
         "bolsa_FJKQXP",
         "lata_ckLgUJ",
         "lata_fGPUK7"
+      ],
+      "custom_css": [
+        "p {font-size: 16px !important;}"
       ],
       "settings": {
         "title": "Our Fruit Purées Presentations",
