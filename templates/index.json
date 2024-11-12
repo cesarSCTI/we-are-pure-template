@@ -173,7 +173,7 @@
         "custom_liquid_kzQnML"
       ],
       "custom_css": [
-        ".container--fullwidth .rich-text__container--image-right .rich-text__text {padding: 80px !important; background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-who_is-we_are_puree.png?v=1731124955\"); background-size: contain; background-repeat: no-repeat;}"
+        ".container--fullwidth .rich-text__container--image-right .rich-text__text {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-who_is-we_are_puree.png?v=1731124955\"); background-size: contain; background-repeat: no-repeat;}"
       ],
       "settings": {
         "image": "shopify://shop_images/img-we_are_puree_office.png",
