@@ -32,7 +32,8 @@
         "1653646142fd3f3126-0"
       ],
       "custom_css": [
-        ".gutter-bottom--xlarge {padding-bottom: 30px !important;}"
+        ".gutter-bottom--xlarge {padding-bottom: 30px !important;}",
+        ".card .button--solid {background-color: #E94760 !important; border-color: #E94760 !important; color: var(--color-foreground-cards);}"
       ],
       "settings": {
         "desktop_height": "80vh",
