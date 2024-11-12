@@ -37,7 +37,7 @@
         "title_BWcYKy": {
           "type": "title",
           "settings": {
-            "title": "Smoothies",
+            "title": "Desserts",
             "title_size": "h2",
             "seo_h_tag": "h2"
           }
@@ -45,7 +45,7 @@
         "text_BLdyjA": {
           "type": "text",
           "settings": {
-            "text": "<p>We Are Puree offers a wide range of fruit purees that are perfect for creating vibrant, flavorful smoothies in commercial settings. Our products are made from 100% real fruit, free from added sugars and preservatives, and are non-GMO, vegan, gluten-free, and dairy-free. This makes them ideal for crafting smoothies that cater to a health-conscious audience without compromising on taste or quality. From berries like strawberries and raspberries to exotic options like passion fruit and guava, we provide endless possibilities for unique smoothie blends.<br/><br/>One of the key advantages of our purees is their aseptic, shelf-stable packaging. This eliminates the need for freezing or refrigeration, allowing you to store and use the purees conveniently at any time of the year. Our purees maintain their natural taste and nutritional value over an extended shelf life, ensuring you can serve fresh, delicious smoothies no matter the season. This makes We Are Puree the perfect partner for juice bars, cafes, or large-scale smoothie production.</p>",
+            "text": "<p>For dessert manufacturers, We Are Puree’s aseptic fruit purees are the key to creating indulgent yet natural sweet treats. Our purees are made from 100% real fruit and are non-GMO, gluten-free, and free from artificial preservatives, making them ideal for producing high-quality desserts that align with consumer preferences for clean-label ingredients. Whether you’re making cheesecakes, tarts, sorbets, or parfaits, our purees offer rich, authentic flavors that enhance any recipe.<br/><br/>Our aseptic packaging ensures a long shelf life, eliminating the need for freezing and making storage more efficient. This allows for seamless production schedules and ensures that you can use fresh-tasting fruit in your desserts year-round, regardless of fruit seasonality. From classic berry options to exotic tropical fruits, We Are Puree provides a diverse range of flavors to inspire creativity in your dessert offerings.</p>",
             "text_size": "regular"
           }
         }
@@ -81,7 +81,7 @@
         ".container--large {margin: 30px 0 !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-desserts.png",
         "link": "",
         "open_in_new_window": false,
         "image_size": "large"
@@ -93,7 +93,7 @@
         "text_dGKTAc": {
           "type": "text",
           "settings": {
-            "text": "<p>Furthermore, by using our fruit purees, businesses can reduce preparation time and eliminate the hassle of sourcing fresh fruit. Our purees provide consistent flavor and texture, enabling you to craft high-quality smoothies that keep customers coming back for more. Whether you’re aiming for a classic flavor or a creative new blend, We Are Puree ensures your smoothie creations are always a hit.</p>",
+            "text": "<p>In addition to flavor, our purees help streamline production by reducing the time and labor needed to process fresh fruit. The consistent quality of our products ensures that each dessert batch delivers the same delicious results, helping you maintain customer satisfaction and brand loyalty. Whether you’re crafting traditional desserts or introducing innovative new concepts, We Are Puree’s fruit purees are your go-to ingredient for success.</p>",
             "text_size": "regular"
           }
         }
@@ -147,11 +147,11 @@
         "heading": "Buy our fruit purees today",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-desserts_2.png",
         "product_list": [
           "producto-prueba"
         ],
-        "color_background_main": "#dedede",
+        "color_background_main": "#f5bc9e",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true,
         "color_hide_shadow": true,
