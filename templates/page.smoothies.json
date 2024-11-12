@@ -157,6 +157,18 @@
         "color_hide_shadow": true,
         "seo_h_tag": "h1"
       }
+    },
+    "text_columns_UUQ8xx": {
+      "type": "text-columns",
+      "settings": {
+        "heading": "Certifications",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--center",
+        "seo_h_tag": "h1"
+      }
     }
   },
   "order": [
@@ -165,6 +177,7 @@
     "rich_text_Gt7R3p",
     "image_QBTRmd",
     "rich_text_Q4aTYH",
-    "shop_the_look_Ag4gBf"
+    "shop_the_look_Ag4gBf",
+    "text_columns_UUQ8xx"
   ]
 }
