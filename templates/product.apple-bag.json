@@ -294,9 +294,9 @@
         "text_yFiU4T": {
           "type": "text",
           "settings": {
-            "title": "Secondary packaging",
-            "description": "<p>Corrugated box</p>",
-            "vertical_offset_desktop": 13,
+            "title": "Storage Recomendtions",
+            "description": "<p>Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.</p>",
+            "vertical_offset_desktop": 20,
             "horizontal_offset_desktop": 50,
             "vertical_offset_mobile": 6,
             "horizontal_offset_mobile": 50,
@@ -308,7 +308,7 @@
         "text_yXjEci": {
           "type": "text",
           "settings": {
-            "title": "Labeling",
+            "title": "",
             "description": "<p>Ready to use.</p><p>Does not require cook.</p><p>For consuming in direct way and indirect in culinary preparations</p>",
             "vertical_offset_desktop": 59,
             "horizontal_offset_desktop": 50,
