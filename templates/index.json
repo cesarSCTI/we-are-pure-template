@@ -268,6 +268,21 @@
             "bg_image": "shopify://shop_images/bg-peach.png"
           }
         },
+        "lata_HJkfnh": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Pineapple Puree Drum",
+            "description": "<p>Natural pineapple puree with no added sugar or artificial ingredients. Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe pineapples</p><p>and ascorbic acid</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Pineapple_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/Pineapple.png",
+            "bg_image": "shopify://shop_images/bg-pinapple.png"
+          }
+        },
         "lata_fGPUK7": {
           "type": "Lata",
           "settings": {
@@ -299,6 +314,7 @@
         "lata_xqqfFf",
         "lata_ckLgUJ",
         "lata_fKBc4B",
+        "lata_HJkfnh",
         "lata_fGPUK7"
       ],
       "custom_css": [
