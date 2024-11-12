@@ -12,11 +12,16 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "center": true
       }
     },
     "contact-form": {
       "type": "contact-form",
       "settings": {
+        "heading": "Drop us a line",
+        "show_phone": true,
+        "show_subject": true,
+        "seo_h_tag": "h3"
       }
     }
   },
