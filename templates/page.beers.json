@@ -37,7 +37,7 @@
         "title_BWcYKy": {
           "type": "title",
           "settings": {
-            "title": "Smoothies",
+            "title": "Beers",
             "title_size": "h2",
             "seo_h_tag": "h2"
           }
@@ -45,7 +45,7 @@
         "text_BLdyjA": {
           "type": "text",
           "settings": {
-            "text": "<p>We Are Puree offers a wide range of fruit purees that are perfect for creating vibrant, flavorful smoothies in commercial settings. Our products are made from 100% real fruit, free from added sugars and preservatives, and are non-GMO, vegan, gluten-free, and dairy-free. This makes them ideal for crafting smoothies that cater to a health-conscious audience without compromising on taste or quality. From berries like strawberries and raspberries to exotic options like passion fruit and guava, we provide endless possibilities for unique smoothie blends.<br/><br/>One of the key advantages of our purees is their aseptic, shelf-stable packaging. This eliminates the need for freezing or refrigeration, allowing you to store and use the purees conveniently at any time of the year. Our purees maintain their natural taste and nutritional value over an extended shelf life, ensuring you can serve fresh, delicious smoothies no matter the season. This makes We Are Puree the perfect partner for juice bars, cafes, or large-scale smoothie production.</p>",
+            "text": "<p>Brewing exceptional fruit-forward beers has never been easier than with We Are Puree’s aseptic fruit purees. Our purees are crafted from 100% real fruit, allowing craft brewers to introduce natural, bold flavors into their creations, from sours and IPAs to ciders and hard seltzers. Our purees offer the consistency and freshness brewers need to maintain high-quality production across batches, all while avoiding the hassle of dealing with frozen or fresh fruit. With options like tropical pineapple, juicy mango, and tart passion fruit, the possibilities for innovation are endless.<br/><br/>Our aseptic packaging process ensures the fruit purees are free from contaminants and have an extended shelf life without the need for preservatives or refrigeration. This allows brewers to store their ingredients for longer periods and produce fruit-infused beers on demand, regardless of seasonality. The purees retain their vibrant color, flavor, and aroma, making them ideal for creating beers that stand out in a crowded market.</p>",
             "text_size": "regular"
           }
         }
@@ -81,7 +81,7 @@
         ".container--large {margin: 30px 0 !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-beers.png",
         "link": "",
         "open_in_new_window": false,
         "image_size": "large"
@@ -93,7 +93,7 @@
         "text_dGKTAc": {
           "type": "text",
           "settings": {
-            "text": "<p>Furthermore, by using our fruit purees, businesses can reduce preparation time and eliminate the hassle of sourcing fresh fruit. Our purees provide consistent flavor and texture, enabling you to craft high-quality smoothies that keep customers coming back for more. Whether you’re aiming for a classic flavor or a creative new blend, We Are Puree ensures your smoothie creations are always a hit.</p>",
+            "text": "<p>Beyond flavor, We Are Puree’s fruit purees provide brewers with the flexibility to experiment with new recipes or scale up production for seasonal releases. Whether you’re looking to create a refreshing summer ale or a tart, fruit-heavy sour, our purees deliver reliable, top-tier results every time. By choosing We Are Puree, breweries can elevate their craft and offer customers unique, memorable beer experiences.</p>",
             "text_size": "regular"
           }
         }
@@ -147,11 +147,11 @@
         "heading": "Buy our fruit purees today",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
+        "image": "shopify://shop_images/img-industry-we_are_pure-beers_2.png",
         "product_list": [
           "producto-prueba"
         ],
-        "color_background_main": "#dedede",
+        "color_background_main": "#b79c90",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_hide_borders": true,
         "color_hide_shadow": true,
