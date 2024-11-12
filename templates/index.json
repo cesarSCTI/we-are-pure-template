@@ -442,7 +442,8 @@
       "type": "newsletter",
       "custom_css": [
         ".container--has-background {padding: 0px !important; max-width: 1920px !important;}",
-        ".card {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-newsletter.png?v=1731124965\"); background-size: contain; background-repeat: no-repeat;}"
+        ".card {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-newsletter.png?v=1731124965\"); background-size: contain; background-repeat: no-repeat;}",
+        ".no-touchevents .card .button:not(.button--outline-hover):hover {background-color: #E94760 !important; border-color: #E94760 !important;}"
       ],
       "settings": {
         "show_icon": true,
