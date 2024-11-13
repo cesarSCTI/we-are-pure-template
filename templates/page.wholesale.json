@@ -290,26 +290,26 @@
         "title_NM3LWk": {
           "type": "title",
           "settings": {
-            "title": "Talk about your brand",
+            "title": "Request Your Free Sample",
             "title_size": "h2",
-            "seo_h_tag": "h2"
+            "seo_h_tag": "h1"
           }
         },
         "text_9waTAh": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
+            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
             "text_size": "regular"
           }
         },
         "button_WWmegQ": {
           "type": "button",
           "settings": {
-            "button_label": "Show more",
-            "link": "",
+            "button_label": "Request now",
+            "link": "shopify://products/request-your-free-sample",
             "open_in_new_window": false,
-            "button_size": "large",
-            "button_style": "outline"
+            "button_size": "regular",
+            "button_style": "solid"
           }
         }
       },
@@ -317,6 +317,9 @@
         "title_NM3LWk",
         "text_9waTAh",
         "button_WWmegQ"
+      ],
+      "custom_css": [
+        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/bg-request_your_free_sample.png",
