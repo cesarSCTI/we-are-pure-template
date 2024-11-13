@@ -141,11 +141,11 @@
       ],
       "settings": {
         "heading": "Frequently Asked Question",
-        "subheading": "",
+        "subheading": "Our FAQ section is designed to provide you with quick and comprehensive answers to the most common questions about our products and services. Here, you can find detailed information about our fruit purees, their usage, storage, and more.",
         "section_heading_layout": "section-heading--center",
         "open_first": false,
         "form_enable": true,
-        "form_title": "Don’t find the answer? Ask us!",
+        "form_title": "If you have any further questions, please send them to orders@wearepuree.com or contact us through our form below.",
         "seo_h_tag": "h1"
       }
     }
