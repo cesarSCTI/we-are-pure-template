@@ -141,6 +141,12 @@
           "type": "space",
           "settings": {}
         },
+        "pickup_availability_p794UE": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
         "nutrition_LdXmDm": {
           "type": "nutrition",
           "settings": {
@@ -152,17 +158,11 @@
             "hide_block_if": false
           }
         },
-        "pickup_availability_p794UE": {
-          "type": "pickup_availability",
-          "settings": {
-            "style": "extended"
-          }
-        },
         "collapsible_tab_hGpKqq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Other Information",
-            "content": "<p>dfdf</p>",
+            "heading": "Uses",
+            "content": "<ul><li>Baby food</li><li>Smoothies</li><li>Yogurt</li><li>Ice cream</li><li>Desserts</li><li>Salad dressings</li><li>Meat sauces</li><li>Spirits and cocktails</li><li>Beers</li></ul>",
             "page": "",
             "hide_block_if": false
           }
@@ -222,8 +222,8 @@
         "description",
         "buy_buttons",
         "empty_space_2",
-        "nutrition_LdXmDm",
         "pickup_availability_p794UE",
+        "nutrition_LdXmDm",
         "collapsible_tab_hGpKqq",
         "empty_space_3",
         "special_button_dDfra8",
