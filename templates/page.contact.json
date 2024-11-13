@@ -29,6 +29,9 @@
       "block_order": [
         "text_k8JLCE"
       ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}"
+      ],
       "settings": {
         "image_position": "top no-image",
         "height": "small",
