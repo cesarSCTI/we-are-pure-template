@@ -239,7 +239,7 @@
         "gallery_card_design": false,
         "gallery_padding": 0,
         "gallery_pagination": "thumbnails",
-        "enable_zoom": true,
+        "enable_zoom": false,
         "enable_video_looping": false,
         "default_to_first_variant": true,
         "sticky_add_to_cart": false,
