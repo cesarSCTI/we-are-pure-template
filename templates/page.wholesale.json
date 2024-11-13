@@ -121,15 +121,39 @@
         "color_hide_shadow": true
       }
     },
-    "custom_liquid_GknU8R": {
-      "type": "custom-liquid",
+    "17315300212de421dd": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_DFgiiR": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "243840",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_DFgiiR"
+      ],
+      "custom_css": [
+        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important;}"
+      ],
       "settings": {
-        "heading": "",
+        "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
         "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "custom_liquid": "",
-        "full_width": false,
-        "remove_margin": false,
+        "section_heading_layout": "section-heading--center",
+        "full_width": true,
+        "remove_margin": true,
         "seo_h_tag": "h2"
       }
     },
@@ -350,7 +374,7 @@
     "main",
     "text_columns_images_mdpXne",
     "rich_text_8gbcD9",
-    "custom_liquid_GknU8R",
+    "17315300212de421dd",
     "rich_text_exfpQY",
     "featured_product_tgBRNE",
     "rich_text_6F6tcF"
