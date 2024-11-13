@@ -149,7 +149,12 @@
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-ice_cream_2.png",
         "product_list": [
-          "producto-prueba"
+          "44-lb-mango-puree-bag",
+          "440-lb-mango-puree-drum",
+          "44-lb-peach-puree-bag",
+          "440-lb-peach-puree-drum",
+          "44-lb-strawberry-puree-bag",
+          "440-lb-strawberry-puree-drum"
         ],
         "color_background_main": "#f1f5f8",
         "color_borders_main": "rgba(0,0,0,0)",
