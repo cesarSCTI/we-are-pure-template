@@ -229,7 +229,7 @@
         "variant_picker_idFiHE": {
           "type": "variant_picker",
           "settings": {
-            "variants_style": "radio",
+            "variants_style": "select",
             "show_quantities": "no"
           }
         },
