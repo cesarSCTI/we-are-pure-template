@@ -373,7 +373,7 @@
         "custom_liquid_kzQnML": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img class=\"logros\" src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" height=\"35\" height=\"\">\n<style>\n@media only screen and (max-width:768px){\n#element-template--15156974092368__rich_text_mptCkd#shopify-section-template--15156974092368__rich_text_mptCkd .container--fullwidth .rich-text__container--image-right .rich-text__text{\nbackground-size:106%;\n}\n}\n</style>"
+            "custom_liquid": "<img class=\"logros\" src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" height=\"35\" height=\"\">"
           }
         }
       },
