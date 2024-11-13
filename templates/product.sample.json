@@ -89,6 +89,15 @@
             "color_accent_buttons": "rgba(0,0,0,0)",
             "style_buttons": "solid"
           }
+        },
+        "text_QgLyGJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🚨Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
+            "text_size": "text-size--xsmall",
+            "text_color": "#231f20",
+            "text_transform": false
+          }
         }
       },
       "block_order": [
@@ -100,10 +109,11 @@
         "icons_GWC6qA",
         "empty_space_2",
         "text_XnqhNU",
-        "buy_buttons"
+        "buy_buttons",
+        "text_QgLyGJ"
       ],
       "custom_css": [
-        ".text-weight--bold {color: #E94760 !important;}"
+        ".text-weight--bold {color: #e94760 !important;}"
       ],
       "settings": {
         "gallery_style": "slider",
