@@ -141,6 +141,12 @@
           "type": "space",
           "settings": {}
         },
+        "pickup_availability_p794UE": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
         "nutrition_LdXmDm": {
           "type": "nutrition",
           "settings": {
@@ -150,12 +156,6 @@
             "content": "<p>Energy, 205 kJ / 49 kcal<br/>Fat, 0g<br/>- of which: Saturates, 0g<br/>Carbohydrate, 10g<br/>- of which: Sugars, 7g<br/></p>",
             "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
             "hide_block_if": false
-          }
-        },
-        "pickup_availability_p794UE": {
-          "type": "pickup_availability",
-          "settings": {
-            "style": "extended"
           }
         },
         "collapsible_tab_hGpKqq": {
@@ -222,8 +222,8 @@
         "description",
         "buy_buttons",
         "empty_space_2",
-        "nutrition_LdXmDm",
         "pickup_availability_p794UE",
+        "nutrition_LdXmDm",
         "collapsible_tab_hGpKqq",
         "empty_space_3",
         "special_button_dDfra8",
@@ -238,7 +238,7 @@
         "gallery_card_design": false,
         "gallery_padding": 0,
         "gallery_pagination": "thumbnails",
-        "enable_zoom": true,
+        "enable_zoom": false,
         "enable_video_looping": false,
         "default_to_first_variant": true,
         "sticky_add_to_cart": false,
