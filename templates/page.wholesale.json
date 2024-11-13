@@ -324,7 +324,7 @@
       "settings": {
         "image": "shopify://shop_images/bg-request_your_free_sample.png",
         "image_position": "top",
-        "height": "regular",
+        "height": "small",
         "image_crop": true,
         "text_alignment": "horizontal-center",
         "is_fullwidth": true,
