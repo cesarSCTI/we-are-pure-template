@@ -275,6 +275,18 @@
           "map_zoom": 10,
           "map_style": "silver"
         }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo_height": 80
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "show_social": false
+        }
       }
     },
     "content_for_index": [],
@@ -297,7 +309,8 @@
       ".product-item__price span {color: #00ae8d !important; font-weight: bold !important;}",
       ".card .button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}",
       ".main-footer {margin-top: 0px !important;}",
-      ".button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}"
+      ".button--solid {background-color: #e94760 !important; border-color: #e94760 !important;}",
+      ".sidebar .cart__total .text-size--heading {font-size: 30px !important;}"
     ]
   }
 }
