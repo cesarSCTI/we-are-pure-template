@@ -269,10 +269,10 @@
         "show_border": false,
         "gallery_card_design": false,
         "gallery_padding": 0,
-        "gallery_pagination": "dots",
+        "gallery_pagination": "thumbnails",
         "enable_zoom": false,
         "enable_video_looping": false,
-        "default_to_first_variant": true
+        "default_to_first_variant": false
       }
     }
   },
