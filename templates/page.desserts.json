@@ -149,7 +149,12 @@
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-desserts_2.png",
         "product_list": [
-          "producto-prueba"
+          "44-lb-blackberry-puree-bag",
+          "440-lb-blackberry-puree-drum",
+          "44-lb-blueberry-puree-bag",
+          "440-lb-blueberry-puree-drum",
+          "44-lb-raspberry-puree-bag",
+          "440-lb-raspberry-puree-drum"
         ],
         "color_background_main": "#f5bc9e",
         "color_borders_main": "rgba(0,0,0,0)",
