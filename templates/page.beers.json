@@ -149,7 +149,12 @@
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-beers_2.png",
         "product_list": [
-          "producto-prueba"
+          "44-lb-guava-puree-bag",
+          "440-lb-guava-puree-drum",
+          "44-lb-apple-puree-bag",
+          "producto-prueba",
+          "44-lb-blackberry-puree-bag",
+          "440-lb-blackberry-puree-drum"
         ],
         "color_background_main": "#b79c90",
         "color_borders_main": "rgba(0,0,0,0)",
