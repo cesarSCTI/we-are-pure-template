@@ -34,7 +34,7 @@
       ],
       "settings": {
         "image_position": "top no-image",
-        "height": "small",
+        "height": "regular",
         "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": true,
