@@ -61,10 +61,10 @@
         "bolsa_XK7RDJ": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Apple Puree Bag",
-            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, obtained from the disintegration and sieving of the edible fraction of the ripe, healthy and clean apples.</p>",
+            "title": "44 lb Apple<br> Puree Bag",
+            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, healthy and clean apples.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe apples</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>apples</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
@@ -76,7 +76,7 @@
         "bolsa_FJKQXP": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Blackberry Puree Bag",
+            "title": "44 lb Blackberry<br> Puree Bag",
             "description": "<p>100% Natural blackberry puree with no added sugar or artificial ingredients. Our blackberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blackberries</p>",
@@ -91,7 +91,7 @@
         "bolsa_EydKJ4": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Blueberry Puree Bag",
+            "title": "44 lb Blueberry<br> Puree Bag",
             "description": "<p>100% Natural blueberry puree with no added sugar or artificial ingredients. Our blueberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blueberries</p>",
@@ -106,10 +106,10 @@
         "bolsa_XqtTHN": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Mango Puree Bag",
+            "title": "44 lb Mango<br> Puree Bag",
             "description": "<p>Our 100% natural mango puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Mango puree is made from a blend of mangoes from tropical Mexican regions.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe mangos</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>mangos</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
@@ -121,8 +121,8 @@
         "bolsa_8VDBVH": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Orange Puree Bag",
-            "description": "<p>Aseptic orange puree is made from concentrate, orange concentrate shall be made from tree ripened, sound, whole orange (Citrus sinensis), obtained by mechanical process from which seeds and excess pulp are removed. Oranges shall be reduced, pressed, essence stripped, treated, condensed to proper concentration, and cooled.</p>",
+            "title": "44 lb Orange<br> Puree Bag",
+            "description": "<p>Aseptic orange puree is made from concentrate, orange concentrate shall be made from tree ripened, sound, whole orange (Citrus sinensis), obtained by mechanical process from which seeds and excess pulp are removed. </p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh oranges and</p><p>ascorbic acid</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -136,10 +136,10 @@
         "bolsa_jqBPKg": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Peach Puree Bag",
+            "title": "44 lb Peach<br> Puree Bag",
             "description": "<p>Our 100% natural peach puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Peach puree is prepared using fresh, sound, properly ripened Mexican peaches.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe peaches</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>peaches</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
@@ -151,8 +151,8 @@
         "bolsa_8XNYEU": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Pineapple Puree Bag",
-            "description": "<p>Natural pineapple puree with no added sugar or artificial ingredients. Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
+            "title": "44 lb Pineapple<br> Puree Bag",
+            "description": "<p>Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe pineapples</p><p>and ascorbic acid.</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -166,8 +166,8 @@
         "bolsa_xKRa7T": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Raspberry Puree Bag",
-            "description": "<p>100% Natural raspberry puree with no added sugar or artificial ingredients. Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
+            "title": "44 lb Raspberry<br> Puree Bag",
+            "description": "<p>Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>raspberries</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -181,8 +181,8 @@
         "bolsa_6mjF6A": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Strawberry Puree Bag",
-            "description": "<p>100% Natural strawberry puree with no added sugar or artificial ingredients. Our strawberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Strawberry puree is prepared using fresh, sound, properly ripened strawberries.</p>",
+            "title": "44 lb Strawberry<br> Puree Bag",
+            "description": "<p>100% Natural strawberry puree with no added sugar or artificial ingredients. Our strawberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>strawberries</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -196,10 +196,10 @@
         "bolsa_aMryP9": {
           "type": "Bolsa",
           "settings": {
-            "title": "44 lb Guava Puree Bag",
-            "description": "<p>Guava is an exotic fruit, best varieties are Mexican native. When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
+            "title": "44 lb Guava<br> Puree Bag",
+            "description": "<p>When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe guavas</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>guavas</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
