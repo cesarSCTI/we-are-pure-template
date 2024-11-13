@@ -385,7 +385,8 @@
       ],
       "custom_css": [
         ".container--fullwidth .rich-text__container--image-right .rich-text__text {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-who_is-we_are_puree.png?v=1731124955\"); background-size: contain; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center; padding: 19%;}",
-        "img.logros {max-width: 100%; object-fit: contain;}"
+        "img.logros {max-width: 100%; object-fit: contain;}",
+        "img.logo-logor {width: calc(100vh - 90vh);}"
       ],
       "settings": {
         "image": "shopify://shop_images/img-we_are_puree_office.png",
