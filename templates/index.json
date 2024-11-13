@@ -375,20 +375,13 @@
           "settings": {
             "custom_liquid": "<img class=\"logros\" src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" height=\"35\" height=\"\">"
           }
-        },
-        "custom_liquid_WpmPxm": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<style>\n@media only screen and(max-width:768px){\n  .container--fullwidth .rich-text__container--image-right .rich-text__text{\nbackground-size:106%;\n}\n}\n</style>"
-          }
         }
       },
       "block_order": [
         "custom_liquid_iTAMfN",
         "text_iaeVXh",
         "title_rnaNHc",
-        "custom_liquid_kzQnML",
-        "custom_liquid_WpmPxm"
+        "custom_liquid_kzQnML"
       ],
       "custom_css": [
         ".container--fullwidth .rich-text__container--image-right .rich-text__text {background-position: center; background-image: url(\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-who_is-we_are_puree.png?v=1731124955\"); background-size: contain; background-repeat: no-repeat; display: flex; justify-content: center; align-items: center; padding: 19%;}",
