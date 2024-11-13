@@ -211,10 +211,10 @@
         "lata_M3L6i6": {
           "type": "Lata",
           "settings": {
-            "title": "496 lb Apple Puree Drum",
-            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, obtained from the disintegration and sieving of the edible fraction of the ripe, healthy and clean apples.</p>",
+            "title": "496 lb Apple<br> Puree Drum",
+            "description": "<p>Apple puree is prepared using fresh, sound, properly ripened Mexican apples. Homogeneous and uniform product, undiluted, not concentrated, not fermented, preservative-free, healthy and clean apples.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>496 lb (226 kg)</p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe apples</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>apples</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
@@ -226,7 +226,7 @@
         "lata_C4yAVk": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Blackberry Puree Drum",
+            "title": "440 lb Blackberry<br> Puree Drum",
             "description": "<p>100% Natural blackberry puree with no added sugar or artificial ingredients. Our blackberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>blackberries</p>",
@@ -238,10 +238,25 @@
             "bg_image": "shopify://shop_images/bg-blackberry.png"
           }
         },
+        "lata_fXBUHa": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Blueberry<br> Puree Drum",
+            "description": "<p>100% Natural blueberry puree with no added sugar or artificial ingredients. Our blueberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p> Fresh and ripe</p><p>blueberries.</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Blueberry_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/Blueberries.png",
+            "bg_image": "shopify://shop_images/bg-blueberry.png"
+          }
+        },
         "lata_xqqfFf": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Mango Puree Drum",
+            "title": "440 lb Mango<br> Puree Drum",
             "description": "<p>Our 100% natural mango puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Mango puree is made from a blend of mangoes from tropical Mexican regions.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>mangos</p>",
@@ -256,8 +271,8 @@
         "lata_ckLgUJ": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Orange Puree Drum",
-            "description": "<p>Aseptic orange puree is made from concentrate, orange concentrate shall be made from tree ripened, sound, whole orange (Citrus sinensis), obtained by mechanical process from which seeds and excess pulp are removed. Oranges shall be reduced, pressed, essence stripped, treated, condensed to proper concentration, and cooled.</p>",
+            "title": "440 lb Orange<br> Puree Drum",
+            "description": "<p>Aseptic orange puree is made from concentrate, orange concentrate shall be made from tree ripened, sound, whole orange (Citrus sinensis), obtained by mechanical process from which seeds and excess pulp are removed. </p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (208 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh oranges and</p><p>ascorbic acid.</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -271,8 +286,8 @@
         "lata_fKBc4B": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Peach Puree Drum",
-            "description": "<p>Our 100% natural peach puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Peach puree is made from a blend of delicious, ripening to a deep, golden yellow fruits.</p>",
+            "title": "440 lb Peach<br> Puree Drum",
+            "description": "<p>Our 100% natural peach puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Peach puree is prepared using fresh, sound, properly ripened Mexican peaches.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>peaches</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -286,8 +301,8 @@
         "lata_HJkfnh": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Pineapple Puree Drum",
-            "description": "<p>Natural pineapple puree with no added sugar or artificial ingredients. Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
+            "title": "440 lb Pineapple<br> Puree Drum",
+            "description": "<p>Our pineapple fruit puree is aseptic processed and packaging allows a shelf life of 24 months, stored at room temperature. Pineapple puree is prepared using fresh, properly ripened Mexican fruits.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>pineapples and</p><p>ascorbic acid</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -301,8 +316,8 @@
         "lata_dPDnNG": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Raspberry Puree Drum",
-            "description": "<p>100% Natural raspberry puree with no added sugar or artificial ingredients. Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
+            "title": "440 lb Raspberry<br> Puree Drum",
+            "description": "<p>Our raspberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Raspberry puree is prepared using fresh, sound, properly ripened Mexican raspberries.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>raspberries</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -316,8 +331,8 @@
         "lata_fGPUK7": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Strawberry Puree Drum",
-            "description": "<p>100% Natural strawberry puree with no added sugar or artificial ingredients. Our strawberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature. Strawberry puree is prepared using fresh, sound, properly ripened strawberries.</p>",
+            "title": "440 lb Strawberry<br> Puree Drum",
+            "description": "<p>100% Natural strawberry puree with no added sugar or artificial ingredients. Our strawberry fruit puree is pasteurized, aseptic processing and packaging allows a shelf life of 24 months, stored at room temperature.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
             "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>strawberries</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
@@ -331,10 +346,10 @@
         "lata_RzercH": {
           "type": "Lata",
           "settings": {
-            "title": "440 lb Guava Puree Drum",
-            "description": "<p>Guava is an exotic fruit, best varieties are Mexican native. When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
+            "title": "440 lb Guava<br> Puree Drum",
+            "description": "<p>When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
             "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
-            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe guavas</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe</p><p>guavas</p>",
             "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
             "text_button": "Buy now",
             "url": "shopify://collections/all",
@@ -357,6 +372,7 @@
         "bolsa_aMryP9",
         "lata_M3L6i6",
         "lata_C4yAVk",
+        "lata_fXBUHa",
         "lata_xqqfFf",
         "lata_ckLgUJ",
         "lata_fKBc4B",
