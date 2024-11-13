@@ -124,6 +124,10 @@
           "type": "description",
           "settings": {}
         },
+        "empty_space_2": {
+          "type": "space",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -137,70 +141,17 @@
             "style_buttons": "solid"
           }
         },
-        "empty_space_2": {
-          "type": "space",
-          "settings": {}
-        },
-        "pickup_availability_p794UE": {
-          "type": "pickup_availability",
-          "settings": {
-            "style": "extended"
-          }
-        },
-        "nutrition_LdXmDm": {
-          "type": "nutrition",
-          "settings": {
-            "heading": "Nutritional Facts",
-            "custom_icon": "shopify://shop_images/icono-nutritional_facts.png",
-            "label_left": "Amount per serving",
-            "label_right": "% Daily Value*",
-            "content": "<p><strong>Calories, 45</strong><br/><strong>Total Fat 0g, 0%</strong><br/>- Saturated Fat 0g, <strong>0%</strong><br/>- Trans Fat 0g<br/>- Polyunsatured Fat 0g<br/>- Monounsaturated Fat 0g<br/><strong>Cholesterol</strong> 0mg,<strong> 0%</strong><br/><strong>Sodium </strong>0mg, <strong>0%</strong><br/><strong>Total Carbohydrate</strong> 11g, <strong>4%</strong><br/>- Dietary Fiber 1g, <strong>4%</strong><br/>- Total Sugars 9g<br/>- Includes 0g Added Sugars, <strong>0%</strong><br/>- Sugar Alcohol 0g<br/>Protein 0g, <strong>0%</strong><br/>Vitamin D 0mcg, 0%<br/>Calcium 5mg, 0%<br/>Iron 0.07mg, 0%<br/>Potassium 116mg, 2%</p>",
-            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
-            "hide_block_if": false
-          }
-        },
-        "collapsible_tab_hGpKqq": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Our Fruit Purees are commonly used in:",
-            "content": "<ul><li>Baby food</li><li>Smoothies</li><li>Yogurt</li><li>Ice cream</li><li>Desserts</li><li>Salad dressings</li><li>Meat sauces</li><li>Spirits and cocktails</li><li>Beers</li></ul>",
-            "page": "",
-            "hide_block_if": false
-          }
-        },
-        "empty_space_3": {
-          "type": "space",
-          "settings": {}
-        },
-        "special_button_dDfra8": {
-          "type": "special_button",
-          "settings": {
-            "button_text": "Download Technical Data Sheet"
-          }
-        },
-        "icons_NpHq4Q": {
+        "icons_GWC6qA": {
           "type": "icons",
           "settings": {
-            "title": "",
-            "icon_1_image": "shopify://shop_images/icono-store_protected.png",
-            "icon_1_label": "Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.",
-            "icon_2_image": "shopify://shop_images/icono-shipments.png",
-            "icon_2_label": "Shipments to all United States",
-            "icon_3_image": "shopify://shop_images/icono-payments_security.png",
-            "icon_3_label": "We guarantee the security of transactions and payments with our customers.",
+            "title": "Icons list",
+            "icon_1_label": "",
+            "icon_2_label": "",
+            "icon_3_label": "",
             "icon_4_label": "",
             "icon_5_label": "",
             "icon_6_label": "",
             "hide_block_if": false
-          }
-        },
-        "image_XMyhHt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/secure_payments-products.png",
-            "image_border_radius": 0,
-            "link": "",
-            "open_in_new_window": false
           }
         }
       },
@@ -221,15 +172,9 @@
         "meta_object_info_E93r8B",
         "empty_space_1",
         "description",
-        "buy_buttons",
         "empty_space_2",
-        "pickup_availability_p794UE",
-        "nutrition_LdXmDm",
-        "collapsible_tab_hGpKqq",
-        "empty_space_3",
-        "special_button_dDfra8",
-        "icons_NpHq4Q",
-        "image_XMyhHt"
+        "buy_buttons",
+        "icons_GWC6qA"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -261,87 +206,6 @@
         "seo_h_tag": "h1"
       }
     },
-    "image_with_hotspots_whezRT": {
-      "type": "image-with-hotspots",
-      "blocks": {
-        "text_QmJapW": {
-          "type": "text",
-          "settings": {
-            "title": "Packaging",
-            "description": "<p>4 drums over a pallet grade B [48 in x 40 in] Pallets are wrapped with plastic foil.</p>",
-            "vertical_offset_desktop": 41,
-            "horizontal_offset_desktop": 76,
-            "vertical_offset_mobile": 86,
-            "horizontal_offset_mobile": 40,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "top"
-          }
-        },
-        "text_AiVMnV": {
-          "type": "text",
-          "settings": {
-            "title": "Primary Packaging",
-            "description": "<p>Superflex 55 galloon high barrier<br/><br/>55-gallon, high barrier, aseptic bag. [1560 mm length x 890 mm width] and 1-inch spout cap.</p>",
-            "vertical_offset_desktop": 73,
-            "horizontal_offset_desktop": 11,
-            "vertical_offset_mobile": 60,
-            "horizontal_offset_mobile": 42,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "top",
-            "tooltip_position_mobile": "bottom"
-          }
-        },
-        "text_yFiU4T": {
-          "type": "text",
-          "settings": {
-            "title": "Secondary packaging",
-            "description": "<p>Steel drum closed with security belt.</p>",
-            "vertical_offset_desktop": 13,
-            "horizontal_offset_desktop": 50,
-            "vertical_offset_mobile": 6,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "bottom",
-            "tooltip_position_mobile": "bottom"
-          }
-        },
-        "text_yXjEci": {
-          "type": "text",
-          "settings": {
-            "title": "Storage Recomendtions",
-            "description": "<p>Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.</p>",
-            "vertical_offset_desktop": 59,
-            "horizontal_offset_desktop": 50,
-            "vertical_offset_mobile": 26,
-            "horizontal_offset_mobile": 50,
-            "mobile_hide": false,
-            "tooltip_position_desktop": "left",
-            "tooltip_position_mobile": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "text_QmJapW",
-        "text_AiVMnV",
-        "text_yFiU4T",
-        "text_yXjEci"
-      ],
-      "settings": {
-        "heading": "Why Aseptic Technology?",
-        "subheading": "",
-        "section_heading_layout": "section-heading--center",
-        "image": "shopify://shop_images/aseptic_technology-we_are_puree-drums_c3bf6c25-d583-4f3f-ba93-ca2004c495b7.png",
-        "image_mobile": "shopify://shop_images/aseptic_technology-we_are_puree-drums-movil_2b4486bd-7b5e-4784-a05c-8f923e4d9769.png",
-        "color_text": "#000000",
-        "color_background": "#ffffff",
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": false,
-        "seo_h_tag": "h1"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "blocks": {
@@ -363,6 +227,7 @@
         "title",
         "quick_buy"
       ],
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "subheading": "",
@@ -379,7 +244,6 @@
   "order": [
     "main",
     "text_columns_pH4Kym",
-    "image_with_hotspots_whezRT",
     "product-recommendations"
   ]
 }
