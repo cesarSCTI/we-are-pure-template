@@ -12,13 +12,67 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "center": true
+        "center": false
+      }
+    },
+    "rich_text_NCexVP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_k8JLCE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’d love to hear from you! Whether you have a question about our fruit purees, need assistance with your order, or just want to chat about the best fruit blends for your next brew, we're here to help.</p><ul><li>Need a special quote? Just ask!</li><li>Curious about shipping times or our latest products? We're ready with the answers.</li><li>Have a creative project in mind? Let’s collaborate and make it happen!</li></ul><p>Complete the form below, and one of our friendly team members will get back to you as soon as possible. We’re excited to connect with you and help your business grow with our high-quality fruit purees!</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_k8JLCE"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
       }
     },
     "contact-form": {
       "type": "contact-form",
+      "blocks": {
+        "text_hJCjJt": {
+          "type": "text",
+          "settings": {
+            "title": "Wholesale",
+            "content": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at <a href=\"mailto:wholesale@wearepuree.com\" target=\"_blank\" title=\"mailto:wholesale@wearepuree.com\">wholesale@wearepuree.com</a> or call us at 1-407-807-4545.<br/></p><p>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_4EYR9K": {
+          "type": "text",
+          "settings": {
+            "title": "Contact information",
+            "content": "<p>Write some useful information about your business, contact information or links to various FAQ pages.</p>",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_hJCjJt",
+        "text_4EYR9K"
+      ],
       "settings": {
-        "heading": "Drop us a line",
+        "heading": "We're happy to answer questions",
         "show_phone": true,
         "show_subject": true,
         "seo_h_tag": "h3"
@@ -27,6 +81,7 @@
   },
   "order": [
     "main",
+    "rich_text_NCexVP",
     "contact-form"
   ]
 }
