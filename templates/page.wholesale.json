@@ -318,11 +318,8 @@
         "text_9waTAh",
         "button_WWmegQ"
       ],
-      "custom_css": [
-        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
-      ],
       "settings": {
-        "image": "shopify://shop_images/bg-request_your_free_sample.png",
+        "image": "shopify://shop_images/img-request_a_sample.png",
         "image_position": "top",
         "height": "small",
         "image_crop": true,
