@@ -1,0 +1,385 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "meta_object_info_e4CxB3": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Ingredients:",
+            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_t8rPGh": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Shelf life:",
+            "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_bACpWE": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Critical control points:",
+            "MetaObject": "{{ product.metafields.custom.pasteurization.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_rLNgcD": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Additives:",
+            "MetaObject": "{{ product.metafields.custom.additives.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_U7AUqM": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Allergens:",
+            "MetaObject": "{{ product.metafields.custom.allergens.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_DEq7rn": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Net weight:",
+            "MetaObject": "{{ product.metafields.custom.net_weight.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_aKaFbC": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Country or Origin:",
+            "MetaObject": "{{ product.metafields.custom.contry_or_origin.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_ncDbYx": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Packaging:",
+            "MetaObject": "{{ product.metafields.custom.packaging.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_gAFrTH": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Brix:",
+            "MetaObject": "{{ product.metafields.custom.brix.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_qNfgXU": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "PH:",
+            "MetaObject": "{{ product.metafields.custom.ph_level.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_mnwmiN": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Acidity:",
+            "MetaObject": "{{ product.metafields.custom.acidity.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "meta_object_info_E93r8B": {
+          "type": "MetaObject_info",
+          "settings": {
+            "text": "Mesh:",
+            "MetaObject": "{{ product.metafields.custom.mesh.value }}",
+            "MetaObject_color": "#ff5060"
+          }
+        },
+        "empty_space_1": {
+          "type": "space",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
+          }
+        },
+        "empty_space_2": {
+          "type": "space",
+          "settings": {}
+        },
+        "pickup_availability_p794UE": {
+          "type": "pickup_availability",
+          "settings": {
+            "style": "extended"
+          }
+        },
+        "nutrition_LdXmDm": {
+          "type": "nutrition",
+          "settings": {
+            "heading": "Nutritional Facts",
+            "custom_icon": "shopify://shop_images/icono-nutritional_facts.png",
+            "label_left": "Amount per serving",
+            "label_right": "% Daily Value*",
+            "content": "<p><strong>Calories, 30</strong><br/>Total Fat 0g, <strong>0%</strong><br/>- Saturated Fat 0g,<strong> 0%</strong><br/>- Trans Fat 0g<br/>- Polyunsatured Fat 0g<br/>- Monounsaturated Fat 0g<br/><strong>Cholesterol</strong> 0mg, <strong>0%</strong><br/><strong>Sodium</strong> 10mg, <strong>0%</strong><br/><strong>Total Carbohydrate</strong> 8g, <strong>3%</strong><br/>- Dietary Fiber 2g, <strong>7%</strong><br/>- Total Sugars 8g<br/>- Includes 0g Added Sugars, <strong>0%</strong><br/>- Sugar Alcohol 0g<br/><strong>Protein</strong> 0g, <strong>0%</strong><br/>Vitamin D 0mcg, 0%<br/>Calcium 12mg, 0%<br/>Iron 0.2mg, 2%<br/>Potassium 80mg, 2%</p>",
+            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
+            "hide_block_if": false
+          }
+        },
+        "collapsible_tab_hGpKqq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Our Fruit Purees are commonly used in:",
+            "content": "<ul><li>Baby food</li><li>Smoothies</li><li>Yogurt</li><li>Ice cream</li><li>Desserts</li><li>Salad dressings</li><li>Meat sauces</li><li>Spirits and cocktails</li><li>Beers</li></ul>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "empty_space_3": {
+          "type": "space",
+          "settings": {}
+        },
+        "special_button_dDfra8": {
+          "type": "special_button",
+          "settings": {
+            "button_text": "Download Technical Data Sheet"
+          }
+        },
+        "icons_NpHq4Q": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/icono-store_protected.png",
+            "icon_1_label": "Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.",
+            "icon_2_image": "shopify://shop_images/icono-shipments.png",
+            "icon_2_label": "Shipments to all United States",
+            "icon_3_image": "shopify://shop_images/icono-payments_security.png",
+            "icon_3_label": "We guarantee the security of transactions and payments with our customers.",
+            "icon_4_label": "",
+            "icon_5_label": "",
+            "icon_6_label": "",
+            "hide_block_if": false
+          }
+        },
+        "image_XMyhHt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/secure_payments-products.png",
+            "image_border_radius": 0,
+            "link": "",
+            "open_in_new_window": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "meta_object_info_e4CxB3",
+        "meta_object_info_t8rPGh",
+        "meta_object_info_bACpWE",
+        "meta_object_info_rLNgcD",
+        "meta_object_info_U7AUqM",
+        "meta_object_info_DEq7rn",
+        "meta_object_info_aKaFbC",
+        "meta_object_info_ncDbYx",
+        "meta_object_info_gAFrTH",
+        "meta_object_info_qNfgXU",
+        "meta_object_info_mnwmiN",
+        "meta_object_info_E93r8B",
+        "empty_space_1",
+        "description",
+        "buy_buttons",
+        "empty_space_2",
+        "pickup_availability_p794UE",
+        "nutrition_LdXmDm",
+        "collapsible_tab_hGpKqq",
+        "empty_space_3",
+        "special_button_dDfra8",
+        "icons_NpHq4Q",
+        "image_XMyhHt"
+      ],
+      "settings": {
+        "gallery_style": "slider",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "thumbnails",
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "default_to_first_variant": true,
+        "sticky_add_to_cart": false,
+        "sticky_atc_style": "floating",
+        "sticky_bar_bgcolor": "#ffffff",
+        "sticky_bar_txtcolor": "#111111"
+      }
+    },
+    "text_columns_pH4Kym": {
+      "type": "text-columns",
+      "disabled": true,
+      "settings": {
+        "heading": "Why Aseptic Technology?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "style": "grid",
+        "layout": "grid-4 grid-portable-3 grid-lap-2",
+        "block_text_alignment": "text-align--center",
+        "seo_h_tag": "h1"
+      }
+    },
+    "image_with_hotspots_whezRT": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "text_QmJapW": {
+          "type": "text",
+          "settings": {
+            "title": "Packaging",
+            "description": "<p>4 drums over a pallet grade B [48 in x 40 in] Pallets are wrapped with plastic foil.</p>",
+            "vertical_offset_desktop": 41,
+            "horizontal_offset_desktop": 76,
+            "vertical_offset_mobile": 86,
+            "horizontal_offset_mobile": 40,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
+          }
+        },
+        "text_AiVMnV": {
+          "type": "text",
+          "settings": {
+            "title": "Primary Packaging",
+            "description": "<p>Superflex 55 galloon high barrier<br/><br/>55-gallon, high barrier, aseptic bag. [1560 mm length x 890 mm width] and 1-inch spout cap.</p>",
+            "vertical_offset_desktop": 73,
+            "horizontal_offset_desktop": 11,
+            "vertical_offset_mobile": 60,
+            "horizontal_offset_mobile": 42,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "bottom"
+          }
+        },
+        "text_yFiU4T": {
+          "type": "text",
+          "settings": {
+            "title": "Secondary packaging",
+            "description": "<p>Steel drum closed with security belt.</p>",
+            "vertical_offset_desktop": 13,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 6,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "bottom",
+            "tooltip_position_mobile": "bottom"
+          }
+        },
+        "text_yXjEci": {
+          "type": "text",
+          "settings": {
+            "title": "Storage Recomendtions",
+            "description": "<p>Store at 32-41oF (1-5oC) protected from light, dust and humidity (55-65% RH). Once opened refrigerate.</p>",
+            "vertical_offset_desktop": 59,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 26,
+            "horizontal_offset_mobile": 50,
+            "mobile_hide": false,
+            "tooltip_position_desktop": "left",
+            "tooltip_position_mobile": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "text_QmJapW",
+        "text_AiVMnV",
+        "text_yFiU4T",
+        "text_yXjEci"
+      ],
+      "settings": {
+        "heading": "Why Aseptic Technology?",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "image": "shopify://shop_images/aseptic_technology-we_are_puree-drums_c3bf6c25-d583-4f3f-ba93-ca2004c495b7.png",
+        "image_mobile": "shopify://shop_images/aseptic_technology-we_are_puree-drums-movil_2b4486bd-7b5e-4784-a05c-8f923e4d9769.png",
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false,
+        "seo_h_tag": "h1"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "quick_buy": {
+          "type": "quick_buy",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "title",
+        "quick_buy"
+      ],
+      "settings": {
+        "heading": "You may also like",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-tiny-1",
+        "products_number": 4,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_columns_pH4Kym",
+    "image_with_hotspots_whezRT",
+    "product-recommendations"
+  ]
+}
