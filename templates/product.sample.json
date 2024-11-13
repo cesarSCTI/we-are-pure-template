@@ -20,109 +20,49 @@
           "type": "price",
           "settings": {}
         },
-        "meta_object_info_e4CxB3": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Ingredients:",
-            "MetaObject": "{{ product.metafields.custom.ingredients.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_t8rPGh": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Shelf life:",
-            "MetaObject": "{{ product.metafields.custom.shelf_life.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_bACpWE": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Critical control points:",
-            "MetaObject": "{{ product.metafields.custom.pasteurization.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_rLNgcD": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Additives:",
-            "MetaObject": "{{ product.metafields.custom.additives.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_U7AUqM": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Allergens:",
-            "MetaObject": "{{ product.metafields.custom.allergens.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_DEq7rn": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Net weight:",
-            "MetaObject": "{{ product.metafields.custom.net_weight.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_aKaFbC": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Country or Origin:",
-            "MetaObject": "{{ product.metafields.custom.contry_or_origin.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_ncDbYx": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Packaging:",
-            "MetaObject": "{{ product.metafields.custom.packaging.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_gAFrTH": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Brix:",
-            "MetaObject": "{{ product.metafields.custom.brix.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_qNfgXU": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "PH:",
-            "MetaObject": "{{ product.metafields.custom.ph_level.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_mnwmiN": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Acidity:",
-            "MetaObject": "{{ product.metafields.custom.acidity.value }}",
-            "MetaObject_color": "#ff5060"
-          }
-        },
-        "meta_object_info_E93r8B": {
-          "type": "MetaObject_info",
-          "settings": {
-            "text": "Mesh:",
-            "MetaObject": "{{ product.metafields.custom.mesh.value }}",
-            "MetaObject_color": "#ff5060"
-          }
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "empty_space_1": {
           "type": "space",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "icons_zgzz4m": {
+          "type": "icons",
+          "settings": {
+            "title": "Choose Your Flavors!",
+            "icon_1_image": "shopify://shop_images/flavor-guava_30afc3da-1084-41e5-802c-a29b2dd059dc.png",
+            "icon_1_label": "Guava",
+            "icon_2_image": "shopify://shop_images/flavor-Strawberries_14119c28-04ee-4940-9af3-2751fd80c3f9.png",
+            "icon_2_label": "Strawberry",
+            "icon_3_image": "shopify://shop_images/flavor-raspberry_6488c75c-b5eb-43f7-b76b-21533b894351.png",
+            "icon_3_label": "Raspberry",
+            "icon_4_image": "shopify://shop_images/flavor-Blackberry_8a64a8fb-bebe-4cb4-a6e5-d883a9627977.png",
+            "icon_4_label": "Blackberry",
+            "icon_5_label": "",
+            "icon_6_label": "",
+            "hide_block_if": false
+          }
+        },
+        "icons_GWC6qA": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/flavor-Blueberries_aba46d69-439e-4923-9d41-e791a4c13139.png",
+            "icon_1_label": "Blueberry",
+            "icon_2_image": "shopify://shop_images/flavor-Apple_a4bc24ed-65eb-4aad-b771-2d2ff656cf6a.png",
+            "icon_2_label": "Apple",
+            "icon_3_image": "shopify://shop_images/flavor-orange_2e8fa572-aee9-4672-8bd8-be7ee85ec0ae.png",
+            "icon_3_label": "Orange",
+            "icon_4_image": "shopify://shop_images/flavor-mango_9b3544da-67e1-4b64-a083-8a908f8b7f99.png",
+            "icon_4_label": "Mango",
+            "icon_5_image": "shopify://shop_images/flavor-peach_cb1d99be-bbb8-4d5e-8bf8-958411d0482d.png",
+            "icon_5_label": "Peach",
+            "icon_6_image": "shopify://shop_images/flavor-pineapple_1a1fcada-6473-4d97-b165-b4b7a9c2008d.png",
+            "icon_6_label": "Pinapple",
+            "hide_block_if": false
+          }
         },
         "empty_space_2": {
           "type": "space",
@@ -140,41 +80,17 @@
             "color_accent_buttons": "rgba(0,0,0,0)",
             "style_buttons": "solid"
           }
-        },
-        "icons_GWC6qA": {
-          "type": "icons",
-          "settings": {
-            "title": "Icons list",
-            "icon_1_label": "",
-            "icon_2_label": "",
-            "icon_3_label": "",
-            "icon_4_label": "",
-            "icon_5_label": "",
-            "icon_6_label": "",
-            "hide_block_if": false
-          }
         }
       },
       "block_order": [
         "title",
         "price",
-        "meta_object_info_e4CxB3",
-        "meta_object_info_t8rPGh",
-        "meta_object_info_bACpWE",
-        "meta_object_info_rLNgcD",
-        "meta_object_info_U7AUqM",
-        "meta_object_info_DEq7rn",
-        "meta_object_info_aKaFbC",
-        "meta_object_info_ncDbYx",
-        "meta_object_info_gAFrTH",
-        "meta_object_info_qNfgXU",
-        "meta_object_info_mnwmiN",
-        "meta_object_info_E93r8B",
-        "empty_space_1",
         "description",
+        "empty_space_1",
+        "icons_zgzz4m",
+        "icons_GWC6qA",
         "empty_space_2",
-        "buy_buttons",
-        "icons_GWC6qA"
+        "buy_buttons"
       ],
       "settings": {
         "gallery_style": "slider",
