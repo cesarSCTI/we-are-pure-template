@@ -32,7 +32,7 @@
       "custom_css": [
         ".gutter--xlarge {padding: 0px !important;}",
         ".rich-text__container {padding: 0px !important;}",
-        ".card__text {padding: 30px 0 10px 40px !important;}"
+        ".card__text {padding: 40px 0 40px 40px !important;}"
       ],
       "settings": {
         "image_position": "top no-image",
@@ -43,8 +43,8 @@
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "remove_margin": true,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
+        "color_background_main": "#4b9ad4",
+        "color_text_main": "#ffffff",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
         "color_shadow_main": "rgba(0,0,0,0)",
