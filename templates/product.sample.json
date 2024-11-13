@@ -68,6 +68,15 @@
           "type": "space",
           "settings": {}
         },
+        "text_XnqhNU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fill out the information below to request your samples:</p>",
+            "text_size": "text-size--regular",
+            "text_color": "#1d1d1d",
+            "text_transform": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -90,7 +99,11 @@
         "icons_zgzz4m",
         "icons_GWC6qA",
         "empty_space_2",
+        "text_XnqhNU",
         "buy_buttons"
+      ],
+      "custom_css": [
+        ".text-weight--bold {color: #E94760 !important;}"
       ],
       "settings": {
         "gallery_style": "slider",
