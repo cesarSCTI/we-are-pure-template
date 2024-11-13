@@ -14,15 +14,16 @@
       "blocks": {
         "cart-items": {
           "type": "cart-items",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "cart-items"
       ],
-      "settings": {
-      }
+      "custom_css": [
+        ".text-size--heading {font-size: 30px !important;}"
+      ],
+      "settings": {}
     }
   },
   "order": [
