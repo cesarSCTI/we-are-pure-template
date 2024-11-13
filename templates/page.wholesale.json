@@ -270,6 +270,7 @@
         "space_gzyNQE",
         "product_link_Cwrhzd"
       ],
+      "disabled": true,
       "settings": {
         "product": "request-your-free-sample",
         "gallery_ratio": "natural",
@@ -282,6 +283,59 @@
         "enable_video_looping": false,
         "default_to_first_variant": false
       }
+    },
+    "rich_text_6F6tcF": {
+      "type": "rich-text",
+      "blocks": {
+        "title_NM3LWk": {
+          "type": "title",
+          "settings": {
+            "title": "Talk about your brand",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_9waTAh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_WWmegQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_size": "large",
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_NM3LWk",
+        "text_9waTAh",
+        "button_WWmegQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bg-request_your_free_sample.png",
+        "image_position": "top",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
     }
   },
   "order": [
@@ -290,6 +344,7 @@
     "rich_text_8gbcD9",
     "custom_liquid_GknU8R",
     "rich_text_exfpQY",
-    "featured_product_tgBRNE"
+    "featured_product_tgBRNE",
+    "rich_text_6F6tcF"
   ]
 }
