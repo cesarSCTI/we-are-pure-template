@@ -147,8 +147,7 @@
       ],
       "custom_css": [
         ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important; background: #00ae8d !important;}",
-        "h3 {color: #fff !important;}",
-        "._formContainer_stahb_30 {background-color: #E94760 !important;}"
+        "h3 {color: #fff !important;}"
       ],
       "settings": {
         "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
@@ -361,7 +360,7 @@
         "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
-        "remove_margin": false,
+        "remove_margin": true,
         "color_background_main": "rgba(0,0,0,0)",
         "color_text_main": "rgba(0,0,0,0)",
         "color_accent_main": "rgba(0,0,0,0)",
