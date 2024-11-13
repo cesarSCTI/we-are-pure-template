@@ -126,7 +126,7 @@ html[dir=ltr] .cart__subtotal-widget {
 }
 
 .cart-block__head {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #ACD400;
   border-bottom: solid var(--color-borders-main) var(--border-width-cards);
   border-radius: var(--border-radius-cards) var(--border-radius-cards) 0 0;
   height: 3.4375rem;
