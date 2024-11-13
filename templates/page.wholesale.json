@@ -311,12 +311,20 @@
             "button_size": "regular",
             "button_style": "solid"
           }
+        },
+        "space_AU9Vax": {
+          "type": "space",
+          "settings": {}
         }
       },
       "block_order": [
         "title_NM3LWk",
         "text_9waTAh",
-        "button_WWmegQ"
+        "button_WWmegQ",
+        "space_AU9Vax"
+      ],
+      "custom_css": [
+        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/img-request_a_sample.png",
