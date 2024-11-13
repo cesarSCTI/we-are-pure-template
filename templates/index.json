@@ -415,7 +415,7 @@
           "settings": {
             "title": "Certifications",
             "title_size": "h3",
-            "seo_h_tag": "h4"
+            "seo_h_tag": "h1"
           }
         },
         "custom_liquid_kzQnML": {
@@ -491,7 +491,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "seo_h_tag": "h2"
+        "seo_h_tag": "h1"
       }
     },
     "16551304148266b5a5": {
@@ -502,7 +502,7 @@
           "settings": {
             "title": "Request Your Free Sample",
             "title_size": "h2",
-            "seo_h_tag": "span"
+            "seo_h_tag": "h1"
           }
         },
         "1655130414988486bd-1": {
@@ -570,7 +570,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         },
         "16540673826052f668-1": {
@@ -590,7 +590,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         },
         "16540673826052f668-2": {
@@ -610,7 +610,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         },
         "card_TCVPMR": {
@@ -630,7 +630,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         },
         "card_bapHWi": {
@@ -650,7 +650,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         },
         "card_xAyc6n": {
@@ -670,7 +670,7 @@
             "color_shadow_main": "rgba(0,0,0,0)",
             "color_hide_borders": true,
             "color_hide_shadow": true,
-            "seo_h_tag": "h3"
+            "seo_h_tag": "h2"
           }
         }
       },
@@ -698,7 +698,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "seo_h_tag": "h2"
+        "seo_h_tag": "h1"
       }
     },
     "1655112847aaa4cc50": {
@@ -777,7 +777,7 @@
         "section_background_gradient": "",
         "section_heading_color": "rgba(0,0,0,0)",
         "remove_margin": false,
-        "seo_h_tag": "h2"
+        "seo_h_tag": "h3"
       }
     }
   },
