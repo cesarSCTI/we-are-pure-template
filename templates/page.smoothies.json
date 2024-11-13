@@ -149,7 +149,12 @@
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-smoothies_2.png",
         "product_list": [
-          "producto-prueba"
+          "440-lb-raspberry-puree-drum",
+          "44-lb-raspberry-puree-bag",
+          "44-lb-blueberry-puree-bag",
+          "440-lb-blueberry-puree-drum",
+          "44-lb-orange-puree-bag",
+          "440-lb-orange-puree-drum"
         ],
         "color_background_main": "#dedede",
         "color_borders_main": "rgba(0,0,0,0)",
