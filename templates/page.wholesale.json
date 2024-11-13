@@ -188,16 +188,50 @@
           "type": "description",
           "settings": {}
         },
+        "icons_MNP3ie": {
+          "type": "icons",
+          "settings": {
+            "title": "Choose Your Flavors!",
+            "icon_1_image": "shopify://shop_images/flavor-guava_30afc3da-1084-41e5-802c-a29b2dd059dc.png",
+            "icon_1_label": "Guava",
+            "icon_2_image": "shopify://shop_images/flavor-Strawberries.png",
+            "icon_2_label": "Strawberry",
+            "icon_3_image": "shopify://shop_images/flavor-raspberry_6488c75c-b5eb-43f7-b76b-21533b894351.png",
+            "icon_3_label": "Raspberry",
+            "icon_4_image": "shopify://shop_images/flavor-Blackberry_8a64a8fb-bebe-4cb4-a6e5-d883a9627977.png",
+            "icon_4_label": "Blackberry",
+            "icon_5_label": "",
+            "icon_6_label": ""
+          }
+        },
+        "icons_7EfTJ6": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/flavor-Blueberries_aba46d69-439e-4923-9d41-e791a4c13139.png",
+            "icon_1_label": "Blueberry",
+            "icon_2_image": "shopify://shop_images/flavor-Apple_a4bc24ed-65eb-4aad-b771-2d2ff656cf6a.png",
+            "icon_2_label": "Apple",
+            "icon_3_image": "shopify://shop_images/flavor-orange_2e8fa572-aee9-4672-8bd8-be7ee85ec0ae.png",
+            "icon_3_label": "Orange",
+            "icon_4_image": "shopify://shop_images/flavor-mango_9b3544da-67e1-4b64-a083-8a908f8b7f99.png",
+            "icon_4_label": "Mango",
+            "icon_5_image": "shopify://shop_images/flavor-peach.png",
+            "icon_5_label": "Peach",
+            "icon_6_image": "shopify://shop_images/flavor-pineapple.png",
+            "icon_6_label": "Pinapple"
+          }
+        },
+        "space_7LXj6T": {
+          "type": "space",
+          "settings": {}
+        },
         "variant_picker_idFiHE": {
           "type": "variant_picker",
           "settings": {
             "variants_style": "radio",
             "show_quantities": "no"
           }
-        },
-        "space_7LXj6T": {
-          "type": "space",
-          "settings": {}
         },
         "buy_buttons_T4EBHp": {
           "type": "buy_buttons",
@@ -215,51 +249,28 @@
         "space_gzyNQE": {
           "type": "space",
           "settings": {}
-        },
-        "icons_Mdjj8a": {
-          "type": "icons",
-          "settings": {
-            "title": "",
-            "icon_1_image": "shopify://shop_images/icono-shipments.png",
-            "icon_1_label": "Shipments to all United States",
-            "icon_2_image": "shopify://shop_images/icono-payments_security.png",
-            "icon_2_label": "We guarantee the security of transactions and payments with our customers.",
-            "icon_3_label": "",
-            "icon_4_label": "",
-            "icon_5_label": "",
-            "icon_6_label": ""
-          }
-        },
-        "image_7wWM7p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/secure_payments-products.png",
-            "image_border_radius": 0,
-            "link": "",
-            "open_in_new_window": false
-          }
         }
       },
       "block_order": [
         "title_kpMp49",
         "price_nqGHdY",
         "description_7Q8nh4",
-        "variant_picker_idFiHE",
+        "icons_MNP3ie",
+        "icons_7EfTJ6",
         "space_7LXj6T",
+        "variant_picker_idFiHE",
         "buy_buttons_T4EBHp",
-        "space_gzyNQE",
-        "icons_Mdjj8a",
-        "image_7wWM7p"
+        "space_gzyNQE"
       ],
       "settings": {
-        "product": "producto-prueba",
+        "product": "request-your-free-sample",
         "gallery_ratio": "natural",
         "gallery_fit": false,
         "show_border": false,
         "gallery_card_design": false,
         "gallery_padding": 0,
         "gallery_pagination": "dots",
-        "enable_zoom": true,
+        "enable_zoom": false,
         "enable_video_looping": false,
         "default_to_first_variant": true
       }
