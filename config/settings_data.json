@@ -264,6 +264,10 @@
         "block_order": [
           "store-selector-0"
         ],
+        "custom_css": [
+          ".store-selector > *:not(.store-selector-set) {border-color: #8dd84b !important;}",
+          ".button {border-radius: #8dd84b !important; color: #fff !important; background: #8dd84b !important;}"
+        ],
         "settings": {
           "map_enable": true,
           "map_zoom": 10,
