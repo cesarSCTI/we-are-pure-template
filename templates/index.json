@@ -352,7 +352,7 @@
         "custom_liquid_iTAMfN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/logo-we_are_puree.png?v=1731124953\" width=\"120\" height=\"\">"
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/logo-we_are_puree.png?v=1731124953\" width=\"90\" height=\"\">"
           }
         },
         "text_iaeVXh": {
@@ -373,7 +373,7 @@
         "custom_liquid_kzQnML": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" width=\"500\" height=\"\">"
+            "custom_liquid": "<img src=\"https://cdn.shopify.com/s/files/1/0569/6323/5920/files/certifications-we_are_puree-small.png?v=1731124954\" height=\"40\" height=\"\">"
           }
         }
       },
