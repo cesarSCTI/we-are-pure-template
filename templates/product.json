@@ -39,7 +39,7 @@
         "meta_object_info_bACpWE": {
           "type": "MetaObject_info",
           "settings": {
-            "text": "Pasteurization:",
+            "text": "Critical control points:",
             "MetaObject": "{{ product.metafields.custom.pasteurization.value }}",
             "MetaObject_color": "#ff5060"
           }
