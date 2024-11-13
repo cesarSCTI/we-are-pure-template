@@ -78,7 +78,7 @@
     "image_QBTRmd": {
       "type": "image",
       "custom_css": [
-        ".container--large {margin: 30px 0 !important;}"
+        ".container--large {margin: 30px 0px !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/img-industry-we_are_pure-baby_food.png",

@@ -77,7 +77,9 @@
     },
     "image_QBTRmd": {
       "type": "image",
-      "custom_css": [],
+      "custom_css": [
+        ".container--vertical-space {margin-top: 30px !important;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/img-industry-we_are_pure-smoothies.png",
         "link": "",
