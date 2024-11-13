@@ -30,7 +30,9 @@
         "text_k8JLCE"
       ],
       "custom_css": [
-        ".gutter--xlarge {padding: 0px !important;}"
+        ".gutter--xlarge {padding: 0px !important;}",
+        ".rich-text__container {padding: 0px !important;}",
+        ".card__text {padding: 30px 0 10px 40px !important;}"
       ],
       "settings": {
         "image_position": "top no-image",
@@ -64,8 +66,8 @@
         "text_4EYR9K": {
           "type": "text",
           "settings": {
-            "title": "Contact information",
-            "content": "<p>Write some useful information about your business, contact information or links to various FAQ pages.</p>",
+            "title": "Resources",
+            "content": "<p>Check out these resources while we get back to you!</p><p><a href=\"https://we-are-pure-shop.myshopify.com/policies/privacy-policy\">Privacy Policy</a></p><p><a href=\"https://we-are-pure-shop.myshopify.com/policies/terms-of-service\">Terms and Conditions</a></p><p><a href=\"https://we-are-pure-shop.myshopify.com/policies/shipping-policy\">Shipping Policy</a></p><p><a href=\"https://we-are-pure-shop.myshopify.com/policies/refund-policy\">Refund Policy</a></p>",
             "seo_h_tag": "h3"
           }
         }
@@ -73,6 +75,11 @@
       "block_order": [
         "text_hJCjJt",
         "text_4EYR9K"
+      ],
+      "custom_css": [
+        ".container--vertical-space {margin-top: 20px !important;}",
+        "h3 {color: #e94760 !important;}",
+        ".element--border-radius {border-color: #acd400 !important;}"
       ],
       "settings": {
         "heading": "We're happy to answer questions",
