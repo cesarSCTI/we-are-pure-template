@@ -193,6 +193,21 @@
             "bg_image": "shopify://shop_images/bg-strawberry.png"
           }
         },
+        "bolsa_aMryP9": {
+          "type": "Bolsa",
+          "settings": {
+            "title": "44 lb Guava Puree Bag",
+            "description": "<p>Guava is an exotic fruit, best varieties are Mexican native. When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>44 lb (20k) </p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe guavas</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/44_lb_Guava_Puree_Bag-WAP.png",
+            "second_image": "shopify://shop_images/guava.png",
+            "bg_image": "shopify://shop_images/bg-guava.png"
+          }
+        },
         "lata_M3L6i6": {
           "type": "Lata",
           "settings": {
@@ -312,6 +327,21 @@
             "second_image": "shopify://shop_images/Strawberries.png",
             "bg_image": "shopify://shop_images/bg-strawberry.png"
           }
+        },
+        "lata_RzercH": {
+          "type": "Lata",
+          "settings": {
+            "title": "440 lb Guava Puree Drum",
+            "description": "<p>Guava is an exotic fruit, best varieties are Mexican native. When ripe, a guava smells strong, sweet, and musky. Guava’s flavor is unique, sweet-acid almost universally pleasant. Mexican cream guavas have more Vitamin C when compared to any other fruit; also have more brix than pink guavas.</p>",
+            "info_1": "<p><strong>Net Weight</strong></p><p>440 lb (200 kg)</p>",
+            "info_2": "<p><strong>Ingredients</strong></p><p>Fresh and ripe guavas</p>",
+            "info_3": "<p><strong>Country of Origin</strong></p><p>México</p>",
+            "text_button": "Buy now",
+            "url": "shopify://collections/all",
+            "principal_image": "shopify://shop_images/440_lb_Guava_Puree_Drum-WAP.png",
+            "second_image": "shopify://shop_images/guava.png",
+            "bg_image": "shopify://shop_images/bg-guava.png"
+          }
         }
       },
       "block_order": [
@@ -324,6 +354,7 @@
         "bolsa_8XNYEU",
         "bolsa_xKRa7T",
         "bolsa_6mjF6A",
+        "bolsa_aMryP9",
         "lata_M3L6i6",
         "lata_C4yAVk",
         "lata_xqqfFf",
@@ -331,7 +362,8 @@
         "lata_fKBc4B",
         "lata_HJkfnh",
         "lata_dPDnNG",
-        "lata_fGPUK7"
+        "lata_fGPUK7",
+        "lata_RzercH"
       ],
       "custom_css": [
         "p {font-size: 16px !important;}"
