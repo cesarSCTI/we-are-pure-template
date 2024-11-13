@@ -146,7 +146,7 @@
         "forms_inline_DFgiiR"
       ],
       "custom_css": [
-        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important;}"
+        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important; background: #00ae8d !important;}"
       ],
       "settings": {
         "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
@@ -154,7 +154,7 @@
         "section_heading_layout": "section-heading--center",
         "full_width": true,
         "remove_margin": true,
-        "seo_h_tag": "h2"
+        "seo_h_tag": "h3"
       }
     },
     "rich_text_exfpQY": {
