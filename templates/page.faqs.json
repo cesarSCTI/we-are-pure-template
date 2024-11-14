@@ -141,8 +141,7 @@
       ],
       "custom_css": [
         "toggle-tab.opened .toggle__title {background: #e94760 !important;}",
-        ".toggle--faq .toggle__title {background: #00ae8d !important;}",
-        ".toggle-tab.toggle {border-color: #ACD400 !important;}"
+        ".toggle--faq .toggle__title {background: #00ae8d !important;}"
       ],
       "settings": {
         "heading": "Frequently Asked Question",
