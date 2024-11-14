@@ -999,3 +999,48 @@ html[dir=ltr] .sticky-add-to-cart--floating.visible {
   max-width: 32px;
   object-fit: contain;
 }
+.product-quantity__minus, .product-quantity__plus{
+  border-radius:30px;
+}
+span.product-price--original {
+  color: #00AE8D;
+  font-weight: 800 !important;
+  font-size: x-large;
+}
+.pickup-availability-widget__header {
+  background: #00AE8D;
+  color: #fff;
+}
+.pickup-availability-widget__locations {
+  border-color: #B5D242 !important;
+}
+.pickup-availability-widget {
+  border-right: #B5D242 solid 1px;
+  border-left: #B5D242 solid 1px;
+  border-bottom: #B5D242 solid 1px;
+}
+toggle-tab.toggle.toggle--table.element--border-radius.element--has-border {
+  background: #00ae8d;
+  color: #fff;
+}
+.toggle__content {
+  background: #fff;
+  color: #000;
+  border-right: #B5D242 solid 1px;
+  border-left: #B5D242 solid 1px;
+  border-bottom: #B5D242 solid 1px;
+}
+.toggle__title .toggle__icon svg * {
+  fill: #fff;
+}
+.toggle__title{
+  padding:19px 15px;
+}
+toggle-tab.toggle {
+  background: #01a888;
+  border-radius: 10px;
+  color: #fff;
+}
+.product-text .toggle:nth-child(2){
+  background: red !important;
+}

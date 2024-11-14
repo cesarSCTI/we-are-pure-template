@@ -1,11 +1,11 @@
-<div class="container--large container--vertical-space-small">
+<div class="container--large container--vertical-space-small" >
   
   {%- if section.settings.show_collection_image and collection.image -%}
   
     <div id="element-main-collection-banner" class="card element--height-small align-content align-content--{{ section.settings.alignment }} margin-bottom--regular">
 
       <div class="card__text gutter--large spacing--small remove-empty-space container--compact" style="margin:0">
-        <h1 class="h2">{{ collection.title | escape }}</h1>
+        <h1 class="h2"> {{ collection.title | escape }}</h1>
         {%- if section.settings.show_collection_description and collection.description != blank -%}
           <p class="collection-header__description rte">{{ collection.description }}</p>
         {%- endif -%}
@@ -26,9 +26,9 @@
     
     <div class="section-heading gutter-bottom--page">
 
-      <div class="section-heading__text remove-empty-space">
+      <div class="section-heading__text remove-empty-space" id="template-collection">
 
-        <h1 class="h2">{{ collection.title | escape }}</h1>
+        <h1 class="h2">  {{ collection.title | escape }}</h1>
 
         {%- if section.settings.show_collection_description and collection.description != blank -%}
           <div class="collection-header__description rte">{{ collection.description }}</div>
