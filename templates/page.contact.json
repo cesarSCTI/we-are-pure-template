@@ -19,15 +19,24 @@
     "rich_text_NCexVP": {
       "type": "rich-text",
       "blocks": {
+        "title_xVw4Na": {
+          "type": "title",
+          "settings": {
+            "title": "Contact Us",
+            "title_size": "h2",
+            "seo_h_tag": "h2"
+          }
+        },
         "text_k8JLCE": {
           "type": "text",
           "settings": {
-            "text": "<p>We’d love to hear from you! Whether you have a question about our fruit purees, need assistance with your order, or just want to chat about the best fruit blends for your next brew, we're here to help.</p><ul><li>Need a special quote? Just ask!</li><li>Curious about shipping times or our latest products? We're ready with the answers.</li><li>Have a creative project in mind? Let’s collaborate and make it happen!</li></ul><p>Complete the form below, and one of our friendly team members will get back to you as soon as possible. We’re excited to connect with you and help your business grow with our high-quality fruit purees!</p>",
+            "text": "<p>We’d love to hear from you! Whether you have a question about our fruit purees or need assistance with your order, we're here to help.</p><ul><li>Need a special quote? Just ask!</li><li>Curious about shipping times or our latest products? We're ready with the answers.</li></ul><p>Complete the form below, and one of our friendly team members will get back to you as soon as possible. We’re excited to connect with you and help your business grow with our high-quality fruit purees!</p>",
             "text_size": "regular"
           }
         }
       },
       "block_order": [
+        "title_xVw4Na",
         "text_k8JLCE"
       ],
       "custom_css": [
@@ -36,15 +45,16 @@
         ".card__text {padding: 40px 0 40px 40px !important;}"
       ],
       "settings": {
-        "image_position": "top no-image",
+        "image": "shopify://shop_images/img-contacto-wearepuree.png",
+        "image_position": "right",
         "height": "regular",
-        "image_crop": false,
+        "image_crop": true,
         "text_alignment": "horizontal-left",
         "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
         "remove_margin": true,
-        "color_background_main": "#4b9ad4",
+        "color_background_main": "#00ae8d",
         "color_text_main": "#ffffff",
         "color_accent_main": "rgba(0,0,0,0)",
         "color_borders_main": "rgba(0,0,0,0)",
