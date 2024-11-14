@@ -99,9 +99,7 @@
         "title_JmtCAe",
         "text_47bihY"
       ],
-      "custom_css": [
-        "h3 {font-weight: bold !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/img-wholesale-we_are_puree.png",
         "image_position": "right",
