@@ -139,6 +139,9 @@
         "text_8ykwnt",
         "text_CF8JhH"
       ],
+      "custom_css": [
+        "toggle-tab.opened .toggle__title {background: #E94760 !important;}"
+      ],
       "settings": {
         "heading": "Frequently Asked Question",
         "subheading": "Our FAQ section is designed to provide you with quick and comprehensive answers to the most common questions about our products and services. Here, you can find detailed information about our fruit purees, their usage, storage, and more.",
