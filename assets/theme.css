@@ -2248,7 +2248,6 @@ html[dir=rtl] .lazy-image[data-ratio] img {
 html[dir=ltr] .lazy-image[data-ratio] img {
   left: 0;
 }
-.template-page .breadcrumbs,.template-article .breadcrumbs,.template-collection .breadcrumbs{display:none;}
 
 @keyframes lazy-loading {
   0% {
@@ -2521,3 +2520,4 @@ h2.h2.rte.rich-text__title {
   border-radius: 40px 0px 40px 0px;
 }
 */
+.template-page .breadcrumbs,.template-article .breadcrumbs,.template-collection .breadcrumbs{display:none;}
