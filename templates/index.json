@@ -689,6 +689,7 @@
       ],
       "settings": {
         "heading": "Industry Uses",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "layout": "grid-3 grid-lap-1",
