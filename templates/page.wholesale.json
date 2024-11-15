@@ -64,6 +64,8 @@
       ],
       "settings": {
         "heading": "Wholesale Partnerships",
+        "img_left": "shopify://shop_images/titulo-izq.png",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "Unlock Exceptional Flavors for Your Business",
         "section_heading_layout": "section-heading--center",
         "style": "slider",
