@@ -334,10 +334,10 @@ html[dir=ltr] .facets__form--mobile .facets__display {
   color: #fff;
 }
 .select .select__select .collection-filters__sort{
-  background: #acd400 !important;
+  background-color: #acd400 !important;
   color: #fff;
 }
 .facets__summary, #main select, .sidebar select, .modal-content select {
-  background: #acd400 !important;
+  background-color: #acd400 !important;
   color: #fff !important;
 }
