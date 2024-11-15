@@ -12,7 +12,7 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesales-title.png?v=1731124954); background-size: contain; background-repeat: no-repeat;}",
+        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-collections.png?v=1731124954); background-size: contain; background-repeat: no-repeat;}",
         ".container--large {padding: 0;}"
       ],
       "settings": {
