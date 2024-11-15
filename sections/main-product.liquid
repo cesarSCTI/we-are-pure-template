@@ -608,7 +608,10 @@
           -%}
           {%- if show_block -%}
             <toggle-tab class="toggle" {{ block.shopify_attributes }}>
-              <span class="toggle__title" data-js-title tabindex="0" aria-expanded="false" role="button" aria-controls="toggle-{{ block.id }}">{{ block.settings.heading | escape }}</span>
+              
+              <span class="toggle__title" data-js-title tabindex="0" aria-expanded="false" role="button" aria-controls="toggle-{{ block.id }}">
+                <span style="display:flex; gap:15px;align-items:center; justify-content:center;"><img src="https://cdn.shopify.com/s/files/1/0569/6323/5920/files/icono-other_information.png?v=1731124953" height="25" />
+                {{ block.settings.heading | escape }}</span></span>
               <div id="toggle--{{ block.id }}" data-js-content class="toggle__content rte remove-empty-space" role="region">
                 {%- liquid
                   echo block.settings.content
