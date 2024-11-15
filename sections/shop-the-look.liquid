@@ -34,7 +34,7 @@
   <div class="{% if section.settings.is_fullwidth %} container--large container--vertical-space {% endif %}">
     {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, 
       layout: section.settings.section_heading_layout,
-      img_right:  -%}
+      img_right: section.settings.img_right -%}
   </div>
 
   <div id="element-{{ section.id }}" class="panel {% if section.settings.is_fullwidth %} panel--no-radius panel--no-sideborders {% endif %} gutter-top--large gutter-bottom--large element--height-small">
@@ -204,6 +204,11 @@
         "id": "heading",
         "label": "t:sections.local-extra-words.sections.headings.heading",
         "default": "Shop the look"
+      },
+      {
+        "type": "image_picker",
+        "label": "img right",
+        "id": "img_right"
       },
       {
         "type": "text",
