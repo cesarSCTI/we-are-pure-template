@@ -39,7 +39,9 @@
           "settings": {
             "title": "Desserts",
             "title_size": "h2",
-            "seo_h_tag": "h2"
+            "seo_h_tag": "h2",
+            "img_left": "shopify://shop_images/titulo-izq.png",
+            "img_right": "shopify://shop_images/titulo-derecha.png"
           }
         },
         "text_BLdyjA": {
