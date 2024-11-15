@@ -62,7 +62,7 @@
         "h3 {font-weight: bold !important;}",
         ".section-heading__subheading {font-weight: 900 !important;}",
         ".section-heading__text {width: auto;}",
-        ".title-custom-left h1 {padding: 10px 30px;}",
+        "h1 {font-size: xxx-large;}",
         ".title-custom-left {margin-bottom: 25px;}",
         ".section-heading {min-height: 250px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesales-title.png?v=1731124954); background-size: cover; background-position: center;}",
         ".container--large {padding: 0; max-width: 100%;}"
