@@ -5,6 +5,11 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    border-radius:25px;
 }
 </style>
 {%- liquid
@@ -147,6 +152,9 @@
           
           {% if product.metafields.custom.technicaldata != blank %}
             <a href="{{product.metafields.custom.technicaldata}}" download="Technical_data_sheet.pdf" class="technical">
+              {% if block.settings.icon != blank %} 
+                {{ block.settings.icon | image_url: width: 30 |image_tag }}
+            {% endif %}
               <button> 
                 {{block.settings.button_text}}
               </button>
@@ -1099,6 +1107,11 @@
             "type":"text",
             "label":"button text",
             "id": "button_text"
+          },
+          {
+            "type":"image_picker",
+            "label": "icon",
+            "id":"icon"
           }
         ]
       },
