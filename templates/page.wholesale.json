@@ -152,7 +152,8 @@
       ],
       "custom_css": [
         ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important; background: #00ae8d !important;}",
-        "h3 {color: #fff !important;}"
+        "h3 {color: #fff !important;}",
+        ".title-custom-left {justify-content: center;}"
       ],
       "settings": {
         "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
