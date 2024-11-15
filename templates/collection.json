@@ -12,7 +12,7 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-collections.png?v=1731124954); background-size: cover; background-repeat: no-repeat; padding: 0px 5vw;}",
+        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-collections.png?v=1731124954); background-size: cover; background-repeat: no-repeat; padding: 0px 15vw;}",
         "h1.h2 {margin: 0px; line-height: normal; background: #00ae8d; border-radius: 25px 0px 25px; padding: 1.5% 3%; width: fit-content; color: #fff;}",
         ".container--large {padding: 0;}",
         "div#template-collection {display: flex; align-items: center; gap: 25px;}"
