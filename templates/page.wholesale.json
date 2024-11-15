@@ -61,7 +61,9 @@
       "custom_css": [
         "h3 {font-weight: bold !important;}",
         ".section-heading__subheading {font-weight: 900 !important;}",
-        ".section-heading__text {width: auto;}"
+        ".section-heading__text {width: auto;}",
+        ".title-custom-left h1 {padding: 10px 30px;}",
+        ".title-custom-left{margin-bottom:25px;}"
       ],
       "settings": {
         "heading": "Wholesale Partnerships",
