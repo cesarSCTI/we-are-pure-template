@@ -1,6 +1,13 @@
 <div class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" or section.settings.section_background_gradient != blank %} container--has-background {% endif %} remove-empty-space">
   
-  {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+  {%- render 'section-heading', 
+    heading: section.settings.heading, 
+    subheading: section.settings.subheading, 
+    heading_tag: section.settings.seo_h_tag, 
+    layout: section.settings.section_heading_layout, 
+    img_left: section.settings.img_left,
+    img_right: section.settings.img_right
+    -%}
 
   <style>
     #shopify-section-{{ section.id }} .card__icon, 
@@ -133,6 +140,16 @@
       "id": "heading",
       "label": "t:sections.local-extra-words.sections.headings.heading",
       "default": "Text columns with image"
+    },
+    {
+      "type": "image_picker",
+      "label":"img left",
+      "id": "img_left"
+    },
+    {
+      "type": "image_picker",
+      "label":"img right",
+      "id": "img_right"
     },
     {
       "type": "text",
