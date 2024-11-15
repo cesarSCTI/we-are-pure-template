@@ -5,7 +5,7 @@
     <div id="element-main-collection-banner" class="card element--height-small align-content align-content--{{ section.settings.alignment }} margin-bottom--regular">
 
       <div class="card__text gutter--large spacing--small remove-empty-space container--compact" style="margin:0">
-        <h1 class="h2"> {{ collection.title | escape }}</h1> <img src="https://we-are-pure-shop.myshopify.com/cdn/shop/files/titulo-derecha.png?v=1731633182&width=50">
+        <h1 class="h2"> {{ collection.title | escape }}</h1> 
         {%- if section.settings.show_collection_description and collection.description != blank -%}
           <p class="collection-header__description rte">{{ collection.description }}</p>
         {%- endif -%}
@@ -28,7 +28,7 @@
 
       <div class="section-heading__text remove-empty-space" id="template-collection">
 
-        <h1 class="h2">  {{ collection.title | escape }}</h1>
+        <h1 class="h2">  {{ collection.title | escape }}</h1> <img src="https://we-are-pure-shop.myshopify.com/cdn/shop/files/titulo-derecha.png?v=1731633182&width=50">
 
         {%- if section.settings.show_collection_description and collection.description != blank -%}
           <div class="collection-header__description rte">{{ collection.description }}</div>
