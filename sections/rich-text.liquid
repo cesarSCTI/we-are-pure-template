@@ -52,13 +52,20 @@
                 </div>
 
               {%- when 'title' -%}
-                <{{ block.settings.seo_h_tag }} 
-                  class="{{ block.settings.title_size }} rte rich-text__title"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.title }}
-                </{{ block.settings.seo_h_tag }}>
-
+                <div class="title-custom">
+                  {% if block.settings.img_left != blank %}
+                    {{ block.settings.img_left | image_url: width:50 | image_tag }}
+                  {% endif %}
+                  <{{ block.settings.seo_h_tag }} 
+                    class="{{ block.settings.title_size }} rte rich-text__title"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{ block.settings.title }}
+                  </{{ block.settings.seo_h_tag }}>
+                  {% if block.settings.img_right != blank %}
+                    {{ block.settings.img_right | image_url: width:50 | image_tag }}
+                  {% endif %}
+                </div>
               {%- when 'text' -%}
                 <div 
                   class="rte text-size--{{ block.settings.text_size }}"
@@ -330,6 +337,16 @@
             }
           ],
           "default": "h2"
+        },
+        {
+          "type": "image_picker",
+          "label":"img left",
+          "id": "img_left"
+        },
+        {
+          "type": "image_picker",
+          "label":"img right",
+          "id": "img_right"
         }
       ]
     },

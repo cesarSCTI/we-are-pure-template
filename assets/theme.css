@@ -2457,8 +2457,21 @@ html[dir=ltr] .card__image svg, .card__image html[dir=ltr] svg, html[dir=ltr] .c
   visibility: hidden;
   display: none;
 } 
-
-
+.title-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.title-custom h2{
+  margin:0px;
+  background: #00ae8d;
+  color:#fff;
+  border-radius:25px 0px 25px;
+  padding:1.5% 3%;
+  line-height:1;
+  flex-wrap: wrap;;
+}
 /*Custom titles
 .h2.rte.rich-text__title::before{
   content: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/titulo-izq.png?v=1731466097);
