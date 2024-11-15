@@ -386,6 +386,8 @@
       ],
       "settings": {
         "title": "Our Fruit Purées Presentations",
+        "img_left": "shopify://shop_images/titulo-izq.png",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "color_title": "#ffffff",
         "color_title_bg": "#00ae8d",
         "tab1": "shopify://shop_images/PlainBag-Brand.png",
@@ -480,6 +482,7 @@
       ],
       "settings": {
         "heading": "Favorite Purees",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "show_view_all": false,
         "section_heading_layout": "section-heading--left",
