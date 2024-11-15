@@ -141,10 +141,12 @@
       ],
       "custom_css": [
         "toggle-tab.opened .toggle__title {background: #e94760 !important;}",
-        ".toggle--faq .toggle__title {background: #00ae8d !important;}"
+        ".toggle--faq .toggle__title {background: #00ae8d !important;}",
+        "h1{margin-bottom:20px;}"
       ],
       "settings": {
         "heading": "Frequently Asked Question",
+        "img_rigth": "shopify://shop_images/titulo-derecha.png",
         "subheading": "Our FAQ section is designed to provide you with quick and comprehensive answers to the most common questions about our products and services. Here, you can find detailed information about our fruit purees, their usage, storage, and more.",
         "section_heading_layout": "section-heading--center",
         "open_first": false,
