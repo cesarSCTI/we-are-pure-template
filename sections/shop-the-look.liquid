@@ -32,7 +32,9 @@
 <div class="container--large container--vertical-space remove-empty-space {% if section.settings.is_fullwidth %} container--fullwidth {% endif %}">
 
   <div class="{% if section.settings.is_fullwidth %} container--large container--vertical-space {% endif %}">
-    {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+    {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, 
+      layout: section.settings.section_heading_layout,  
+      img_right: https://we-are-pure-shop.myshopify.com/cdn/shop/files/titulo-derecha.png?v=1731633182&width=50 -%}
   </div>
 
   <div id="element-{{ section.id }}" class="panel {% if section.settings.is_fullwidth %} panel--no-radius panel--no-sideborders {% endif %} gutter-top--large gutter-bottom--large element--height-small">
