@@ -5,6 +5,7 @@
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  display:none;
 }
 .breadcrumb-container::-webkit-scrollbar {
   width: 0 !important;
@@ -23,7 +24,7 @@
 }
 
 .breadcrumb {
-  display: none;
+  display: flex;
   width: auto;
   margin: 0;
   flex-shrink: 0;
