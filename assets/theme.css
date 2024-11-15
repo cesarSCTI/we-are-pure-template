@@ -2501,7 +2501,9 @@ span.powered-by-shopify {
     font-size: large;
     padding:2.5% 3%;
   }
-
+  #shopify-section-template--15172446322768__text_columns_images_mdpXne h1{
+    font-size: large !important;
+  }
 }
 /*Custom titles
 .h2.rte.rich-text__title::before{
