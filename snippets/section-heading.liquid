@@ -7,7 +7,19 @@
       <div class="section-heading__text remove-empty-space">
 
         {%- unless heading == blank -%}
-          <{{ heading_tag }} class="section-heading__title h4">{{ heading | escape }}</{{ heading_tag }}>
+          <div class="title-custom-left">
+            {%- unless img_left == blank -%}
+            {% if img_left != blank %}
+              {{ img_left | image_url: width:50 | image_tag }}
+            {% endif %}
+            {% endunless %}
+            <{{ heading_tag }} class="section-heading__title h4">{{ heading | escape }}</{{ heading_tag }}>
+            {%- unless img_right == blank -%}
+          {% if img_right != blank %}
+            {{ img_right | image_url: width:50 | image_tag }}
+          {% endif %}
+          {%- endunless%}
+        </div>
         {%- endunless -%}
 
         {%- unless subheading == blank -%}

@@ -171,7 +171,15 @@ height: 55vh;
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <div class="section-tab-caroucel">
-    <h3 class="title_green">{{ section.settings.title }}</h3>
+    <div class="title-custom">
+        {% if section.settings.img_left != blank %}
+          {{ section.settings.img_left | image_url: width:50 | image_tag }}
+        {% endif %}
+    <h4 class="">{{ section.settings.title }}</h4>
+    {% if section.settings.img_right != blank %}
+        {{ section.settings.img_right | image_url: width:50 | image_tag }}
+      {% endif %}
+    </div>
     <div class="tabs">
         <button class="tab-link active" data-tab="tab1">
             {% if section.settings.tab1 != blank %}
@@ -228,6 +236,16 @@ $(document).ready(function() {
     "type": "text",
     "id": "title",
     "label": "Title"
+},
+{
+    "type": "image_picker",
+    "label": "img left",
+    "id": "img_left",
+},
+{
+    "type": "image_picker",
+    "label": "img right",
+    "id": "img_right",
 },
 {
     "type":"color",
