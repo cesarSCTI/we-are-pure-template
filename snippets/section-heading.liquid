@@ -17,6 +17,8 @@
             {%- unless img_right == blank -%}
           {% if img_right != blank %}
             {{ img_right | image_url: width:50 | image_tag }}
+          {% else %}
+            <img src="//we-are-pure-shop.myshopify.com/cdn/shop/files/titulo-derecha.png?v=1731633182&amp;width=50" alt="" srcset="//we-are-pure-shop.myshopify.com/cdn/shop/files/titulo-derecha.png?v=1731633182&amp;width=50 50w" width="50" height="59">
           {% endif %}
           {%- endunless%}
         </div>
