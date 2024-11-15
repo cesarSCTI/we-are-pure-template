@@ -2,7 +2,12 @@
 
 <div class="container--large container--vertical-space">
 
-  {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+  {%- render 'section-heading', 
+    heading: section.settings.heading, 
+    subheading: section.settings.subheading, 
+    heading_tag: section.settings.seo_h_tag, 
+    layout: section.settings.section_heading_layout, 
+    img_right: section.settings.img_rigth-%}
 
   <div class="{%- if section.settings.form_enable -%} faq-layout grid--no-stretch {%- endif -%}">
     <div class="faq-items">
@@ -166,6 +171,11 @@
         "label": "t:sections.local-extra-words.sections.headings.heading",
         "default": "Frequently asked question"
       },
+      {
+        "type":"image_picker",
+        "label": "img right",
+        "id": "img_rigth"
+      }
       {
         "type": "text",
         "id": "subheading",
