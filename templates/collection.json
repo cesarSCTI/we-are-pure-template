@@ -53,10 +53,23 @@
         "enable_sorting": true,
         "image_filter_layout": "onecolumn"
       }
+    },
+    "custom_liquid_86C3t4": {
+      "type": "custom-liquid",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "custom_liquid": "<style>\n#shopify-section-template--15156973895760__banner .container--large {\n    padding: 0;\n    max-width: 100%;\n    margin: 0px;\n}\n</style>",
+        "full_width": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "custom_liquid_86C3t4"
   ]
 }
