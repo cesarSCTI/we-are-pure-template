@@ -2453,15 +2453,16 @@ html[dir=rtl] .card__image svg, .card__image html[dir=rtl] svg, html[dir=rtl] .c
 html[dir=ltr] .card__image svg, .card__image html[dir=ltr] svg, html[dir=ltr] .card__image--background, html[dir=ltr] .card__image--with-overlay:after, html[dir=ltr] .lazy-image:not(.lazy-image--no-transition):before, html[dir=ltr] .lazy-image:not(.lazy-image--no-transition):after, html[dir=ltr] .svg-placeholder.svg-placeholder--background {
   left: 0;
 }
-.footer-bottom {
-  visibility: hidden;
+span.powered-by-shopify {
   display: none;
-} 
+}
 .title-custom {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
+}span.powered-by-shopify {
+    display: none;
 }
 .title-custom h2, .title-custom h4{
   margin:0px;
