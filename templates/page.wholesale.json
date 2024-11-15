@@ -64,8 +64,8 @@
         ".section-heading__text {width: auto;}",
         ".title-custom-left h1 {padding: 10px 30px;}",
         ".title-custom-left {margin-bottom: 25px;}",
-        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesales-title.png?v=1731124954); background-size: contain; background-repeat: no-repeat;}",
-        ".container--large {padding: 0;}"
+        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesales-title.png?v=1731124954); background-size: cover;}",
+        ".container--large {padding: 0; max-width:100%;}"
       ],
       "settings": {
         "heading": "Wholesale Partnerships",
