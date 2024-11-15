@@ -90,7 +90,7 @@
         "heading": "",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "custom_liquid": "@media only screen and (max-width:768px){\n#shopify-section-template--15172259086416__text_columns_images_mdpXne h1 {\n    font-size: large !important;\n}\n}",
+        "custom_liquid": "<style>\n@media only screen and (max-width:768px){\n#shopify-section-template--15172259086416__text_columns_images_mdpXne h1 {\n    font-size: large !important;\n}\n}\n</style>",
         "full_width": false,
         "remove_margin": false,
         "seo_h_tag": "h2"
