@@ -1,7 +1,7 @@
 /*
  *  1.0. Mixins
 */
-/*.breadcrumb-container {
+.breadcrumb-container {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -29,14 +29,14 @@
   flex-shrink: 0;
   line-height: 1.1;
 }
-.breadcrumb-main {
+/*.breadcrumb-main {
   position: relative;
   z-index: 9;
   position: absolute;
   top: calc(clamp(2.5rem, var(--container-vertical-space), 5rem) * -1);
   height: clamp(2.5rem, var(--container-vertical-space), 5rem);
   width: 100%;
-}
+}*/
 html[dir=rtl] .breadcrumb-main {
   right: 0;
 }
@@ -83,4 +83,4 @@ html[dir=ltr] .breadcrumb-main {
 }
 .no-touchevents .breadcrumb__link a:hover {
   color: var(--color-accent-main);
-}*/
+}
