@@ -33,8 +33,7 @@
 
   <div class="{% if section.settings.is_fullwidth %} container--large container--vertical-space {% endif %}">
     {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, 
-      layout: section.settings.section_heading_layout,  
-      img_right: section.settings.img_right -%}
+      layout: section.settings.section_heading_layout -%}
   </div>
 
   <div id="element-{{ section.id }}" class="panel {% if section.settings.is_fullwidth %} panel--no-radius panel--no-sideborders {% endif %} gutter-top--large gutter-bottom--large element--height-small">
