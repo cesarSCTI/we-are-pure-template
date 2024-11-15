@@ -33,8 +33,8 @@
   position: relative;
   z-index: 9;
   position: absolute;
-  top: calc(clamp(2.5rem, var(--container-vertical-space), 5rem) * -1);
-  height: clamp(2.5rem, var(--container-vertical-space), 5rem);
+ /* top: calc(clamp(2.5rem, var(--container-vertical-space), 5rem) * -1);
+  height: clamp(2.5rem, var(--container-vertical-space), 5rem);*/
   width: 100%;
   display:none;
 }
