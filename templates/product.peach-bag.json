@@ -175,7 +175,8 @@
         "special_button_dDfra8": {
           "type": "special_button",
           "settings": {
-            "button_text": "Download Technical Data Sheet"
+            "button_text": "Download Technical Data Sheet",
+            "icon": "shopify://shop_images/icon_downloades.jpg"
           }
         },
         "icons_NpHq4Q": {
