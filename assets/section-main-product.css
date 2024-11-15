@@ -1041,6 +1041,7 @@ toggle-tab.toggle {
   border-radius: 10px;
   color: #fff;
 }
-.product-text .toggle:nth-child(2){
-  background: red !important;
+.pickup-availability-widget__header svg path {
+  fill: #fff !important;
+  stroke: none;
 }
