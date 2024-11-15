@@ -147,6 +147,7 @@
       ],
       "settings": {
         "heading": "Buy our fruit purees today",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-yogurt_2.png",
@@ -169,6 +170,7 @@
       "type": "text-columns",
       "settings": {
         "heading": "Certifications",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
         "style": "slider",
