@@ -25,7 +25,7 @@
         "heading": "What Can You Create with We Are Puree?",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "style": "slider",
+        "style": "grid",
         "layout": "grid-4 grid-portable-3 grid-lap-2",
         "block_text_alignment": "text-align--left",
         "seo_h_tag": "h1"
@@ -173,7 +173,7 @@
         "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
-        "style": "slider",
+        "style": "grid",
         "layout": "grid-4 grid-portable-3 grid-lap-2",
         "block_text_alignment": "text-align--center",
         "seo_h_tag": "h1"
