@@ -83,6 +83,19 @@
         "seo_h_tag": "h1"
       }
     },
+    "custom_liquid_nN4LYJ": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "custom_liquid": "",
+        "full_width": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
     "rich_text_8gbcD9": {
       "type": "rich-text",
       "blocks": {
@@ -382,6 +395,7 @@
   "order": [
     "main",
     "text_columns_images_mdpXne",
+    "custom_liquid_nN4LYJ",
     "rich_text_8gbcD9",
     "17315300212de421dd",
     "rich_text_exfpQY",
