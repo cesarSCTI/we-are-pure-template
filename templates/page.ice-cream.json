@@ -19,7 +19,7 @@
     "text_columns_RhzYRg": {
       "type": "text-columns",
       "custom_css": [
-        "h1 {color: #fb4a5d !important; font-weight: bold !important; background:none;}"
+        "h1 {color: #fb4a5d !important; font-weight: bold !important; background: none;}"
       ],
       "settings": {
         "heading": "What Can You Create with We Are Puree?",
@@ -147,6 +147,7 @@
       ],
       "settings": {
         "heading": "Buy our fruit purees today",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
         "image": "shopify://shop_images/img-industry-we_are_pure-ice_cream_2.png",
@@ -169,6 +170,7 @@
       "type": "text-columns",
       "settings": {
         "heading": "Certifications",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
         "style": "slider",
