@@ -776,7 +776,7 @@
         "heading": "",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
-        "style": "grid",
+        "style": "slider",
         "layout": "grid-3 grid-lap-2",
         "border_radius": 0,
         "section_background_color": "rgba(0,0,0,0)",
