@@ -2492,6 +2492,17 @@ span.powered-by-shopify {
 .section-heading__text {
   width: 100%;
 }
+@media only screen and (max-width:768px) {
+  .title-custom img, .title-custom-left img{
+    height:30px;
+    width: auto;
+  }
+  .title-custom h2, .title-custom h4, .title-custom-left h1{
+    font-size: large;
+    padding:2.5% 3%;
+  }
+
+}
 /*Custom titles
 .h2.rte.rich-text__title::before{
   content: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/titulo-izq.png?v=1731466097);
