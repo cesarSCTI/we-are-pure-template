@@ -55,9 +55,7 @@
         "text_BLdyjA"
       ],
       "custom_css": [
-        ".gutter--xlarge {padding: 0px !important;}",
-        ".card__text {display: flex; flex-direction: column; align-items: center; justify-content: center;}",
-        "h2{background: #00ae8d; padding: 2% 6%; color: #fff; border-radius: 25px 0px 25px;}"
+        ".gutter--xlarge {padding: 0px !important;}"
       ],
       "settings": {
         "image_position": "top no-image",
