@@ -19,7 +19,7 @@
     "text_columns_RhzYRg": {
       "type": "text-columns",
       "custom_css": [
-        "h1 {color: #fb4a5d !important; font-weight: bold !important;}"
+        "h2 {color: #fb4a5d !important; font-weight: bold !important;}"
       ],
       "settings": {
         "heading": "What Can You Create with We Are Puree?",
@@ -28,7 +28,7 @@
         "style": "slider",
         "layout": "grid-4 grid-portable-3 grid-lap-2",
         "block_text_alignment": "text-align--left",
-        "seo_h_tag": "h1"
+        "seo_h_tag": "h2"
       }
     },
     "rich_text_Gt7R3p": {
