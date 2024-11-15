@@ -1,6 +1,6 @@
 <div class="container--large {% unless section.settings.remove_margin %} container--vertical-space {% endunless %} {% if section.settings.section_background_color != "rgba(0,0,0,0)" or section.settings.section_background_gradient != blank %} container--has-background {% endif %}">
 
-  {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout -%}
+  {%- render 'section-heading', heading: section.settings.heading, subheading: section.settings.subheading, heading_tag: section.settings.seo_h_tag, layout: section.settings.section_heading_layout, img_left: section.settings.img_left, img_right: section.settings.img_right -%}
 
   {%- if section.blocks.size > 0 -%}
       
@@ -125,6 +125,16 @@
         "id": "heading",
         "label": "t:sections.local-extra-words.sections.headings.heading",
         "default": "Promotion cards"
+      },
+      {
+        "type": "image_picker",
+        "label":"img left",
+        "id": "img_left"
+      },
+      {
+        "type": "image_picker",
+        "label":"img right",
+        "id": "img_right"
       },
       {
         "type": "text",
