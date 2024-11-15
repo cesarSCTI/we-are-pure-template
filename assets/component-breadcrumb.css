@@ -23,20 +23,20 @@
 }
 
 .breadcrumb {
-  display: flex;
+  display: none;
   width: auto;
   margin: 0;
   flex-shrink: 0;
   line-height: 1.1;
 }
-/*.breadcrumb-main {
+.breadcrumb-main {
   position: relative;
   z-index: 9;
   position: absolute;
   top: calc(clamp(2.5rem, var(--container-vertical-space), 5rem) * -1);
   height: clamp(2.5rem, var(--container-vertical-space), 5rem);
   width: 100%;
-}*/
+}
 html[dir=rtl] .breadcrumb-main {
   right: 0;
 }
