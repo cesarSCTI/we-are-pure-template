@@ -329,10 +329,6 @@ html[dir=ltr] .facets__form--mobile .facets__display {
     margin-bottom: 0.875rem;
   }
 }
-.disclosure-has-popup summary {
-  background: #acd400;
-  color: #fff;
-}
 .select .select__select .collection-filters__sort{
   background-color: #acd400 !important;
   color: #fff;
