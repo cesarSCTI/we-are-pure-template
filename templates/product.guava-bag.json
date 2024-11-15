@@ -330,6 +330,7 @@
       ],
       "settings": {
         "heading": "Why Aseptic Technology?",
+        "img_rigth": "shopify://shop_images/titulo-derecha.png",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
         "image": "shopify://shop_images/aseptic_technology-we_are_puree-bag.png",
