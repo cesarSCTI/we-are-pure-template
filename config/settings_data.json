@@ -196,9 +196,9 @@
     "show_breadcrumb": true,
     "show_gotop": true,
     "show_currency_codes": true,
-    "social_facebook": "#",
-    "social_instagram": "#",
-    "social_youtube": "#",
+    "social_facebook": "",
+    "social_instagram": "https://www.instagram.com/wearepuree_?igsh=bmQ1azc0Nmd2bjRu",
+    "social_youtube": "",
     "sections": {
       "popups": {
         "type": "popups",
