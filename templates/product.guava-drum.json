@@ -155,7 +155,7 @@
             "label_left": "Amount per serving",
             "label_right": "% Daily Value*",
             "content": "<p><strong>Calories, 35</strong><br/><strong>Total Fat 0g, 0%</strong><br/>- Saturated Fat 0g, <strong>0%</strong><br/>- Trans Fat 0g<br/>- Polyunsatured Fat 0g<br/>- Monounsaturated Fat 0g<br/><strong>Cholesterol</strong> 0mg,<strong> 0%</strong><br/><strong>Sodium </strong>0mg, <strong>0%</strong><br/><strong>Total Carbohydrate</strong> 9g, <strong>3%</strong><br/>- Dietary Fiber 3g, <strong>11%</strong><br/>- Total Sugars 5g<br/>- Includes 0g Added Sugars, <strong>0%</strong><br/>- Sugar Alcohol 0g<br/>Protein 0g, <strong>0%</strong><br/>Vitamin D 0mcg, 0%<br/>Calcium 10.8mg, 0%<br/>Iron 0.15mg, 0%<br/>Potassium 250mg, 6%</p>",
-            "content_extra": "<p><strong>Ingredients:</strong> Sugar, Glucose Syrup, Water, Beef Gelatine, Acid: Citric Acid, Flavouring</p>",
+            "content_extra": "<p>* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</p>",
             "hide_block_if": false
           }
         },
