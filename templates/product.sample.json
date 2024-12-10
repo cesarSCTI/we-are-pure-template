@@ -104,7 +104,7 @@
         "text_QgLyGJ": {
           "type": "text",
           "settings": {
-            "text": "<p>🚨Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
+            "text": "<p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
             "text_size": "text-size--xsmall",
             "text_color": "#231f20",
             "text_transform": false
