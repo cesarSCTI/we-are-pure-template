@@ -24,12 +24,9 @@
           "type": "description",
           "settings": {}
         },
-        "empty_space_1": {
-          "type": "space",
-          "settings": {}
-        },
         "icons_zgzz4m": {
           "type": "icons",
+          "disabled": true,
           "settings": {
             "title": "Choose Your Flavors!",
             "icon_1_image": "shopify://shop_images/flavor-guava_30afc3da-1084-41e5-802c-a29b2dd059dc.png",
@@ -47,6 +44,7 @@
         },
         "icons_GWC6qA": {
           "type": "icons",
+          "disabled": true,
           "settings": {
             "title": "",
             "icon_1_image": "shopify://shop_images/flavor-Blueberries_aba46d69-439e-4923-9d41-e791a4c13139.png",
@@ -64,12 +62,25 @@
             "hide_block_if": false
           }
         },
-        "empty_space_2": {
-          "type": "space",
-          "settings": {}
+        "text_zmeyBb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please choose your Flavor!</strong></p>",
+            "text_size": "text-size--large",
+            "text_color": "#e94760",
+            "text_transform": false
+          }
+        },
+        "variant_picker_hyeHjC": {
+          "type": "variant_picker",
+          "settings": {
+            "variants_style": "radio",
+            "show_quantities": "no"
+          }
         },
         "text_XnqhNU": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Fill out the information below to request your samples:</p>",
             "text_size": "text-size--regular",
@@ -104,10 +115,10 @@
         "title",
         "price",
         "description",
-        "empty_space_1",
         "icons_zgzz4m",
         "icons_GWC6qA",
-        "empty_space_2",
+        "text_zmeyBb",
+        "variant_picker_hyeHjC",
         "text_XnqhNU",
         "buy_buttons",
         "text_QgLyGJ"
