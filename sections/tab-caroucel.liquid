@@ -217,10 +217,8 @@ margin-bottom: 150px;
 $(document).ready(function() {
     $(".tab-link").click(function() {
     var tabID = $(this).data("tab");
-    // Cambiar la clase activa en el botón tab
     $(".tab-link").removeClass("active");
     $(this).addClass("active");
-    // Cambiar la clase activa en el contenido del tab
     $(".tab-pane").removeClass("active");
     $("#" + tabID).addClass("active");
     });
