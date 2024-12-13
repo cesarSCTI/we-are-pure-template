@@ -44,9 +44,9 @@
 {% endcase %}
 {% endfor %}
 </div>
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-<div class="swiper-pagination"></div>
+<div class="swiper-button-next-lata"></div>
+<div class="swiper-button-prev-lata"></div>
+<div class="swiper-pagination-lata"></div>
 </div>
 
 <script>
@@ -56,10 +56,9 @@ var swiper = new Swiper('.lata', {
     loop: true,
     effect:"fade",
     pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-lata',
     clickable: true,
     renderBullet: function (index, className) {
-        // Asegúrate de tener un array de URLs o nombres de las imágenes que quieres usar
         const images = [
             {% for block in section.blocks %}
                 {% if block.type == "Lata" %}
@@ -71,8 +70,8 @@ var swiper = new Swiper('.lata', {
     },
     },
     navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-next-lata',
+    prevEl: '.swiper-button-prev-lata',
     },
 });
 </script>
