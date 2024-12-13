@@ -147,28 +147,27 @@ margin-bottom: 150px;
 }
 
 @media only screen and (max-width:768px){
-.contenedor-slider {
-    flex-direction:column;
-}
-.swiper-slide img {
-display: block;
-height: 55vh;
-    width: auto;
-}
-.slider-image {
-    width: 100%;
-    order:1;
-}
-.slider-text{
-    width:100%;
-    order:2;
-}
-.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    overflow-x: scroll;
-}
+    .contenedor-slider {
+        flex-direction:column;
+    }
+    .swiper-slide img {
+    display: block;
+    height: 55vh;
+        width: auto;
+    }
+    .slider-image {
+        width: 100%;
+        order:1;
+    }
+    .slider-text{
+        width:100%;
+        order:2;
+    }
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        overflow-x: scroll;
+    }
 }
 </style>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <div class="section-tab-caroucel">
     <div class="title-custom">
@@ -227,6 +226,7 @@ $(document).ready(function() {
     });
 });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 {% schema %}
 {
