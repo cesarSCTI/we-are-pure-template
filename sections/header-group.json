@@ -71,7 +71,7 @@
         "show_search": true,
         "sticky_header": true,
         "select_header_actions_on_mobile": "show_always",
-        "show_header_actions": false,
+        "show_header_actions": true,
         "show_locale_selector": false,
         "show_country_selector": false,
         "show_social_icons": true
