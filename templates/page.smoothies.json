@@ -232,7 +232,7 @@
         ".rich-text__container--image-top {padding: 0px 0 50px 0 !important; margin: 0px 0 !important; max-width: 1920px !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/img-request_a_sample.png",
+        "image": "shopify://shop_images/request-free-sample2.png",
         "image_position": "top",
         "height": "small",
         "image_crop": true,
