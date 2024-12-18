@@ -39,7 +39,7 @@
                 {% comment %}
                 {{ block.settings.principal_image | img_url: 'master' | image_tag }}
                  {% endcomment %}
-                <img src="{{ block.settings.principal_image | img_url: 'master' }}">
+                <img src="{{ block.settings.principal_image | img_url: 'master' }}" loading="lazy">
             {% endif %}
             </div>
         </div>
@@ -55,8 +55,7 @@
 <script>
 var swiper = new Swiper('.bolsa', {
     slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
+    loop: false,
     effect:"fade",
     pagination: {
     el: '.swiper-pagination',
@@ -70,12 +69,16 @@ var swiper = new Swiper('.bolsa', {
                 {%  endif  %}
             {% endfor %}
         ];
-        return `<span class="${className}"><img src="${images[index]}" alt="Slide ${index + 1}"></span>`;
+        return `<span class="${className}"><img src="${images[index]}" alt="Slide ${index + 1}" loading="lazy"></span>`;
     },
     },
     navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
     },
+    lazy: {
+        loadPrevNext: true,
+    },
+    lazy: true,  // Activa el lazy loading
 });
 </script>

@@ -36,7 +36,7 @@
             </div>
             <div class="slider-image">
             {% if block.settings.principal_image != blank %}
-                <img src="{{ block.settings.principal_image | img_url: 'master' }}">
+                <img src="{{ block.settings.principal_image | img_url: 'master' }}" loading="lazy">
             {% endif %}
             </div>
         </div>
@@ -52,8 +52,7 @@
 <script>
 var swiper = new Swiper('.lata', {
     slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
+    loop: false,
     effect:"fade",
     pagination: {
     el: '.swiper-pagination',
@@ -66,12 +65,16 @@ var swiper = new Swiper('.lata', {
                 {%  endif  %}
             {% endfor %}
         ];
-        return `<span class="${className}"><img src="${images[index]}" alt="Slide ${index + 1}"></span>`;
+        return `<span class="${className}"><img src="${images[index]}" alt="Slide ${index + 1}" loading="lazy"></span>`;
     },
     },
     navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
     },
+    lazy: {
+        loadPrevNext: true,
+    },
+    lazy: true,  // Activa el lazy loading
 });
 </script>
