@@ -5,7 +5,7 @@
 {% case block.type %}
 {% when 'Lata' %}
     <div class="swiper-slide" style="
-        background-image:url({{ block.settings.bg_image | image_url: height: 800 }}); 
+        background-image:url({{ block.settings.bg_image | image_url: height: 600 }}); 
         background-size:cover;">
         <div class="contenedor-slider">
             <div class="slider-text">
@@ -36,7 +36,10 @@
             </div>
             <div class="slider-image">
             {% if block.settings.principal_image != blank %}
-                <img src="{{ block.settings.principal_image | img_url: 'master' }}" loading="lazy">
+                {% comment %}
+                  <img src="{{ block.settings.principal_image | img_url: 'master' }}" loading="lazy">
+                {% endcomment %}
+                {{ block.settings.principal_image | image_url: height: 650  | image_tag: loading: "lazy"}}
             {% endif %}
             </div>
         </div>
@@ -54,6 +57,7 @@ var swiper = new Swiper('.lata', {
     slidesPerView: 1,
     loop: false,
     effect:"fade",
+    speed: 800,
     pagination: {
     el: '.swiper-pagination',
     clickable: true,
@@ -75,6 +79,10 @@ var swiper = new Swiper('.lata', {
     lazy: {
         loadPrevNext: true,
     },
-    lazy: true,  // Activa el lazy loading
+    on: {
+        slideChange: function() {
+            this.update();  
+        }
+    }
 });
 </script>

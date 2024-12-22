@@ -5,7 +5,7 @@
 {% case block.type %}
 {% when 'Bolsa' %}
         <div class="swiper-slide" style="
-            background-image:url({{ block.settings.bg_image | image_url: height: 800 }}); 
+            background-image:url({{ block.settings.bg_image | image_url: height: 600 }}); 
             background-size:cover;">
         <div class="contenedor-slider">
             <div class="slider-text">
@@ -38,8 +38,10 @@
             {% if block.settings.principal_image != blank %}
                 {% comment %}
                 {{ block.settings.principal_image | img_url: 'master' | image_tag }}
-                 {% endcomment %}
                 <img src="{{ block.settings.principal_image | img_url: 'master' }}" loading="lazy">
+                {% endcomment %}
+                {{ block.settings.principal_image | image_url: height: 650  | image_tag: loading: "lazy"}}
+
             {% endif %}
             </div>
         </div>
@@ -57,11 +59,11 @@ var swiper = new Swiper('.bolsa', {
     slidesPerView: 1,
     loop: false,
     effect:"fade",
+    speed: 800,
     pagination: {
     el: '.swiper-pagination',
     clickable: true,
     renderBullet: function (index, className) {
-        // Asegúrate de tener un array de URLs o nombres de las imágenes que quieres usar
         const images = [
             {% for block in section.blocks %}
                 {% if block.type == "Bolsa" %}
@@ -79,6 +81,10 @@ var swiper = new Swiper('.bolsa', {
     lazy: {
         loadPrevNext: true,
     },
-    lazy: true,  // Activa el lazy loading
+    on: {
+        slideChange: function() {
+            this.update();  
+        }
+    }
 });
 </script>
