@@ -142,7 +142,8 @@
       "custom_css": [
         "toggle-tab.opened .toggle__title {background: #e94760 !important;}",
         ".toggle--faq .toggle__title {background: #b5d242 !important;}",
-        "h1 {margin-bottom: 20px;}"
+        "h1 {margin-bottom: 20px;}",
+        ".contact-cell {background: #fff !important;}"
       ],
       "settings": {
         "heading": "Frequently Asked Question",
