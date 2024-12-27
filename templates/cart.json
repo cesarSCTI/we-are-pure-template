@@ -21,7 +21,9 @@
         "cart-items"
       ],
       "custom_css": [
-        ".text-size--heading {font-size: 30px !important;}"
+        ".text-size--heading {font-size: 30px !important;}",
+        ".cart-form-item--layout {background: #fff !important;}",
+        ".cart__subtotal-widget {background: #fff !important;}"
       ],
       "settings": {}
     }
