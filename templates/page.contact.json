@@ -86,7 +86,7 @@
       "custom_css": [
         ".container--vertical-space {margin-top: 20px !important;}",
         "h3 {color: #e94760 !important;}",
-        ".element--border-radius {border-color: #acd400 !important;}"
+        ".element--border-radius {border-color: #acd400 !important; background: #fff !important; }"
       ],
       "settings": {
         "heading": "We're happy to answer questions",
