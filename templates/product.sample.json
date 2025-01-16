@@ -124,7 +124,9 @@
         "text_QgLyGJ"
       ],
       "custom_css": [
-        ".text-weight--bold {color: #e94760 !important;}"
+        ".text-weight--bold {color: #e94760 !important;}",
+        "button.product-quantity__plus.qty-plus {display: none;}",
+        "button.product-quantity__minus.qty-minus.no-js-hidden {display: none;}"
       ],
       "settings": {
         "gallery_style": "slider",
@@ -196,7 +198,7 @@
         "heading": "",
         "subheading": "",
         "section_heading_layout": "section-heading--left",
-        "custom_liquid": "<script>\n// Esperamos a que la página esté completamente cargada\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    // Seleccionamos el input utilizando la clase\n    const quantityInput = document.querySelector(\".product-quantity__selector\");\n    \n    // Establecemos el valor máximo a 1\n    quantityInput.max = 1;\n    \n    // Aseguramos que el valor no pueda ser mayor a 1\n    quantityInput.value = 1;\n    \n    // Opcional: Si el usuario intenta incrementar el valor, lo revertimos a 1\n    quantityInput.addEventListener(\"input\", function() {\n        if (quantityInput.value > 1) {\n            quantityInput.value = 1;\n        }\n    });\n});\n\n</script>",
+        "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n    const quantityInput = document.querySelector(\".product-quantity__selector\");\n    quantityInput.disabled = true;\n});\n</script>",
         "full_width": false,
         "remove_margin": false,
         "seo_h_tag": "h2"
