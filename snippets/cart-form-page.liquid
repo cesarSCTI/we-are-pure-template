@@ -122,7 +122,7 @@
                 {%- if item.product.tags contains 'sin-cantidad' -%}
                     <!-- Oculta los botones y fija la cantidad a 1 -->
                     <input type="hidden" name="updates[]" value="1">
-                    <p>Cantidad: 1</p>
+                    <p>Quantity: 1</p>
                 {%- else -%}
                     <!-- Botón para disminuir cantidad -->
                     <button class="qty-button qty-minus no-js-hidden" aria-label="{{ 'general.accessibility_labels.decrease_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
