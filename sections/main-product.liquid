@@ -534,11 +534,14 @@
                       }
                     </style>
 
-                    {%- liquid 
-                      if block.settings.show_quantity_selector
-                        render 'product-quantity', variant: current_variant, id: section.id, default_to_first_variant: default_to_first_variant
-                      endif
-                    -%}
+                 {%- if block.settings.show_quantity_selector -%}
+  {%- if product.tags contains 'sin-cantidad' -%}
+    <input type="hidden" name="quantity" value="1">
+  {%- else -%}
+    {% render 'product-quantity', variant: current_variant, id: section.id, default_to_first_variant: default_to_first_variant %}
+  {%- endif -%}
+{%- endif -%}
+
 
                     <button type="submit" name="add" class="add-to-cart button button--{{ block.settings.style_buttons }} button--product button--loader 
                       {% unless current_variant.available %} disabled {% endunless %}
