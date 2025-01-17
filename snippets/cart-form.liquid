@@ -118,7 +118,7 @@
 												<label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
 												{%- if item.product.tags contains 'sin-cantidad' -%}
   <input type="hidden" name="updates[]" value="1">
-  <p>1</p>
+  <p> 1 </p>
 {%- else -%}
   <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" class="qty qty-selector product__quantity" id="updates_{{ item.id }}" data-href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=$qty">
 {%- endif -%}
