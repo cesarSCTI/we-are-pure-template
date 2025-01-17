@@ -124,10 +124,7 @@
         "text_QgLyGJ"
       ],
       "custom_css": [
-        ".text-weight--bold {color: #e94760 !important;}",
-        "button.product-quantity__plus.qty-plus {display: none;}",
-        "button.product-quantity__minus.qty-minus.no-js-hidden {display: none;}",
-        ".product-quantity__selector {width: 100%; border: solid 2px #c5c5c5;}"
+        ".text-weight--bold {color: #e94760 !important;}"
       ],
       "settings": {
         "gallery_style": "slider",
