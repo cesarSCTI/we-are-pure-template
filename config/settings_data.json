@@ -252,7 +252,7 @@
             "settings": {
               "store_name": "Warehouse",
               "store_pickup_price": "Free",
-              "store_pickup_time": "Usually ready in 2-4 days",
+              "store_pickup_time": "Usually ready in 3-7 days",
               "store_address": "<p>5900 Balcones Drive #21107 <br/>Austin, TX 78731</p><p> </p><p><strong>Store Hours<br/></strong>Mon-Fri: 7:00 - 19:00 hrs.<br/>Sat -Sun: Closed</p><p></p>",
               "store_closing_times": "<p>Closed</p><p>Closing at 7pm</p><p>Closing at 7pm</p><p>Closing at 7pm</p><p>Closing at7pm</p><p>Closing at 7pm</p><p>Closed</p>",
               "image": "shopify://shop_images/img-warehouse.png",
