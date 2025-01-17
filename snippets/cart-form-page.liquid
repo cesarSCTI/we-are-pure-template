@@ -116,29 +116,32 @@
 								</div>
 
 								<div class="cart__quantity">
-									<div class="cart-item__actions">
-	
-										<product-quantity class="quantity-selector-holder">
-											<cart-product-quantity>
-												<button class="qty-button qty-minus no-js-hidden" aria-label="{{ 'general.accessibility_labels.decrease_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
-													{%- render 'theme-symbols', icon: 'minus' -%}
-												</button>
-												<label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
-												{%- if item.product.tags contains 'sin-cantidad' -%}
-  <input type="hidden" name="updates[]" value="1">
-  <p> 1 </p>
-{%- else -%}
-  <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" class="qty qty-selector product__quantity" id="updates_{{ item.id }}" data-href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=$qty">
-{%- endif -%}
+    <div class="cart-item__actions">
+        <product-quantity class="quantity-selector-holder">
+            <cart-product-quantity>
+                {%- if item.product.tags contains 'sin-cantidad' -%}
+                    <!-- Oculta los botones y fija la cantidad a 1 -->
+                    <input type="hidden" name="updates[]" value="1">
+                    <p>Cantidad: 1</p>
+                {%- else -%}
+                    <!-- Botón para disminuir cantidad -->
+                    <button class="qty-button qty-minus no-js-hidden" aria-label="{{ 'general.accessibility_labels.decrease_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
+                        {%- render 'theme-symbols', icon: 'minus' -%}
+                    </button>
+                    <!-- Campo de cantidad editable -->
+                    <label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
+                    <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" class="qty qty-selector product__quantity" id="updates_{{ item.id }}" data-href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=$qty">
+                    <!-- Botón para aumentar cantidad -->
+                    <button class="qty-button qty-plus no-js-hidden" aria-label="{{ 'general.accessibility_labels.increase_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
+                        {%- render 'theme-symbols', icon: 'plus' -%}
+                    </button>
+                {%- endif -%}
+            </cart-product-quantity>
+        </product-quantity>
+        <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove text-link text-size--xsmall text-color--opacity" title="{{ 'cart.remove_item' | t }}">{{ 'cart.remove_item' | t }}</a>
+    </div>
+</div>
 
-												<button class="qty-button qty-plus no-js-hidden" aria-label="{{ 'general.accessibility_labels.increase_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
-													{%- render 'theme-symbols', icon: 'plus' -%}
-												</button>
-											</cart-product-quantity>
-										</product-quantity>
-										<a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="remove text-link text-size--xsmall text-color--opacity" title="{{ 'cart.remove_item' | t }}">{{ 'cart.remove_item' | t }}</a>
-									</div>
-								</div>
 								
 								<div class="cart-item__total text-align--right">
 									{%- if item.final_line_price < item.original_line_price -%}
