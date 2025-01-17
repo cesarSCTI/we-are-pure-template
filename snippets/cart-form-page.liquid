@@ -124,7 +124,13 @@
 													{%- render 'theme-symbols', icon: 'minus' -%}
 												</button>
 												<label for="qty-{{ id }}" class="visually-hidden">{{ 'general.accessibility_labels.quantity' | t }}</label>
-												<input type="number" name="updates[]" value="{{ item.quantity }}" min="0" class="qty qty-selector product__quantity" id="updates_{{ item.id }}" data-href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=$qty">
+												{%- if item.product.tags contains 'sin-cantidad' -%}
+  <input type="hidden" name="updates[]" value="1">
+  <p>Cantidad: 1</p>
+{%- else -%}
+  <input type="number" name="updates[]" value="{{ item.quantity }}" min="0" class="qty qty-selector product__quantity" id="updates_{{ item.id }}" data-href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=$qty">
+{%- endif -%}
+
 												<button class="qty-button qty-plus no-js-hidden" aria-label="{{ 'general.accessibility_labels.increase_quantity' | t }}" role="button" controls="updates_{{ item.id }}">
 													{%- render 'theme-symbols', icon: 'plus' -%}
 												</button>
