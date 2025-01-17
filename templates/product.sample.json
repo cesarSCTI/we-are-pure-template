@@ -195,6 +195,7 @@
     },
     "custom_liquid_GVhnPH": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "heading": "",
         "subheading": "",
