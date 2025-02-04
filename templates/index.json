@@ -734,7 +734,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/shipping_method.png",
-            "title": "Select Your Shipping Method",
+            "title": "Available for pickup at our Warehouse",
             "caption": "",
             "link": "",
             "open_in_new_window": false,
@@ -745,7 +745,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/free_shipping_texas.png",
-            "title": "Free shipping in Texas and North Carolina",
+            "title": "Select Your Shipping Method",
             "caption": "",
             "link": "",
             "open_in_new_window": false,
