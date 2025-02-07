@@ -34,7 +34,7 @@
         "text_47bihY": {
           "type": "text",
           "settings": {
-            "text": "<h5><strong>Our fruit puree samples are available to businesses only.</strong></h5><p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
+            "text": "<h5><strong>Our fruit puree samples are available to businesses only.</strong></h5><p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us at: <a href=\"mailto:orders@wearepuree.com\" target=\"_blank\" title=\"mailto:orders@wearepuree.com\">orders@wearepuree.com.</a></p>",
             "text_size": "large"
           }
         }
