@@ -521,7 +521,7 @@
           "type": "button",
           "settings": {
             "button_label": "Request now",
-            "link": "shopify://products/request-your-free-sample",
+            "link": "shopify://pages/free-sample",
             "open_in_new_window": false,
             "button_size": "large",
             "button_style": "solid"
