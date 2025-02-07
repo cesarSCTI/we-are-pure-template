@@ -16,93 +16,13 @@
         "center": false
       }
     },
-    "text_columns_images_mdpXne": {
-      "type": "text-columns-images",
-      "blocks": {
-        "image_JkEUfm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/icono-premium_quality.png",
-            "title": "Premium Quality",
-            "caption": "",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_ynkcgy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/icono-top_selling.png",
-            "title": "Top-Selling Varieties",
-            "caption": "",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        },
-        "image_BjYpx7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/icono-competitive_pricing.png",
-            "title": "Competitive Pricing",
-            "caption": "",
-            "link": "",
-            "open_in_new_window": false,
-            "seo_h_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "image_JkEUfm",
-        "image_ynkcgy",
-        "image_BjYpx7"
-      ],
-      "custom_css": [
-        "h3 {font-weight: bold !important;}",
-        ".section-heading__subheading {font-weight: 900 !important;}",
-        ".section-heading__text {width: auto;}",
-        "h1 {font-size: xxx-large;}",
-        ".title-custom-left {margin-bottom: 25px;}",
-        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesale_copy.png?v=1731689921); background-size: cover; background-position: center;}",
-        ".container--large {padding: 0; max-width: 100%;}"
-      ],
-      "settings": {
-        "heading": "Wholesale Partnerships",
-        "img_left": "shopify://shop_images/titulo-izq.png",
-        "img_right": "shopify://shop_images/titulo-derecha.png",
-        "subheading": "Unlock Exceptional Flavors for Your Business",
-        "section_heading_layout": "section-heading--center",
-        "style": "slider",
-        "layout": "grid-3 grid-lap-2",
-        "border_radius": 200,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "section_heading_color": "rgba(0,0,0,0)",
-        "remove_margin": true,
-        "seo_h_tag": "h1"
-      }
-    },
-    "custom_liquid_nN4LYJ": {
-      "type": "custom-liquid",
-      "custom_css": [],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "section_heading_layout": "section-heading--left",
-        "custom_liquid": "<style>\n@media only screen and (max-width:768px){\n#shopify-section-template--15172259086416__text_columns_images_mdpXne h1 {\n    font-size: large !important;\n}\n}\n</style>",
-        "full_width": false,
-        "remove_margin": false,
-        "seo_h_tag": "h2"
-      }
-    },
     "rich_text_8gbcD9": {
       "type": "rich-text",
       "blocks": {
         "title_JmtCAe": {
           "type": "title",
           "settings": {
-            "title": "Ready to give your products a juicy upgrade?",
+            "title": "Request Your Free Sample",
             "title_size": "h3",
             "seo_h_tag": "h3"
           }
@@ -110,7 +30,7 @@
         "text_47bihY": {
           "type": "text",
           "settings": {
-            "text": "<p>Think of us as your flavor fairy godparents, here to turn your brews and treats into something truly magical!<br/><br/>Fill out the form below to join our wholesale program and start working with the fruit purees that even your taste buds will thank you for.</p>",
+            "text": "<p><strong>Our fruit puree samples are available to businesses only.</strong></p><p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
             "text_size": "regular"
           }
         }
@@ -121,15 +41,15 @@
       ],
       "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/img-wholesale-we_are_puree.png",
+        "image": "shopify://shop_images/product_we_are_puree-free_sample.png",
         "image_position": "right",
-        "height": "small",
+        "height": "large",
         "image_crop": true,
         "text_alignment": "horizontal-left",
         "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
         "section_background_gradient": "",
-        "remove_margin": false,
+        "remove_margin": true,
         "color_background_main": "#4b9ad4",
         "color_text_main": "#ffffff",
         "color_accent_main": "rgba(0,0,0,0)",
@@ -137,6 +57,34 @@
         "color_shadow_main": "rgba(0,0,0,0)",
         "color_hide_borders": true,
         "color_hide_shadow": true
+      }
+    },
+    "text_columns_images_mdpXne": {
+      "type": "text-columns-images",
+      "disabled": true,
+      "custom_css": [
+        "h3 {font-weight: bold !important;}",
+        ".section-heading__subheading {font-weight: 900 !important;}",
+        ".section-heading__text {width: auto;}",
+        "h1 {font-size: xxx-large;}",
+        ".title-custom-left {margin-bottom: 25px;}",
+        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesale_copy.png?v=1731689921); background-size: cover; background-position: center;}",
+        ".container--large {padding: 0; max-width: 100%;}"
+      ],
+      "settings": {
+        "heading": "Request Your Free Sample",
+        "img_left": "shopify://shop_images/titulo-izq.png",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
+        "subheading": "Our fruit puree samples are available to businesses only.",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h1"
       }
     },
     "17315300212de421dd": {
@@ -394,9 +342,8 @@
   },
   "order": [
     "main",
-    "text_columns_images_mdpXne",
-    "custom_liquid_nN4LYJ",
     "rich_text_8gbcD9",
+    "text_columns_images_mdpXne",
     "17315300212de421dd",
     "rich_text_exfpQY",
     "featured_product_tgBRNE",
