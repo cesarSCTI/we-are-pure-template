@@ -1,0 +1,405 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "center": false
+      }
+    },
+    "text_columns_images_mdpXne": {
+      "type": "text-columns-images",
+      "blocks": {
+        "image_JkEUfm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/icono-premium_quality.png",
+            "title": "Premium Quality",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_ynkcgy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/icono-top_selling.png",
+            "title": "Top-Selling Varieties",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_BjYpx7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/icono-competitive_pricing.png",
+            "title": "Competitive Pricing",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_JkEUfm",
+        "image_ynkcgy",
+        "image_BjYpx7"
+      ],
+      "custom_css": [
+        "h3 {font-weight: bold !important;}",
+        ".section-heading__subheading {font-weight: 900 !important;}",
+        ".section-heading__text {width: auto;}",
+        "h1 {font-size: xxx-large;}",
+        ".title-custom-left {margin-bottom: 25px;}",
+        ".section-heading {min-height: 300px; display: flex; align-items: center; justify-content: center; background-image: url(https://cdn.shopify.com/s/files/1/0569/6323/5920/files/bg-wholesale_copy.png?v=1731689921); background-size: cover; background-position: center;}",
+        ".container--large {padding: 0; max-width: 100%;}"
+      ],
+      "settings": {
+        "heading": "Wholesale Partnerships",
+        "img_left": "shopify://shop_images/titulo-izq.png",
+        "img_right": "shopify://shop_images/titulo-derecha.png",
+        "subheading": "Unlock Exceptional Flavors for Your Business",
+        "section_heading_layout": "section-heading--center",
+        "style": "slider",
+        "layout": "grid-3 grid-lap-2",
+        "border_radius": 200,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "remove_margin": true,
+        "seo_h_tag": "h1"
+      }
+    },
+    "custom_liquid_nN4LYJ": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_layout": "section-heading--left",
+        "custom_liquid": "<style>\n@media only screen and (max-width:768px){\n#shopify-section-template--15172259086416__text_columns_images_mdpXne h1 {\n    font-size: large !important;\n}\n}\n</style>",
+        "full_width": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_8gbcD9": {
+      "type": "rich-text",
+      "blocks": {
+        "title_JmtCAe": {
+          "type": "title",
+          "settings": {
+            "title": "Ready to give your products a juicy upgrade?",
+            "title_size": "h3",
+            "seo_h_tag": "h3"
+          }
+        },
+        "text_47bihY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think of us as your flavor fairy godparents, here to turn your brews and treats into something truly magical!<br/><br/>Fill out the form below to join our wholesale program and start working with the fruit purees that even your taste buds will thank you for.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "title_JmtCAe",
+        "text_47bihY"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/img-wholesale-we_are_puree.png",
+        "image_position": "right",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-left",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": false,
+        "color_background_main": "#4b9ad4",
+        "color_text_main": "#ffffff",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "17315300212de421dd": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_DFgiiR": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "243840",
+            "text_color": "#ffffff",
+            "button_background_color": "#1d1d1d",
+            "button_label_color": "#ffffff",
+            "links_color": "#1d1d1d",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 0,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_DFgiiR"
+      ],
+      "custom_css": [
+        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important; background: #00ae8d !important;}",
+        "h3 {color: #fff !important;}",
+        ".title-custom-left {justify-content: center;}"
+      ],
+      "settings": {
+        "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
+        "subheading": "",
+        "section_heading_layout": "section-heading--center",
+        "full_width": true,
+        "remove_margin": true,
+        "seo_h_tag": "h3"
+      }
+    },
+    "rich_text_exfpQY": {
+      "type": "rich-text",
+      "blocks": {
+        "text_N6acp6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at wholesale@wearepuree.com or call us at 1-407-807-4545.<br/>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
+            "text_size": "regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_N6acp6"
+      ],
+      "custom_css": [
+        ".gutter--xlarge {padding: 0px !important;}",
+        ".rich-text__container {padding: 0px !important;}",
+        ".card__text {padding: 30px 0 10px 0 !important;}",
+        "p {font-size: 14px !important;}"
+      ],
+      "settings": {
+        "image_position": "top no-image",
+        "height": "regular",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "#f3f3f3",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "#f3f3f3",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    },
+    "featured_product_tgBRNE": {
+      "type": "featured-product",
+      "blocks": {
+        "title_kpMp49": {
+          "type": "title",
+          "settings": {
+            "seo_h_tag": "h3"
+          }
+        },
+        "price_nqGHdY": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_7Q8nh4": {
+          "type": "description",
+          "settings": {}
+        },
+        "icons_MNP3ie": {
+          "type": "icons",
+          "settings": {
+            "title": "Choose Your Flavors!",
+            "icon_1_image": "shopify://shop_images/flavor-guava_30afc3da-1084-41e5-802c-a29b2dd059dc.png",
+            "icon_1_label": "Guava",
+            "icon_2_image": "shopify://shop_images/flavor-Strawberries.png",
+            "icon_2_label": "Strawberry",
+            "icon_3_image": "shopify://shop_images/flavor-raspberry_6488c75c-b5eb-43f7-b76b-21533b894351.png",
+            "icon_3_label": "Raspberry",
+            "icon_4_image": "shopify://shop_images/flavor-Blackberry_8a64a8fb-bebe-4cb4-a6e5-d883a9627977.png",
+            "icon_4_label": "Blackberry",
+            "icon_5_label": "",
+            "icon_6_label": ""
+          }
+        },
+        "icons_7EfTJ6": {
+          "type": "icons",
+          "settings": {
+            "title": "",
+            "icon_1_image": "shopify://shop_images/flavor-Blueberries_aba46d69-439e-4923-9d41-e791a4c13139.png",
+            "icon_1_label": "Blueberry",
+            "icon_2_image": "shopify://shop_images/flavor-Apple_a4bc24ed-65eb-4aad-b771-2d2ff656cf6a.png",
+            "icon_2_label": "Apple",
+            "icon_3_image": "shopify://shop_images/flavor-orange_2e8fa572-aee9-4672-8bd8-be7ee85ec0ae.png",
+            "icon_3_label": "Orange",
+            "icon_4_image": "shopify://shop_images/flavor-mango_9b3544da-67e1-4b64-a083-8a908f8b7f99.png",
+            "icon_4_label": "Mango",
+            "icon_5_image": "shopify://shop_images/flavor-peach.png",
+            "icon_5_label": "Peach",
+            "icon_6_image": "shopify://shop_images/flavor-pineapple.png",
+            "icon_6_label": "Pinapple"
+          }
+        },
+        "space_7LXj6T": {
+          "type": "space",
+          "settings": {}
+        },
+        "variant_picker_idFiHE": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "select",
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons_T4EBHp": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_price": false,
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "color_text_buttons": "rgba(0,0,0,0)",
+            "color_accent_buttons": "rgba(0,0,0,0)",
+            "style_buttons": "solid"
+          }
+        },
+        "space_gzyNQE": {
+          "type": "space",
+          "disabled": true,
+          "settings": {}
+        },
+        "product_link_Cwrhzd": {
+          "type": "product_link",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_kpMp49",
+        "price_nqGHdY",
+        "description_7Q8nh4",
+        "icons_MNP3ie",
+        "icons_7EfTJ6",
+        "space_7LXj6T",
+        "variant_picker_idFiHE",
+        "buy_buttons_T4EBHp",
+        "space_gzyNQE",
+        "product_link_Cwrhzd"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "request-your-free-sample",
+        "gallery_ratio": "natural",
+        "gallery_fit": false,
+        "show_border": false,
+        "gallery_card_design": false,
+        "gallery_padding": 0,
+        "gallery_pagination": "thumbnails",
+        "enable_zoom": false,
+        "enable_video_looping": false,
+        "default_to_first_variant": false
+      }
+    },
+    "rich_text_6F6tcF": {
+      "type": "rich-text",
+      "blocks": {
+        "title_NM3LWk": {
+          "type": "title",
+          "settings": {
+            "title": "Request Your Free Sample",
+            "title_size": "h2",
+            "seo_h_tag": "h2",
+            "img_left": "shopify://shop_images/titulo-izq.png",
+            "img_right": "shopify://shop_images/titulo-derecha.png"
+          }
+        },
+        "text_9waTAh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_WWmegQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request now",
+            "link": "shopify://products/request-your-free-sample",
+            "open_in_new_window": false,
+            "button_size": "regular",
+            "button_style": "solid"
+          }
+        },
+        "space_AU9Vax": {
+          "type": "space",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_NM3LWk",
+        "text_9waTAh",
+        "button_WWmegQ",
+        "space_AU9Vax"
+      ],
+      "custom_css": [
+        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/request-free-sample2.png",
+        "image_position": "top",
+        "height": "small",
+        "image_crop": true,
+        "text_alignment": "horizontal-center",
+        "is_fullwidth": true,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "remove_margin": true,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_accent_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "color_shadow_main": "rgba(0,0,0,0)",
+        "color_hide_borders": true,
+        "color_hide_shadow": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_columns_images_mdpXne",
+    "custom_liquid_nN4LYJ",
+    "rich_text_8gbcD9",
+    "17315300212de421dd",
+    "rich_text_exfpQY",
+    "featured_product_tgBRNE",
+    "rich_text_6F6tcF"
+  ]
+}
