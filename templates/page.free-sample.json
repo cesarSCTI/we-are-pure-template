@@ -27,16 +27,21 @@
             "seo_h_tag": "h3"
           }
         },
+        "space_cfW44M": {
+          "type": "space",
+          "settings": {}
+        },
         "text_47bihY": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Our fruit puree samples are available to businesses only.</strong></p><p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
-            "text_size": "regular"
+            "text": "<h5><strong>Our fruit puree samples are available to businesses only.</strong></h5><p>🚨 Please note that due to high demand of our Free Samples, it may take up to 2 weeks for your package to be delivered, if you haven't received a confirmation or your package within 2 weeks, please email us.</p>",
+            "text_size": "large"
           }
         }
       },
       "block_order": [
         "title_JmtCAe",
+        "space_cfW44M",
         "text_47bihY"
       ],
       "custom_css": [],
@@ -44,7 +49,7 @@
         "image": "shopify://shop_images/product_we_are_puree-free_sample.png",
         "image_position": "right",
         "height": "large",
-        "image_crop": true,
+        "image_crop": false,
         "text_alignment": "horizontal-left",
         "is_fullwidth": true,
         "section_background_color": "rgba(0,0,0,0)",
@@ -93,16 +98,16 @@
         "forms_inline_DFgiiR": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
-            "form_id": "243840",
-            "text_color": "#ffffff",
+            "form_id": "338396",
+            "text_color": "#231f20",
             "button_background_color": "#1d1d1d",
             "button_label_color": "#ffffff",
             "links_color": "#1d1d1d",
             "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
+            "padding_top": 5,
+            "padding_bottom": 5,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -112,231 +117,17 @@
         "forms_inline_DFgiiR"
       ],
       "custom_css": [
-        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important; background: #00ae8d !important;}",
-        "h3 {color: #fff !important;}",
+        ".container--fullwidth {max-width: 100%; padding: 50px 0 50px 0 !important; margin: 0 !important;}",
+        "h3 {color: #000 !important;}",
         ".title-custom-left {justify-content: center;}"
       ],
       "settings": {
-        "heading": "Fill Out the Form Below to Join Our Exclusive Wholesale Club",
+        "heading": "Fill Out the Form Below to Request your Free Sample",
         "subheading": "",
         "section_heading_layout": "section-heading--center",
         "full_width": true,
         "remove_margin": true,
         "seo_h_tag": "h3"
-      }
-    },
-    "rich_text_exfpQY": {
-      "type": "rich-text",
-      "blocks": {
-        "text_N6acp6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at wholesale@wearepuree.com or call us at 1-407-807-4545.<br/>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
-            "text_size": "regular"
-          }
-        }
-      },
-      "block_order": [
-        "text_N6acp6"
-      ],
-      "custom_css": [
-        ".gutter--xlarge {padding: 0px !important;}",
-        ".rich-text__container {padding: 0px !important;}",
-        ".card__text {padding: 30px 0 10px 0 !important;}",
-        "p {font-size: 14px !important;}"
-      ],
-      "settings": {
-        "image_position": "top no-image",
-        "height": "regular",
-        "image_crop": true,
-        "text_alignment": "horizontal-center",
-        "is_fullwidth": true,
-        "section_background_color": "#f3f3f3",
-        "section_background_gradient": "",
-        "remove_margin": true,
-        "color_background_main": "#f3f3f3",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": true
-      }
-    },
-    "featured_product_tgBRNE": {
-      "type": "featured-product",
-      "blocks": {
-        "title_kpMp49": {
-          "type": "title",
-          "settings": {
-            "seo_h_tag": "h3"
-          }
-        },
-        "price_nqGHdY": {
-          "type": "price",
-          "settings": {}
-        },
-        "description_7Q8nh4": {
-          "type": "description",
-          "settings": {}
-        },
-        "icons_MNP3ie": {
-          "type": "icons",
-          "settings": {
-            "title": "Choose Your Flavors!",
-            "icon_1_image": "shopify://shop_images/flavor-guava_30afc3da-1084-41e5-802c-a29b2dd059dc.png",
-            "icon_1_label": "Guava",
-            "icon_2_image": "shopify://shop_images/flavor-Strawberries.png",
-            "icon_2_label": "Strawberry",
-            "icon_3_image": "shopify://shop_images/flavor-raspberry_6488c75c-b5eb-43f7-b76b-21533b894351.png",
-            "icon_3_label": "Raspberry",
-            "icon_4_image": "shopify://shop_images/flavor-Blackberry_8a64a8fb-bebe-4cb4-a6e5-d883a9627977.png",
-            "icon_4_label": "Blackberry",
-            "icon_5_label": "",
-            "icon_6_label": ""
-          }
-        },
-        "icons_7EfTJ6": {
-          "type": "icons",
-          "settings": {
-            "title": "",
-            "icon_1_image": "shopify://shop_images/flavor-Blueberries_aba46d69-439e-4923-9d41-e791a4c13139.png",
-            "icon_1_label": "Blueberry",
-            "icon_2_image": "shopify://shop_images/flavor-Apple_a4bc24ed-65eb-4aad-b771-2d2ff656cf6a.png",
-            "icon_2_label": "Apple",
-            "icon_3_image": "shopify://shop_images/flavor-orange_2e8fa572-aee9-4672-8bd8-be7ee85ec0ae.png",
-            "icon_3_label": "Orange",
-            "icon_4_image": "shopify://shop_images/flavor-mango_9b3544da-67e1-4b64-a083-8a908f8b7f99.png",
-            "icon_4_label": "Mango",
-            "icon_5_image": "shopify://shop_images/flavor-peach.png",
-            "icon_5_label": "Peach",
-            "icon_6_image": "shopify://shop_images/flavor-pineapple.png",
-            "icon_6_label": "Pinapple"
-          }
-        },
-        "space_7LXj6T": {
-          "type": "space",
-          "settings": {}
-        },
-        "variant_picker_idFiHE": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "variants_style": "select",
-            "show_quantities": "no"
-          }
-        },
-        "buy_buttons_T4EBHp": {
-          "type": "buy_buttons",
-          "disabled": true,
-          "settings": {
-            "show_price": false,
-            "show_quantity_selector": true,
-            "show_preorder": false,
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true,
-            "color_text_buttons": "rgba(0,0,0,0)",
-            "color_accent_buttons": "rgba(0,0,0,0)",
-            "style_buttons": "solid"
-          }
-        },
-        "space_gzyNQE": {
-          "type": "space",
-          "disabled": true,
-          "settings": {}
-        },
-        "product_link_Cwrhzd": {
-          "type": "product_link",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_kpMp49",
-        "price_nqGHdY",
-        "description_7Q8nh4",
-        "icons_MNP3ie",
-        "icons_7EfTJ6",
-        "space_7LXj6T",
-        "variant_picker_idFiHE",
-        "buy_buttons_T4EBHp",
-        "space_gzyNQE",
-        "product_link_Cwrhzd"
-      ],
-      "disabled": true,
-      "settings": {
-        "product": "request-your-free-sample",
-        "gallery_ratio": "natural",
-        "gallery_fit": false,
-        "show_border": false,
-        "gallery_card_design": false,
-        "gallery_padding": 0,
-        "gallery_pagination": "thumbnails",
-        "enable_zoom": false,
-        "enable_video_looping": false,
-        "default_to_first_variant": false
-      }
-    },
-    "rich_text_6F6tcF": {
-      "type": "rich-text",
-      "blocks": {
-        "title_NM3LWk": {
-          "type": "title",
-          "settings": {
-            "title": "Request Your Free Sample",
-            "title_size": "h2",
-            "seo_h_tag": "h2",
-            "img_left": "shopify://shop_images/titulo-izq.png",
-            "img_right": "shopify://shop_images/titulo-derecha.png"
-          }
-        },
-        "text_9waTAh": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We offer complimentary fruit puree samples to help you explore new dimensions of taste and aroma in your creations.</p>",
-            "text_size": "regular"
-          }
-        },
-        "button_WWmegQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Request now",
-            "link": "shopify://products/request-your-free-sample",
-            "open_in_new_window": false,
-            "button_size": "regular",
-            "button_style": "solid"
-          }
-        },
-        "space_AU9Vax": {
-          "type": "space",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_NM3LWk",
-        "text_9waTAh",
-        "button_WWmegQ",
-        "space_AU9Vax"
-      ],
-      "custom_css": [
-        ".rich-text__container--image-top {padding: 0px !important; margin: 0px 0 !important; max-width: 1920px !important;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/request-free-sample2.png",
-        "image_position": "top",
-        "height": "small",
-        "image_crop": true,
-        "text_alignment": "horizontal-center",
-        "is_fullwidth": true,
-        "section_background_color": "rgba(0,0,0,0)",
-        "section_background_gradient": "",
-        "remove_margin": true,
-        "color_background_main": "rgba(0,0,0,0)",
-        "color_text_main": "rgba(0,0,0,0)",
-        "color_accent_main": "rgba(0,0,0,0)",
-        "color_borders_main": "rgba(0,0,0,0)",
-        "color_shadow_main": "rgba(0,0,0,0)",
-        "color_hide_borders": true,
-        "color_hide_shadow": true
       }
     }
   },
@@ -344,9 +135,6 @@
     "main",
     "rich_text_8gbcD9",
     "text_columns_images_mdpXne",
-    "17315300212de421dd",
-    "rich_text_exfpQY",
-    "featured_product_tgBRNE",
-    "rich_text_6F6tcF"
+    "17315300212de421dd"
   ]
 }
