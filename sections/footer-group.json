@@ -69,7 +69,7 @@
         "text-2"
       ],
       "custom_css": [
-        ".lazy-image[data-ratio] img {height: 75%; width: 75%; object-fit: cover;}",
+        ".lazy-image[data-ratio] img {height: 75%; width: 75%; object-fit: contain;}",
         "h4 {color: #fed122 !important; font-weight: bold !important;}",
         "@media screen and (max-width: 474px) {figure {padding-top: 0% !important; position: sticky; height: 150px; } .lazy-image[data-ratio] img {height: 100%; width: 100%; object-fit: contain; }}"
       ],
