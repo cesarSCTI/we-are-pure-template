@@ -30,7 +30,7 @@
           "type": "image",
           "settings": {
             "title": "",
-            "image": "shopify://shop_images/logo-we_are_pure-footer_65a5cb63-753f-4d8f-bef3-485941ac62ad.png",
+            "image": "shopify://shop_images/We_Are_Puree_Proud_Member_Of_Brewers_Association.png",
             "link": "",
             "open_in_new_window": false
           }
@@ -69,9 +69,9 @@
         "text-2"
       ],
       "custom_css": [
-        ".lazy-image[data-ratio] img {height: 75%; width: 75%; object-fit: contain;}",
+        ".lazy-image[data-ratio] img {height: 100%; width: 100%; object-fit: contain;}",
         "h4 {color: #fed122 !important; font-weight: bold !important;}",
-        "@media screen and (max-width: 474px) {figure {padding-top: 0% !important; position: sticky; height: 150px; } .lazy-image[data-ratio] img {height: 100%; width: 100%; object-fit: contain; }}"
+        "@media screen and (max-width: 474px) {figure {padding-top: 0% !important; position: sticky; height: 250px; } .lazy-image[data-ratio] img {height: 100%; width: 100%; object-fit: contain; }}"
       ],
       "settings": {
         "layout": "grid-4 grid-portable-2 grid-lap-1",
