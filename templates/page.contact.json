@@ -66,7 +66,7 @@
           "type": "text",
           "settings": {
             "title": "Wholesale",
-            "content": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at <a href=\"mailto:wholesale@wearepuree.com\" target=\"_blank\" title=\"mailto:wholesale@wearepuree.com\">wholesale@wearepuree.com</a> or call us at 1-407-807-4545.<br/></p><p>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
+            "content": "<p>For prompt assistance or to discuss how our premium purees can elevate your products, please contact us at <a href=\"mailto:wholesale@wearepuree.com\" target=\"_blank\" title=\"mailto:wholesale@wearepuree.com\">wholesale@wearepuree.com</a> or call us at +1 512 661 5800.<br/></p><p>We look forward to collaborating with you to enhance your offerings and make your products stand out in the market.</p>",
             "seo_h_tag": "h3"
           }
         },
@@ -86,7 +86,7 @@
       "custom_css": [
         ".container--vertical-space {margin-top: 20px !important;}",
         "h3 {color: #e94760 !important;}",
-        ".element--border-radius {border-color: #acd400 !important; background: #fff !important; }"
+        ".element--border-radius {border-color: #acd400 !important; background: #fff !important;}"
       ],
       "settings": {
         "heading": "We're happy to answer questions",
